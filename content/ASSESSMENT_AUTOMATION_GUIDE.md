@@ -75,5 +75,10 @@ Question number बदलू नका; content बदलला तरी stable
 - The Ancient India test-series index is `content/test_series/history/ancient_india_test_series.json`; read `content/test_series/history/README.md` before building the bot flow.
 - Resolve mixed-test references using `questions[].question_id` and `source_file`; do not copy a different question into a reference slot.
 - During an attempt, display only the question and A–D answer choices. Reveal the correct choice, answer and explanation only after submission.
-- MPSC objective OMR has a fifth response option E for “not attempted”. E is a response status, not a fifth factual answer choice. For the current practice profile (2 marks/question), correct = +2; wrong/multiple/fully blank A–E = −0.50; E = 0. The updated marking/OMR instruction is effective 2026-03-01. For any other exam profile, take marks-per-question and penalty from that exam's latest MPSC notification.
+- MPSC objective OMR has a fifth response option E for “not attempted”. E is a response status, not a fifth factual answer choice. For the current MPSC Saral Seva / Group B-C practice profile (1 mark/question), correct = +1; wrong/multiple/fully blank A–E = −0.25; E = 0. The updated marking/OMR instruction is effective 2026-03-01. For any other exam profile, take marks-per-question and penalty from that exam's latest MPSC notification.
 - Keep all authored MCQs labelled `author_created_practice_not_pyq`. The mixed tests are not official papers and must not be represented as PYQs or full GS papers.
+
+
+### Current default exam profile
+
+`MPSC_GROUP_BC_PRACTICE`: 1 mark per question, 25% deduction for incorrect/multiple/fully blank A-E responses, E means explicitly not attempted for 0 marks. Topic tests use 50 questions / 50 marks / 30 minutes. The History-only 100-question mixed mock uses 100 marks / 60 minutes. This is a practice preset; configure another MPSC recruitment exam from its current official notification rather than assuming all MPSC exams have identical timing and scoring.
