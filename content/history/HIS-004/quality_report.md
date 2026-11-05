@@ -1,25 +1,35 @@
-# HIS-004 — गुणवत्ता अहवाल
+# HIS-004 — Quality Report (Actual Content Audit)
 
-## प्रत्यक्ष घटकस्थिती
-- Detailed Notes: महाजनपदे, स्रोत, राजकीय प्रकार, केंद्रे, मगधचे बहुकारणी उदयकारण, राजवंश, नागरीकरण व उत्तरलेखन.
-- Visual Revision: साहित्य-स्रोत तुलना, महाजनपद-केंद्र तक्ता, राजवंशक्रम व कारणसाखळी.
-- Practice MCQs: 50 प्रश्न; प्रत्येकाला योग्य उत्तर व संक्षिप्त स्पष्टीकरण.
-- Topic Test: 40 गुणांची चाचणी.
-- Flashcards: 30 कार्डे.
-- Quick Recall: केंद्रे, शासक, कारणे व परीक्षेतील चुका.
-- PYQ: अधिकृत मूळ प्रश्नपत्रिका/अंतिम उत्तरतालिकेशी पडताळलेले प्रश्न अद्याप नाहीत; खोटे PYQ जोडलेले नाहीत.
+## Verified structure and counts on this branch
 
-## कव्हरेज
-- [x] सोळा महाजनपदे व केंद्रे; बौद्ध-जैन सूचीतील फरक
-- [x] राजेशाही व गण-संघ
-- [x] मगधच्या उदयाची भौगोलिक, आर्थिक, लष्करी व राजकीय कारणे
-- [x] बिंबिसार, अजातशत्रू, उदायिन, शिशुनाग व नंद
-- [x] दुसरे नागरीकरण, नगरजीवन, व्यापार व नाणी
-- [x] स्रोतचिकित्सा व उत्तरलेखन चौकट
+| Component | Actual status |
+|---|---|
+| Detailed Notes | 2,039 words |
+| Practice MCQs | 50 questions, with answer key and explanations |
+| Topic Test | 40-mark assessment with objective, short-answer and/or analysis sections |
+| Flashcards | 30 active-recall cards |
+| Visual Revision | 7 organized visual sections using comparisons, tables, timelines or flow diagrams |
+| Quick Recall | One consolidated revision sheet with key facts, comparisons and self-test prompts |
+| PYQ | No official paper/key-verified questions recorded; study patterns only. |
+| Quality Report | Coverage, counts, caveats and publication checks documented here |
 
-## गुणवत्ता मर्यादा
-हा अहवाल फाइल्सची व्याप्ती व रचना तपासतो; प्रत्येक ऐतिहासिक दाव्याचे स्वतंत्र प्रमाणीकरण करत नाही. राजवंशांच्या तारखा व काही प्राचीन केंद्रांची आधुनिक ओळख स्रोतांनुसार बदलू शकते. अंतिम प्रकाशनापूर्वी अधिकृत MPSC अभ्यासक्रम, मूळ संदर्भ आणि PYQ पडताळणी आवश्यक.
+## Coverage checklist
 
-## अभ्याससंदर्भ
-- IGNOU eGyanKosh, BHIM-161: https://egyankosh.ac.in/handle/123456789/115639
-- IGNOU eGyanKosh, EHI-02: https://www.egyankosh.ac.in/handle/123456789/3553
+- [x] Detailed lesson notes with topic-specific subheadings and exam-focused explanations
+- [x] Visual revision sections that summarize relationships, chronology, sites or concepts
+- [x] 50 practice questions (newly authored practice; not labelled as PYQ)
+- [x] 40-mark topic test and answer guidance
+- [x] 30 flashcards for active recall
+- [x] Quick revision sheet
+- [x] PYQ status stated transparently; no unverified item is represented as officially confirmed
+- [x] Reference links included in the study notes
+
+## Accuracy and publication limitations
+
+This audit checks file presence, approximate word count, question/card counts and topic coverage. It does **not** certify every historical claim, answer key or source interpretation. Before publication, cross-check dates, chronology, places, translations and answer keys against the linked academic/primary sources. Where scholarly or sectarian traditions differ, the notes identify the disagreement rather than force one universal answer.
+
+## References
+
+IGNOU eGyanKosh: https://egyankosh.ac.in/handle/123456789/115639
+
+**Status:** Structurally complete study pack for review. Official MPSC PYQ verification remains separate and must use the original question paper plus official final answer key.
