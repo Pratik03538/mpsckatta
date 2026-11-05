@@ -61,7 +61,7 @@ Automation ने **फक्त** `pyq.json` मधील `verified_items` म�
 
 ## स्थिर naming convention
 
-- Topic: `HIS-001` … `HIS-008`
+- Topic: `HIS-001` … `HIS-010`
 - MCQ: `HIS-001-MCQ-001`
 - PYQ: `HIS-001-PYQ-001`
 - Pattern: `HIS-001-PATTERN-001`
@@ -71,7 +71,7 @@ Question number बदलू नका; content बदलला तरी stable
 
 ## MPSC MCQ test-series contract (v1.1)
 
-- Each `content/history/HIS-xxx/topic_test.md` is now a 50-question MCQ-only paper; the matching `topic_test_answer_key.md` contains answers and explanations; `topic_test.json` is the bot/test-engine source.
+- Each available `content/history/HIS-001` … `HIS-010/topic_test.md` is a 50-question MCQ-only paper; the matching `topic_test_answer_key.md` contains answers and explanations; `topic_test.json` is the bot/test-engine source.
 - The Ancient India test-series index is `content/test_series/history/ancient_india_test_series.json`; read `content/test_series/history/README.md` before building the bot flow.
 - Resolve mixed-test references using `questions[].question_id` and `source_file`; do not copy a different question into a reference slot.
 - During an attempt, display only the question and A–D answer choices. Reveal the correct choice, answer and explanation only after submission.
@@ -82,3 +82,11 @@ Question number बदलू नका; content बदलला तरी stable
 ### Current default exam profile
 
 `MPSC_GROUP_BC_PRACTICE`: 1 mark per question, 25% deduction for incorrect/multiple/fully blank A-E responses, E means explicitly not attempted for 0 marks. Topic tests use 50 questions / 50 marks / 30 minutes. The History-only 100-question mixed mock uses 100 marks / 60 minutes. This is a practice preset; configure another MPSC recruitment exam from its current official notification rather than assuming all MPSC exams have identical timing and scoring.
+
+
+## Available History coverage (current working pack)
+
+- HIS-001 through HIS-010 each contain 50 authored practice MCQs with A–D options, answer and explanation.
+- Each of those 10 topics has an MCQ-only test paper, separate answer key and machine-readable JSON.
+- Test-series index: `content/test_series/history/ancient_india_test_series.json` (four 50-question sectionals + one 100-question HIS-001–HIS-010 mixed Ancient History mock).
+- All these authored records are practice questions, not official PYQs.
