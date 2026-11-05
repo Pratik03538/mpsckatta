@@ -1,0 +1,861 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "HIS-001",
+  "topic_title": "प्रागैतिहासिक काळ",
+  "language": "mr",
+  "content_type": "practice_mcq",
+  "question_count": 50,
+  "answer_key_included": true,
+  "items": [
+    {
+      "question_no": 1,
+      "question": "प्रागैतिहासिक काळाच्या अभ्यासात कोणत्या पुराव्याला विशेष महत्त्व असते?",
+      "options": {
+        "A": "केवळ राजकीय चरित्रे",
+        "B": "भौतिक व पुरातत्त्वीय अवशेष",
+        "C": "आधुनिक वृत्तपत्रे",
+        "D": "केवळ नाणी"
+      },
+      "correct_option": "B",
+      "answer": "भौतिक व पुरातत्त्वीय अवशेष",
+      "explanation": "लेखी नोंदी उपलब्ध नसलेल्या काळाचा अभ्यास दगडी साधने, हाडे, वस्तीचे अवशेष, अन्न-अवशेष आणि चित्रे यांसारख्या पुराव्यांवर केला जातो.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-001",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 2,
+      "question": "खालच्या पुरापाषाणाशी कोणती साधने विशेषतः संबंधित आहेत?",
+      "options": {
+        "A": "हातकुऱ्हाड आणि क्लीव्हर",
+        "B": "लोखंडी नांगर",
+        "C": "तांब्याची नाणी",
+        "D": "चाकावरची भांडी"
+      },
+      "correct_option": "A",
+      "answer": "हातकुऱ्हाड आणि क्लीव्हर",
+      "explanation": "हातकुऱ्हाड व क्लीव्हर ही Acheulian/खालच्या पुरापाषाणाची निदर्शक साधने आहेत.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-002",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 3,
+      "question": "Acheulian या संज्ञेचा संबंध कशाशी आहे?",
+      "options": {
+        "A": "नवपाषाणातील राखेचे ढिगारे",
+        "B": "मध्यपाषाण दफनविधी",
+        "C": "खालच्या पुरापाषाणातील हातकुऱ्हाड-क्लीव्हर तंत्रपरंपरा",
+        "D": "हडप्पा लिपी"
+      },
+      "correct_option": "C",
+      "answer": "खालच्या पुरापाषाणातील हातकुऱ्हाड-क्लीव्हर तंत्रपरंपरा",
+      "explanation": "Acheulian हे खालच्या पुरापाषाणातील विशिष्ट दगडी साधनतंत्राचे नाव आहे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-003",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 4,
+      "question": "मध्यपाषाण काळातील सूक्ष्माश्म साधारण कोणत्या आकारमानाचे असतात?",
+      "options": {
+        "A": "30–50 सेंमी",
+        "B": "1–5 सेंमी",
+        "C": "1–2 मीटर",
+        "D": "10–15 मीटर"
+      },
+      "correct_option": "B",
+      "answer": "1–5 सेंमी",
+      "explanation": "INFLIBNET मधील अभ्यासानुसार भारतीय मध्यपाषाणातील microliths साधारण 1 ते 5 सेंमी लांबीचे असू शकतात.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-004",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 5,
+      "question": "बागोर हे मध्यपाषाण स्थळ कोणत्या राज्यात आहे?",
+      "options": {
+        "A": "महाराष्ट्र",
+        "B": "मध्य प्रदेश",
+        "C": "राजस्थान",
+        "D": "बिहार"
+      },
+      "correct_option": "C",
+      "answer": "राजस्थान",
+      "explanation": "बागोर हे राजस्थानातील भीलवाडा जिल्ह्यात कोठारी नदी परिसरात आहे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-005",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 6,
+      "question": "भीमबेटका कोणत्या राज्यात आहे?",
+      "options": {
+        "A": "मध्य प्रदेश",
+        "B": "गुजरात",
+        "C": "महाराष्ट्र",
+        "D": "कर्नाटक"
+      },
+      "correct_option": "A",
+      "answer": "मध्य प्रदेश",
+      "explanation": "भीमबेटका मध्य प्रदेशातील विंध्य पर्वतरांगांच्या परिसरात आहे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-006",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 7,
+      "question": "आधुनिक मानवप्रजाती Homo sapiens चा उदय साधारण कुठे आणि केव्हा झाला?",
+      "options": {
+        "A": "भारतात 10,000 वर्षांपूर्वी",
+        "B": "युरोपात 50,000 वर्षांपूर्वी",
+        "C": "आफ्रिकेत सुमारे 300,000 वर्षांपूर्वी",
+        "D": "चीनमध्ये 5,000 वर्षांपूर्वी"
+      },
+      "correct_option": "C",
+      "answer": "आफ्रिकेत सुमारे 300,000 वर्षांपूर्वी",
+      "explanation": "Smithsonian नुसार Homo sapiens आफ्रिकेत सुमारे 3 लाख वर्षांपूर्वी विकसित झाले.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-007",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 8,
+      "question": "मध्यपाषाण साधनांमध्ये सर्वाधिक ओळखली जाणारी तांत्रिक खूण कोणती?",
+      "options": {
+        "A": "लोखंडी पाती",
+        "B": "सूक्ष्माश्म",
+        "C": "कांस्य मूर्ती",
+        "D": "दगडी स्तंभ"
+      },
+      "correct_option": "B",
+      "answer": "सूक्ष्माश्म",
+      "explanation": "लहान आकारमानाची microliths ही मध्यपाषाण तंत्राची महत्त्वाची ओळख आहे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-008",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 9,
+      "question": "नवपाषाण जीवनातील महत्त्वाचा आर्थिक बदल कोणता?",
+      "options": {
+        "A": "केवळ समुद्री व्यापार",
+        "B": "केवळ नाण्यांची देवाणघेवाण",
+        "C": "अन्नउत्पादनाचा विस्तार",
+        "D": "औद्योगिक कारखान्यांची सुरुवात"
+      },
+      "correct_option": "C",
+      "answer": "अन्नउत्पादनाचा विस्तार",
+      "explanation": "अनेक प्रदेशांत शेती व पशुपालनामुळे अन्नउत्पादनाला महत्त्व आले.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-009",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 10,
+      "question": "मेहरगढ हे आजच्या कोणत्या देशात आहे?",
+      "options": {
+        "A": "भारत",
+        "B": "पाकिस्तान",
+        "C": "नेपाळ",
+        "D": "बांगलादेश"
+      },
+      "correct_option": "B",
+      "answer": "पाकिस्तान",
+      "explanation": "मेहरगढ बलुचिस्तानमध्ये, आजच्या पाकिस्तानमध्ये आहे.\n\n## मध्यम स्तर (11–35)",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-010",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 11,
+      "question": "खालीलपैकी कोणते विधान पुरापाषाण जीवनाबाबत अधिक योग्य आहे?",
+      "options": {
+        "A": "सर्व समूह कायमस्वरूपी मोठ्या शहरांत राहत",
+        "B": "सर्वांनी एकाच वेळी शेती सुरू केली",
+        "C": "शिकार व संकलन महत्त्वाचे होते; हालचाल पर्यावरणानुसार बदलत असे",
+        "D": "सर्व समूह लोखंड वापरत"
+      },
+      "correct_option": "C",
+      "answer": "शिकार व संकलन महत्त्वाचे होते; हालचाल पर्यावरणानुसार बदलत असे",
+      "explanation": "अन्नस्रोत आणि पर्यावरणानुसार मानवी समूहांची हालचाल बदलत असे; शिकार-संकलन महत्त्वाचे होते.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-011",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 12,
+      "question": "क्लीव्हरची ओळख कोणत्या वैशिष्ट्यामुळे पटते?",
+      "options": {
+        "A": "रुंद धार असलेले मोठे कापण्याचे साधन",
+        "B": "मातीचे भांडे",
+        "C": "हाडाची सुई",
+        "D": "तांब्याची कुऱ्हाड"
+      },
+      "correct_option": "A",
+      "answer": "रुंद धार असलेले मोठे कापण्याचे साधन",
+      "explanation": "क्लीव्हरला तुलनेने रुंद कापणारी धार असते; तो खालच्या पुरापाषाणातील साधनप्रकार आहे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-012",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 13,
+      "question": "मधल्या पुरापाषाणात कोणत्या प्रकारच्या साधनांना अधिक महत्त्व मिळाले?",
+      "options": {
+        "A": "नाणे",
+        "B": "मोठे धातूचे शस्त्र",
+        "C": "फ्लेकवर बनवलेली साधने",
+        "D": "चाकावरची भांडी"
+      },
+      "correct_option": "C",
+      "answer": "फ्लेकवर बनवलेली साधने",
+      "explanation": "मधल्या पुरापाषाणात फ्लेक साधने, स्क्रेपर्स व पॉइंट्स यांचा वापर महत्त्वाचा झाला.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-013",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 14,
+      "question": "Isampur स्थळाचे योग्य स्थान कोणते?",
+      "options": {
+        "A": "राजस्थानातील बागोरजवळ",
+        "B": "मध्य प्रदेशातील भीमबेटका येथे",
+        "C": "महाराष्ट्रातील जळगाव येथे",
+        "D": "कर्नाटकातील हुन्सगी खोऱ्यात"
+      },
+      "correct_option": "D",
+      "answer": "कर्नाटकातील हुन्सगी खोऱ्यात",
+      "explanation": "इसमपूर कर्नाटकातील हुन्सगी खोऱ्यात आहे; तेथे दगडी साधननिर्मितीचे पुरावे सापडले आहेत.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-014",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 15,
+      "question": "चिर्की-नेवासा कोणत्या कारणासाठी ओळखले जाते?",
+      "options": {
+        "A": "हडप्पा बंदर",
+        "B": "खालच्या पुरापाषाण तंत्राच्या अभ्यासासाठी",
+        "C": "मौर्यकालीन शिलालेख",
+        "D": "मध्ययुगीन किल्ला"
+      },
+      "correct_option": "B",
+      "answer": "खालच्या पुरापाषाण तंत्राच्या अभ्यासासाठी",
+      "explanation": "चिर्की-नेवासा महाराष्ट्रातील खालच्या पुरापाषाणाशी संबंधित स्थळ आहे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-015",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 16,
+      "question": "पाटणे (जळगाव) येथे कोणत्या प्रकारचा महत्त्वाचा पुरावा नोंदवला गेला आहे?",
+      "options": {
+        "A": "शहामृगाच्या अंड्याच्या कवचावरील कोरीव अवशेष",
+        "B": "अशोकाचा शिलालेख",
+        "C": "हडप्पा मुद्रा",
+        "D": "लोखंडी तोफ"
+      },
+      "correct_option": "A",
+      "answer": "शहामृगाच्या अंड्याच्या कवचावरील कोरीव अवशेष",
+      "explanation": "पाटणे येथे कोरीव शहामृग-अंड्याचे कवच व अलंकरणाशी संबंधित पुराव्यांचा उल्लेख Upper Palaeolithic अभ्यासात आहे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-016",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 17,
+      "question": "मध्यपाषाणातील सूक्ष्माश्म साधनांचे वैशिष्ट्य कोणते?",
+      "options": {
+        "A": "ती केवळ दगडाचे मोठे ओंडके असतात",
+        "B": "त्यांचा आकार नेहमी 50 सेंमीपेक्षा मोठा असतो",
+        "C": "लहान पात्यांना दांड्यात बसवून संयुक्त साधने तयार होऊ शकतात",
+        "D": "ती फक्त सजावटीसाठी असतात"
+      },
+      "correct_option": "C",
+      "answer": "लहान पात्यांना दांड्यात बसवून संयुक्त साधने तयार होऊ शकतात",
+      "explanation": "लहान पाते लाकडी/हाडाच्या दांड्यात बसवून बाण, भाला किंवा इतर संयुक्त साधन तयार होऊ शकते.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-017",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 18,
+      "question": "खालीलपैकी कोणता आकार microliths मध्ये आढळू शकतो?",
+      "options": {
+        "A": "त्रिकोण",
+        "B": "पिरॅमिडसदृश मंदिर",
+        "C": "मोठा स्तंभ",
+        "D": "घुमट"
+      },
+      "correct_option": "A",
+      "answer": "त्रिकोण",
+      "explanation": "त्रिकोण, अर्धचंद्र, समलंब आकार आणि पात्यासारखे आकार microlithic assemblages मध्ये आढळतात.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-018",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 19,
+      "question": "दांड्याला सूक्ष्म दगडी पाते बसवण्याच्या प्रक्रियेला कोणती संज्ञा वापरली जाते?",
+      "options": {
+        "A": "स्तरीकरण",
+        "B": "पॉलिशिंग",
+        "C": "धातुकर्म",
+        "D": "Hafting"
+      },
+      "correct_option": "D",
+      "answer": "Hafting",
+      "explanation": "Hafting म्हणजे दगडी पाते किंवा इतर साधन दांडा/हँडलला बसवणे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-019",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 20,
+      "question": "भीमबेटकाच्या चित्रांबाबत UNESCO काय सांगते?",
+      "options": {
+        "A": "सर्व चित्रे फक्त मौर्यकालीन आहेत",
+        "B": "चित्रे मध्यपाषाण ते ऐतिहासिक काळापर्यंतच्या टप्प्यांशी संबंधित दिसतात",
+        "C": "सर्व चित्रे नवपाषाणापूर्वीची आहेत",
+        "D": "तेथे चित्रेच नाहीत"
+      },
+      "correct_option": "B",
+      "answer": "चित्रे मध्यपाषाण ते ऐतिहासिक काळापर्यंतच्या टप्प्यांशी संबंधित दिसतात",
+      "explanation": "UNESCO नुसार येथील चित्रे Mesolithic ते historical period पर्यंतची आहेत.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-020",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 21,
+      "question": "बागोरचे भौगोलिक स्थान कोणते?",
+      "options": {
+        "A": "कोठारी नदीजवळ, भीलवाडा जिल्हा",
+        "B": "नर्मदा नदीजवळ, गुजरात",
+        "C": "गोदावरी मुखाजवळ, तेलंगणा",
+        "D": "कावेरी डेल्टात, तमिळनाडू"
+      },
+      "correct_option": "A",
+      "answer": "कोठारी नदीजवळ, भीलवाडा जिल्हा",
+      "explanation": "बागोर राजस्थानातील भीलवाडा जिल्ह्यात कोठारी नदी परिसरात आहे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-021",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 22,
+      "question": "मध्यपाषाण काळातील विविध अन्नस्रोतांबाबत योग्य विधान कोणते?",
+      "options": {
+        "A": "सर्व लोक केवळ शेती करत",
+        "B": "सर्व लोक फक्त मोठ्या प्राण्यांची शिकार करत",
+        "C": "मासेमारी, शिकार, वनस्पती संकलन व किनारी अन्नस्रोतांचा प्रदेशानुसार वापर होत असे",
+        "D": "अन्नासाठी फक्त धातूची देवाणघेवाण होत असे"
+      },
+      "correct_option": "C",
+      "answer": "मासेमारी, शिकार, वनस्पती संकलन व किनारी अन्नस्रोतांचा प्रदेशानुसार वापर होत असे",
+      "explanation": "पुरावे विविध पर्यावरणांमध्ये विविध अन्नस्रोतांचा वापर दाखवतात.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-022",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 23,
+      "question": "स्तरविज्ञान (Stratigraphy) मध्ये सर्वसाधारणपणे कोणता नियम वापरला जातो?",
+      "options": {
+        "A": "सर्व थर एकाच वयाचे असतात",
+        "B": "विस्कळीत नसलेल्या स्तरक्रमात खालचा थर वरच्या थरापेक्षा जुना असू शकतो",
+        "C": "वरचा थर नेहमी सर्वात जुना असतो",
+        "D": "दगडी वस्तूला थेट रेडिओकार्बन दिनांक मिळतो"
+      },
+      "correct_option": "B",
+      "answer": "विस्कळीत नसलेल्या स्तरक्रमात खालचा थर वरच्या थरापेक्षा जुना असू शकतो",
+      "explanation": "अखंड स्तरक्रमात खालचा थर तुलनेने जुना असण्याची शक्यता असते; मात्र disturbance तपासणे आवश्यक आहे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-023",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 24,
+      "question": "रेडिओकार्बन दिनांकन कोणत्या नमुन्यांसाठी उपयुक्त असते?",
+      "options": {
+        "A": "सेंद्रिय अवशेष, उदा. जळलेले बियाणे किंवा लाकूड",
+        "B": "कोणत्याही दगडी हत्यारासाठी थेट",
+        "C": "लोखंडी तलवारीच्या आकारासाठी",
+        "D": "आधुनिक प्लास्टिकसाठी"
+      },
+      "correct_option": "A",
+      "answer": "सेंद्रिय अवशेष, उदा. जळलेले बियाणे किंवा लाकूड",
+      "explanation": "रेडिओकार्बन पद्धती सेंद्रिय पदार्थांतील कार्बन-14 वर आधारित असते; संदर्भाची अखंडता महत्त्वाची असते.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-024",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 25,
+      "question": "प्रागैतिहासिक काळातील मानवी जीवनाचा अभ्यास करताना दगडी हत्यारांच्या मर्यादा कोणत्या?",
+      "options": {
+        "A": "ती केवळ हवामान सांगतात",
+        "B": "त्यातून व्यक्तीचे नाव कळते",
+        "C": "ती स्वतःहून संपूर्ण सामाजिक रचना सांगतात",
+        "D": "साधनांचा उपयोग व संदर्भ तपासूनही काही अर्थ लावावे लागतात; एकाच वस्तूवरून सर्व निष्कर्ष काढता येत नाहीत"
+      },
+      "correct_option": "D",
+      "answer": "साधनांचा उपयोग व संदर्भ तपासूनही काही अर्थ लावावे लागतात; एकाच वस्तूवरून सर्व निष्कर्ष काढता येत नाहीत",
+      "explanation": "पुरावा अर्थ लावण्यास मदत करतो, पण त्याला संदर्भ आणि इतर पुराव्यांची जोड आवश्यक असते.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-025",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 26,
+      "question": "नवपाषाणातील घासून गुळगुळीत केलेली साधने तयार करताना कोणती प्रक्रिया महत्त्वाची असते?",
+      "options": {
+        "A": "फक्त रंगवणे",
+        "B": "घासणे व पॉलिश करणे",
+        "C": "वितळवून ओतणे",
+        "D": "कागदावर छपाई"
+      },
+      "correct_option": "B",
+      "answer": "घासणे व पॉलिश करणे",
+      "explanation": "काही नवपाषाण दगडी साधनांना आकार दिल्यानंतर घासून धार व पृष्ठभाग गुळगुळीत केला जात असे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-026",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 27,
+      "question": "नवपाषाणातील अन्नउत्पादनाबाबत योग्य विधान कोणते?",
+      "options": {
+        "A": "सर्व प्रदेशांत शेती एकाच वर्षी सुरू झाली",
+        "B": "शेतीचा उदय फक्त भारतात झाला",
+        "C": "वेगवेगळ्या प्रदेशांत शेती व पशुपालन स्वतंत्र वेगाने विकसित झाले",
+        "D": "शेतीमुळे शिकार तत्काळ संपली"
+      },
+      "correct_option": "C",
+      "answer": "वेगवेगळ्या प्रदेशांत शेती व पशुपालन स्वतंत्र वेगाने विकसित झाले",
+      "explanation": "नवपाषाण बदल अनेक प्रदेशांत वेगवेगळ्या वेळी व वेगवेगळ्या स्वरूपात घडले.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-027",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 28,
+      "question": "मेहरगढमधील आरंभीच्या मातीच्या भांड्यांबाबत कोणते विधान योग्य आहे?",
+      "options": {
+        "A": "काही प्रारंभीची भांडी हाताने बनवलेली होती; चाकावरची भांडी नंतरच्या टप्प्यांत दिसतात",
+        "B": "सर्व भांडी आधुनिक यंत्राने बनवली",
+        "C": "तेथे भांडी नव्हतीच",
+        "D": "सर्व भांडी लोखंडाची होती"
+      },
+      "correct_option": "A",
+      "answer": "काही प्रारंभीची भांडी हाताने बनवलेली होती; चाकावरची भांडी नंतरच्या टप्प्यांत दिसतात",
+      "explanation": "INFLIBNET च्या ceramic technology अभ्यासात मेहरगढच्या सुरुवातीच्या स्तरांतील handmade pottery आणि नंतर wheel-turned pottery यांतील फरक नमूद आहे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-028",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 29,
+      "question": "दक्षिण भारतीय नवपाषाण परंपरेशी कोणता समूह/प्रदेश अधिक संबंधित आहे?",
+      "options": {
+        "A": "फक्त पंजाबचा सिंधू प्रदेश",
+        "B": "फक्त काश्मीर खोरे",
+        "C": "फक्त गंगा डेल्टा",
+        "D": "कर्नाटक, आंध्र प्रदेश आणि तमिळनाडूचे प्रदेश"
+      },
+      "correct_option": "D",
+      "answer": "कर्नाटक, आंध्र प्रदेश आणि तमिळनाडूचे प्रदेश",
+      "explanation": "दक्षिण भारतीय नवपाषाण संशोधनाचा केंद्रबिंदू या प्रदेशांतील स्थळांवर आहे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-029",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 30,
+      "question": "दक्षिण भारतीय नवपाषाणातील ashmounds संदर्भात अधिक काळजीपूर्वक विधान कोणते?",
+      "options": {
+        "A": "ते सर्व बर्फाचे ढिगारे होते",
+        "B": "काही राखेचे ढिगारे जळलेल्या पशुमलाशी संबंधित मानले जातात; त्यांचा अर्थ संशोधनाचा विषय आहे",
+        "C": "ते सर्व आधुनिक कारखान्यांचे अवशेष आहेत",
+        "D": "त्यांचा नवपाषाणाशी कोणताही संबंध नाही"
+      },
+      "correct_option": "B",
+      "answer": "काही राखेचे ढिगारे जळलेल्या पशुमलाशी संबंधित मानले जातात; त्यांचा अर्थ संशोधनाचा विषय आहे",
+      "explanation": "काही ashmounds जळलेल्या पशुमलाच्या संचयाशी संबंधित मानले जातात; त्यांचा सामाजिक अर्थ एकमताने निश्चित झालेला नाही.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-030",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 31,
+      "question": "Homo sapiens आणि Upper Palaeolithic यांच्यातील संबंधाबाबत योग्य विधान कोणते?",
+      "options": {
+        "A": "Homo sapiens चा उदय Upper Palaeolithic मध्येच झाला",
+        "B": "Upper Palaeolithic हा फक्त जीवशास्त्रीय species चा शब्द आहे",
+        "C": "Homo sapiens चा उदय आफ्रिकेत सुमारे 3 लाख वर्षांपूर्वी झाला; Upper Palaeolithic ही पुरातत्त्वीय तंत्र/कालविभागणीची संज्ञा आहे",
+        "D": "दोन्ही संज्ञा समानार्थी आहेत"
+      },
+      "correct_option": "C",
+      "answer": "Homo sapiens चा उदय आफ्रिकेत सुमारे 3 लाख वर्षांपूर्वी झाला; Upper Palaeolithic ही पुरातत्त्वीय तंत्र/कालविभागणीची संज्ञा आहे",
+      "explanation": "मानवप्रजातीचा जैविक उदय आणि साधनतंत्रावर आधारित पुरातत्त्वीय कालविभागणी वेगवेगळ्या गोष्टी आहेत.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-031",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 32,
+      "question": "खालीलपैकी कोणते स्थळ मध्यपाषाणातील दफनपुराव्यांसाठी प्रसिद्ध आहे?",
+      "options": {
+        "A": "महदहा",
+        "B": "पाटलिपुत्र",
+        "C": "धोलावीरा",
+        "D": "सारनाथ"
+      },
+      "correct_option": "A",
+      "answer": "महदहा",
+      "explanation": "महदहा, दमदमा आणि सराय नाहर राय ही उत्तर प्रदेशातील मध्यपाषाण दफनपुराव्यांशी संबंधित स्थळे आहेत.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-032",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 33,
+      "question": "मध्यपाषाण कालक्रमाबाबत योग्य विधान कोणते?",
+      "options": {
+        "A": "भारतात सर्व ठिकाणी एकच निश्चित कालमर्यादा आहे",
+        "B": "सर्व स्थळांना एकच रेडिओकार्बन तारीख लागू होते",
+        "C": "मध्यपाषाण हा केवळ आधुनिक काळातील शब्द आहे",
+        "D": "अनेक स्थळांचे दिनांकन मर्यादित असल्याने प्रादेशिक फरक आणि अनिश्चितता लक्षात घ्यावी लागते"
+      },
+      "correct_option": "D",
+      "answer": "अनेक स्थळांचे दिनांकन मर्यादित असल्याने प्रादेशिक फरक आणि अनिश्चितता लक्षात घ्यावी लागते",
+      "explanation": "INFLIBNET अभ्यासात रेडिओकार्बन दिनांकांची कमतरता व स्थळांतील फरक स्पष्ट केले आहेत.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-033",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 34,
+      "question": "चिर्की-नेवासा आणि इसमपूर यांच्याबाबत योग्य जोड कोणती?",
+      "options": {
+        "A": "दोन्ही हडप्पा बंदरे",
+        "B": "चिर्की-नेवासा महाराष्ट्रात; इसमपूर हुन्सगी खोऱ्यातील कर्नाटकात",
+        "C": "दोन्ही राजस्थानात",
+        "D": "चिर्की-नेवासा काश्मीरमध्ये; इसमपूर बिहारमध्ये"
+      },
+      "correct_option": "B",
+      "answer": "चिर्की-नेवासा महाराष्ट्रात; इसमपूर हुन्सगी खोऱ्यातील कर्नाटकात",
+      "explanation": "दोन्ही खालच्या पुरापाषाण तंत्राच्या अभ्यासात उपयुक्त आहेत, पण त्यांची स्थाने वेगवेगळी आहेत.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-034",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 35,
+      "question": "खालीलपैकी कोणता निष्कर्ष स्थिर वस्तीच्या उदयाबाबत सर्वाधिक योग्य आहे?",
+      "options": {
+        "A": "फक्त पिकांचे संरक्षण हेच एकमेव कारण",
+        "B": "सर्व शिकारी-संकलकांनी एकाच वेळी शेती सुरू केली",
+        "C": "शेती, साठवण, पशुपालन, पाणी, ऋतूचक्र आणि सामाजिक व्यवहार अशा अनेक घटकांचा सहभाग असू शकतो",
+        "D": "स्थिर वस्तीचा अन्नाशी संबंध नव्हता"
+      },
+      "correct_option": "C",
+      "answer": "शेती, साठवण, पशुपालन, पाणी, ऋतूचक्र आणि सामाजिक व्यवहार अशा अनेक घटकांचा सहभाग असू शकतो",
+      "explanation": "स्थिर वस्तीचा विकास बहुकारणी होता; एका कारणावर तो मर्यादित करता येत नाही.\n\n## कठीण / विधानाधारित प्रश्न (36–50)",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-035",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 36,
+      "question": "खालील विधाने विचारात घ्या.\n\n1. खालच्या पुरापाषाणात हातकुऱ्हाड व क्लीव्हर महत्त्वाची साधने आहेत.\n2. Acheulian हा शब्द नवपाषाणातील मातीच्या भांड्यांसाठी वापरला जातो.\n\nयोग्य पर्याय निवडा.",
+      "options": {
+        "A": "फक्त विधान 1",
+        "B": "फक्त विधान 2",
+        "C": "दोन्ही विधाने",
+        "D": "दोन्ही चुकीची"
+      },
+      "correct_option": "A",
+      "answer": "फक्त विधान 1",
+      "explanation": "पहिले विधान योग्य आहे. Acheulian ही खालच्या पुरापाषाणातील दगडी साधनतंत्राची परंपरा आहे; मातीच्या भांड्यांची संज्ञा नाही.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-036",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 37,
+      "question": "खालील जोड्या तपासा.\n\n1. बागोर — राजस्थान\n2. भीमबेटका — मध्य प्रदेश\n3. पाटणे — जळगाव\n4. इसमपूर — हुन्सगी खोरे\n\nयोग्य पर्याय:",
+      "options": {
+        "A": "फक्त 1 व 2",
+        "B": "फक्त 2 व 3",
+        "C": "फक्त 1, 3 व 4",
+        "D": "सर्व जोड्या योग्य"
+      },
+      "correct_option": "D",
+      "answer": "सर्व जोड्या योग्य",
+      "explanation": "सर्व जोड्या योग्य आहेत. त्यांची कालसंदर्भातील वैशिष्ट्ये मात्र वेगवेगळी आहेत.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-037",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 38,
+      "question": "विधान (A): मध्यपाषाणातील सूक्ष्माश्म एकट्याने वापरले जाऊ शकत किंवा संयुक्त साधनात बसवले जाऊ शकत.\n\nकारण (R): त्यांचा लहान आकार दांड्याला बसवण्यासाठी उपयुक्त ठरू शकतो.",
+      "options": {
+        "A": "A व R दोन्ही योग्य आणि R हे A चे योग्य स्पष्टीकरण",
+        "B": "A व R दोन्ही योग्य पण R हे स्पष्टीकरण नाही",
+        "C": "A योग्य, R अयोग्य",
+        "D": "A अयोग्य, R योग्य"
+      },
+      "correct_option": "A",
+      "answer": "A व R दोन्ही योग्य आणि R हे A चे योग्य स्पष्टीकरण",
+      "explanation": "सूक्ष्माश्मांचा वापर स्वतंत्र टोक किंवा संयुक्त साधनाचा भाग अशा दोन्ही प्रकारे होऊ शकतो.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-038",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 39,
+      "question": "खालीलपैकी कोणता पुरावा अन्नसाठवण किंवा अन्नप्रक्रियेबद्दल माहिती देऊ शकतो?",
+      "options": {
+        "A": "फक्त आधुनिक नकाशा",
+        "B": "दळण-दगड, साठवण खड्डे आणि धान्य-अवशेष",
+        "C": "केवळ राजवंशांची यादी",
+        "D": "आधुनिक रेल्वे मार्ग"
+      },
+      "correct_option": "B",
+      "answer": "दळण-दगड, साठवण खड्डे आणि धान्य-अवशेष",
+      "explanation": "दळण-दगड, खड्डे आणि वनस्पती-अवशेष एकत्रितपणे अन्नप्रक्रिया/साठवण समजण्यास मदत करतात.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-039",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 40,
+      "question": "भीमबेटका चित्रांविषयी खालीलपैकी कोणते विधान टाळावे?",
+      "options": {
+        "A": "येथे अनेक खडकातील आश्रयस्थाने आहेत",
+        "B": "चित्रे विविध कालखंडांशी संबंधित आहेत",
+        "C": "सर्व चित्रे एकाच मध्यपाषाण वर्षात तयार झाली",
+        "D": "चित्रे सांस्कृतिक जीवनाचा अभ्यास करण्यास मदत करतात"
+      },
+      "correct_option": "C",
+      "answer": "सर्व चित्रे एकाच मध्यपाषाण वर्षात तयार झाली",
+      "explanation": "UNESCO नुसार चित्रे मध्यपाषाण ते ऐतिहासिक काळापर्यंतच्या टप्प्यांतली आहेत.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-040",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 41,
+      "question": "खालील विधाने विचारात घ्या.\n\n1. मेहरगढ आजच्या पाकिस्तानमध्ये आहे.\n2. मेहरगढच्या आरंभीच्या स्तरांतील काही मातीची भांडी हाताने बनवलेली होती.\n3. त्यामुळे सर्व नवपाषाण समुदायांनी चाकावरची भांडी वापरली असे सिद्ध होते.\n\nयोग्य पर्याय:",
+      "options": {
+        "A": "फक्त 1",
+        "B": "फक्त 1 व 2",
+        "C": "फक्त 2 व 3",
+        "D": "सर्व"
+      },
+      "correct_option": "B",
+      "answer": "फक्त 1 व 2",
+      "explanation": "पहिले दोन विधान योग्य आहेत. मेहरगढचा पुरावा सर्व नवपाषाण समुदायांबद्दल सार्वत्रिक निष्कर्ष सिद्ध करत नाही.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-041",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 42,
+      "question": "पुरातत्त्वीय स्तरविज्ञानाबाबत योग्य विधान कोणते?",
+      "options": {
+        "A": "खालचा थर नेहमी वरच्या थरापेक्षा नवा",
+        "B": "थरांची स्थिती तपासण्याची गरज नाही",
+        "C": "थर विस्कळीत झाले असतील तरी क्रम बदलत नाही",
+        "D": "अखंड थरक्रमात खालचा थर सामान्यतः जुना असू शकतो; परंतु disturbance तपासावी"
+      },
+      "correct_option": "D",
+      "answer": "अखंड थरक्रमात खालचा थर सामान्यतः जुना असू शकतो; परंतु disturbance तपासावी",
+      "explanation": "स्तरविज्ञान उपयुक्त आहे, पण थरांची मूळ स्थिती अबाधित आहे का हे तपासणे आवश्यक आहे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-042",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 43,
+      "question": "खालील संकल्पना व त्यांचे वर्णन यांची योग्य जुळणी निवडा.\n\n(a) Microlith  \n(b) Hafting  \n(c) Stratigraphy  \n(d) Radiocarbon dating\n\n(i) दगडी पाते दांड्यात बसवणे  \n(ii) सेंद्रिय नमुन्यातील कार्बन-14 वर आधारित दिनांकन  \n(iii) लहान दगडी साधन  \n(iv) जमिनीच्या स्तरांचा अभ्यास",
+      "options": {
+        "A": "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+        "B": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+        "C": "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+        "D": "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+      },
+      "correct_option": "A",
+      "answer": "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "explanation": "चारही तांत्रिक संज्ञांची योग्य जुळणी दिली आहे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-043",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 44,
+      "question": "“शिकार-संकलन ते शेती” या बदलाबाबत अयोग्य विधान कोणते?",
+      "options": {
+        "A": "बदल अनेक प्रदेशांत वेगवेगळ्या वेळी झाला",
+        "B": "काही समाजांत शिकार-संकलन आणि अन्नउत्पादन यांचे मिश्र स्वरूप असू शकते",
+        "C": "शेती सुरू होताच सर्व शिकार व संकलन तात्काळ बंद झाले",
+        "D": "पर्यावरण व स्थानिक संसाधनांचा प्रभाव होता"
+      },
+      "correct_option": "C",
+      "answer": "शेती सुरू होताच सर्व शिकार व संकलन तात्काळ बंद झाले",
+      "explanation": "शेतीचा प्रसार झाल्यावरही शिकार व संकलन काही समाजांत सुरू राहू शकते.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-044",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 45,
+      "question": "बागोरच्या उत्खननातून कोणत्या प्रकारची माहिती मिळते?",
+      "options": {
+        "A": "फक्त राजवाडे",
+        "B": "सूक्ष्माश्म, प्राण्यांची हाडे, दगडी पृष्ठभाग व विविध सांस्कृतिक टप्पे",
+        "C": "अशोकाचे आदेश",
+        "D": "समुद्री बंदराची रचना"
+      },
+      "correct_option": "B",
+      "answer": "सूक्ष्माश्म, प्राण्यांची हाडे, दगडी पृष्ठभाग व विविध सांस्कृतिक टप्पे",
+      "explanation": "बागोर येथील पुरावे साधने, प्राणी-अवशेष आणि वस्तीच्या स्वरूपाचा अभ्यास करण्यास मदत करतात.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-045",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 46,
+      "question": "खालीलपैकी कोणते विधान मानवप्रजाती व पुरातत्त्वीय कालविभागणी यांतला फरक दाखवते?",
+      "options": {
+        "A": "Homo sapiens हा जैविक प्रजातीचा शब्द; Upper Palaeolithic हा साधनतंत्र/पुरातत्त्वीय कालविभागणीचा शब्द",
+        "B": "दोन्ही समानार्थी आहेत",
+        "C": "Homo sapiens हा मातीच्या भांड्यांचा प्रकार आहे",
+        "D": "Upper Palaeolithic ही आधुनिक राजकीय संज्ञा आहे"
+      },
+      "correct_option": "A",
+      "answer": "Homo sapiens हा जैविक प्रजातीचा शब्द; Upper Palaeolithic हा साधनतंत्र/पुरातत्त्वीय कालविभागणीचा शब्द",
+      "explanation": "जैविक उत्क्रांती आणि पुरातत्त्वीय तंत्रपरंपरेची कालविभागणी स्वतंत्रपणे अभ्यासावी लागते.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-046",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 47,
+      "question": "खालील स्थळे व पुरावे यांतील योग्य जुळणी कोणती?\n\n1. चिर्की-नेवासा — खालचा पुरापाषाण\n2. पाटणे — शहामृग अंड्याच्या कवचावरील कोरीव अवशेष\n3. बागोर — मध्यपाषाण\n4. भीमबेटका — विविध कालखंडांतील शैलचित्रे",
+      "options": {
+        "A": "फक्त 1 व 2",
+        "B": "फक्त 2 व 3",
+        "C": "फक्त 1, 3 व 4",
+        "D": "सर्व"
+      },
+      "correct_option": "D",
+      "answer": "सर्व",
+      "explanation": "चारही जोड्या योग्य आहेत; त्यांच्या पुराव्यांचा कालसंदर्भ वेगळा आहे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-047",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 48,
+      "question": "खालीलपैकी कोणता निष्कर्ष पुराव्यावरून काढताना सर्वाधिक सावधगिरी आवश्यक आहे?",
+      "options": {
+        "A": "एखाद्या स्थळावर विशिष्ट साधन सापडले",
+        "B": "दोन स्तरांत वेगवेगळे मातीचे प्रकार सापडले",
+        "C": "एका साधनावरून त्या संपूर्ण समाजाची भाषा, शासनपद्धती व श्रद्धा निश्चित करणे",
+        "D": "दगड कोणत्या कच्च्या पदार्थाचा आहे हे तपासणे"
+      },
+      "correct_option": "C",
+      "answer": "एका साधनावरून त्या संपूर्ण समाजाची भाषा, शासनपद्धती व श्रद्धा निश्चित करणे",
+      "explanation": "एका वस्तूवरून संपूर्ण समाजजीवनाचा निष्कर्ष काढणे अति-अर्थलक्षण ठरेल.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-048",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 49,
+      "question": "खालील विधाने विचारात घ्या.\n\n1. नवपाषाणात घासून गुळगुळीत केलेली दगडी साधने अनेक प्रदेशांत महत्त्वाची ठरली.\n2. दक्षिण भारतीय नवपाषाण अभ्यासात दगडी कुऱ्हाडी/सेल्ट तयार करण्यासाठी चिपिंग, पेकिंग, ग्राइंडिंग आणि पॉलिशिंग या प्रक्रिया वर्णिल्या आहेत.\n3. ही प्रक्रिया सर्व प्रदेशांत एकाच वेळी विकसित झाली असे सिद्ध होते.\n\nयोग्य पर्याय:",
+      "options": {
+        "A": "फक्त 1",
+        "B": "फक्त 1 व 2",
+        "C": "फक्त 2 व 3",
+        "D": "सर्व"
+      },
+      "correct_option": "B",
+      "answer": "फक्त 1 व 2",
+      "explanation": "पहिले दोन विधान दक्षिण भारतीय नवपाषाण स्रोताशी सुसंगत आहेत; तिसरा सार्वत्रिक निष्कर्ष चुकीचा आहे.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-049",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 50,
+      "question": "पुढील विधानांपैकी सर्वाधिक योग्य निष्कर्ष निवडा.",
+      "options": {
+        "A": "प्रागैतिहासिक समाजांबद्दल काहीच माहिती मिळत नाही",
+        "B": "फक्त लेखी मजकूरच इतिहासाचा पुरावा असतो",
+        "C": "दगडी हत्यार म्हणजे त्याचा उपयोग नेहमी निश्चित असतो",
+        "D": "विविध भौतिक पुरावे, त्यांचा संदर्भ व दिनांकन एकत्र करून मानवी जीवनाचा अधिक विश्वासार्ह मागोवा घेता येतो"
+      },
+      "correct_option": "D",
+      "answer": "विविध भौतिक पुरावे, त्यांचा संदर्भ व दिनांकन एकत्र करून मानवी जीवनाचा अधिक विश्वासार्ह मागोवा घेता येतो",
+      "explanation": "पुरातत्त्वीय अभ्यासात विविध प्रकारचे पुरावे परस्परपूरक असतात; त्यांच्या मर्यादाही समजून घेतल्या पाहिजेत.",
+      "explanation_status": "present_or_briefly_generated",
+      "question_id": "HIS-001-MCQ-050",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    }
+  ]
+}
