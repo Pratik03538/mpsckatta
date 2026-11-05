@@ -3,7 +3,7 @@ MPSC Katta — AI Topic Pack Generator
 One topic in -> Marathi learning pack out.
 
 Uses Gemini Developer API (Google AI Studio), not ChatGPT Go.
-Does NOT invent PYQs: questions must come from local source files or grounded web pages with traceable references.
+Does NOT invent PYQs: collect relevant Maharashtra government recruitment PYQs from local source files or quick web search with traceable references.
 All generated material remains DRAFT until human/source verification.
 """
 
@@ -516,8 +516,9 @@ Topic: {topic}
 
 def web_pyq_prompt(subject: str, topic_id: str, topic: str, notes: str) -> str:
     return f"""
-Google Search grounding वापरून महाराष्ट्र लोकसेवा आयोगाच्या (MPSC) प्रत्यक्ष मागील प्रश्नपत्रिकांतील
-या विषयाशी संबंधित प्रश्न शोधा.
+Google Search grounding वापरून महाराष्ट्रातील विविध सरकारी भरती परीक्षांच्या प्रत्यक्ष मागील प्रश्नपत्रिकांतील
+या विषयाशी थेट संबंधित प्रश्न शोधा. शोध मर्यादित आणि जलद ठेवा; प्रत्येक प्रश्नासाठी खोल संशोधन करू नका.
+विश्वसनीय archive किंवा उपलब्ध प्रश्नपत्रिकेत स्पष्ट दिसणारे प्रश्न मिळाले तर ते समाविष्ट करा.
 
 विषय: {subject}
 Topic ID: {topic_id}
@@ -526,23 +527,31 @@ Topic ID: {topic_id}
 नोट्समधील विषयसीमा:
 {notes[:10000]}
 
-शोधाचे प्राधान्य:
-1. प्रथम MPSC ची अधिकृत question paper आणि official final answer key.
-2. अधिकृत कागदपत्र सापडत नसेल तर फक्त असा विश्वासार्ह PYQ archive वापरा ज्यात exam, year, paper,
-   question number आणि प्रश्नाचे पर्याय स्पष्ट दिसतात.
-3. फक्त topic शी थेट संबंधित प्रश्न निवडा. सर्व Ancient History प्रश्न या topic चे PYQ समजू नका.
-4. प्रागैतिहासिक/पुरापाषाण/मध्यपाषाण/नवपाषाण, पुरावे, दगडी साधने किंवा त्या विशिष्ट स्थळांशी
-   थेट संबंध असेल तेव्हाच समाविष्ट करा.
+परीक्षा व्याप्ती — MPSC पुरते मर्यादित राहू नका:
+- MPSC राज्यसेवा / राजपत्रित नागरी सेवा
+- MPSC संयुक्त गट-ब (PSI, STI, ASO) पूर्व व मुख्य
+- MPSC संयुक्त गट-क (लिपिक-टंकलेखक, कर सहाय्यक, तांत्रिक सहाय्यक इ.)
+- महाराष्ट्र पोलीस भरती / पोलीस शिपाई / चालक / SRPF
+- तलाठी भरती
+- जिल्हा परिषद (ZP) भरती
+- वनरक्षक / वन विभाग भरती
+- आरोग्य विभाग / NHM मधील महाराष्ट्र राज्यस्तरीय भरती
+- नगरपरिषद / महानगरपालिका भरती
+- ग्रामसेवक, लिपिक, कनिष्ठ सहाय्यक आणि महाराष्ट्र शासनाच्या इतर विभागीय भरती
+- महाराष्ट्रातील इतर राज्य शासन / स्थानिक स्वराज्य संस्था भरती
 
-अत्यंत महत्त्वाचे:
-- Coaching mock test, practice set, model question किंवा AI-generated प्रश्न PYQ म्हणून देऊ नका.
-- प्रश्नाचा मूळ मजकूर उपलब्ध असल्यास तोच जतन करा. प्रश्न फक्त search snippet मध्ये अपूर्ण दिसत असेल तर वगळा.
-- Exam/year/paper/question number स्रोतावर दिसत नसल्यास null ठेवा; अंदाज लावू नका.
-- उत्तर official MPSC final key मध्येच तपासले असल्यास answer_verified=true करा.
-- Third-party page वर उत्तर दिसत असल्यास answer_verified=false आणि source_type="third_party_archive" ठेवा.
-- प्रत्येक प्रश्नासाठी source_url द्या. अधिकृत उत्तरतालिकेचा वेगळा URL उपलब्ध असल्यास answer_source_url द्या.
-- एखादा relevant वास्तविक प्रश्न न सापडल्यास रिकामी यादी द्या. प्रश्न निर्माण करू नका.
-- जास्त प्रश्न मिळवण्यासाठी गैर-संबंधित प्रश्न जबरदस्तीने जोडू नका.
+निवड नियम:
+- या topic शी थेट संबंधित प्रश्नच निवडा; फक्त परीक्षेचे नाव मोठे आहे म्हणून असंबंधित प्रश्न घेऊ नका.
+- प्रश्न ज्या परीक्षेत विचारला गेला त्याचे अचूक नाव, वर्ष, पेपर/शिफ्ट आणि प्रश्न क्रमांक उपलब्ध असल्यास नोंदवा.
+- ही माहिती स्रोतावर नसेल तर null ठेवा; अंदाज लावू नका.
+- प्रश्नाचा मूळ मजकूर आणि पर्याय उपलब्ध असल्यास तसेच ठेवा. अपूर्ण snippet मधील प्रश्न वगळा.
+- अधिकृत प्रश्नपत्रिका/उत्तरतालिका उपलब्ध असल्यास त्यांना प्राधान्य द्या.
+- तृतीय-पक्ष archive, coaching site किंवा memory-based transcription वापरल्यास स्रोत प्रकार स्पष्ट लिहा आणि पडताळणी बाकी ठेवा.
+- अधिकृत final answer key मध्ये तपासले असेल तरच answer_verified=true करा.
+- एका विषयासाठी वेगवेगळ्या भरती परीक्षांतील समान प्रश्न आढळल्यास परीक्षा/वर्ष वेगळे दाखवा; duplicate प्रश्न अनावश्यकपणे पुन्हा छापू नका.
+- सराव प्रश्न, mock test, model paper किंवा AI-generated प्रश्न PYQ म्हणून देऊ नका.
+- जिथे सहज उपलब्ध प्रश्न मिळतात तेवढे घ्या; जास्त शोध घेऊन वेळ घालवू नका.
+- संबंधित वास्तविक प्रश्न न सापडल्यास रिकामी यादी द्या. प्रश्न निर्माण करू नका.
 
 फक्त JSON object द्या:
 {{
@@ -558,7 +567,7 @@ Topic ID: {topic_id}
       "answer_verified": false,
       "source_url": "exact page URL",
       "answer_source_url": null,
-      "source_type": "official_mpsc_or_third_party_archive",
+      "source_type": "official_paper_or_third_party_archive",
       "verification_status": "original_paper_and_official_key_review_pending",
       "explanation": "थोडक्यात संकल्पना स्पष्ट करा; स्रोताबाहेरील दावे टाळा"
     }}
@@ -568,7 +577,6 @@ Topic ID: {topic_id}
 एकही अचूक, थेट संबंधित PYQ न सापडल्यास:
 {{"web_pyq_candidates": []}}
 """
-
 
 def write_markdown_questions(
     rows: list[dict[str, Any]],
