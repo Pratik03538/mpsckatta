@@ -5,19 +5,19 @@
   "topic_title": "अशोकाचे धम्म व शिलालेख",
   "language": "mr",
   "content_type": "mpsc_topic_test",
-  "exam_target": "MPSC Rajyaseva Preliminary Examination — GS Paper I (History practice)",
+  "exam_target": "MPSC Saral Seva / Group B-C objective examination — History practice",
   "question_count": 50,
-  "time_limit_minutes": 50,
-  "total_marks": 100,
+  "time_limit_minutes": 30,
+  "total_marks": 50,
   "scoring": {
-    "marks_per_question": 2,
+    "marks_per_question": 1,
     "negative_marking_fraction": 0.25,
-    "wrong_answer_penalty": 0.5,
-    "multiple_mark_penalty": 0.5,
-    "blank_all_five_options_penalty": 0.5,
+    "wrong_answer_penalty": 0.25,
+    "multiple_mark_penalty": 0.25,
+    "blank_all_five_options_penalty": 0.25,
     "explicit_not_attempted_option": "E",
     "explicit_not_attempted_penalty": 0,
-    "formula": "Correct +2; wrong/multiple/blank A-E -0.5; E (not attempted) 0."
+    "formula": "Correct +1; wrong/multiple/blank A-E -0.25; E (not attempted) 0."
   },
   "answer_visibility": "after_submission",
   "source_status": "author_created_practice_not_pyq",
@@ -882,5 +882,6 @@
     "E"
   ],
   "skip_option": "E",
-  "exam_rule_effective_date": "2026-03-01"
+  "exam_rule_effective_date": "2026-03-01",
+  "exam_profile": "MPSC_GROUP_BC_PRACTICE"
 }
