@@ -67,3 +67,13 @@ Automation ने **फक्त** `pyq.json` मधील `verified_items` म�
 - Pattern: `HIS-001-PATTERN-001`
 
 Question number बदलू नका; content बदलला तरी stable ID कायम ठेवा. प्रश्न हटवला तर ID पुन्हा वापरू नका.
+
+
+## MPSC MCQ test-series contract (v1.1)
+
+- Each `content/history/HIS-xxx/topic_test.md` is now a 50-question MCQ-only paper; the matching `topic_test_answer_key.md` contains answers and explanations; `topic_test.json` is the bot/test-engine source.
+- The Ancient India test-series index is `content/test_series/history/ancient_india_test_series.json`; read `content/test_series/history/README.md` before building the bot flow.
+- Resolve mixed-test references using `questions[].question_id` and `source_file`; do not copy a different question into a reference slot.
+- During an attempt, display only the question and A–D answer choices. Reveal the correct choice, answer and explanation only after submission.
+- MPSC objective OMR has a fifth response option E for “not attempted”. E is a response status, not a fifth factual answer choice. For the current practice profile (2 marks/question), correct = +2; wrong/multiple/fully blank A–E = −0.50; E = 0. The updated marking/OMR instruction is effective 2026-03-01. For any other exam profile, take marks-per-question and penalty from that exam's latest MPSC notification.
+- Keep all authored MCQs labelled `author_created_practice_not_pyq`. The mixed tests are not official papers and must not be represented as PYQs or full GS papers.
