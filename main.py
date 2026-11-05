@@ -123,9 +123,11 @@ def collect_sources(topic_id: str) -> tuple[str, list[dict[str, Any]], str]:
 
                 combined = "\n".join(pdf_parts)
                 if combined:
-                    blocks.append(combined)
                     if any(part.lower() == "pyq" for part in path.parts):
+                        # Keep question-paper text separate so it cannot contaminate notes.
                         pyq_blocks.append(combined)
+                    else:
+                        blocks.append(combined)
                     metadata.append({
                         "file": str(path.relative_to(ROOT)),
                         "type": "pdf",
