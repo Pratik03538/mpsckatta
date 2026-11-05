@@ -1,36 +1,35 @@
-# HIS-006 — गुणवत्ता अहवाल
+# HIS-006 — Quality Report (Actual Content Audit)
 
-## प्रत्यक्ष सामग्रीस्थिती
+## Verified structure and counts on this branch
 
-| घटक | या आवृत्तीतील व्याप्ती |
+| Component | Actual status |
 |---|---|
-| Detailed Notes | बुद्धांचे जीवन, आर्यसत्ये, मार्ग, तत्त्वज्ञान, संघ, संगीती, त्रिपिटक, पंथ, प्रसार व कला |
-| Visual Revision | 7 विभाग: चार स्थळे, आर्यसत्ये, अष्टांगिक मार्ग, त्रिपिटक, संगीती, पंथ, स्थापत्य |
-| Practice MCQs | 50 नवीन प्रश्न; उत्तर व स्पष्टीकरण |
-| Topic Test | 40 गुणांची चाचणी |
-| Flashcards | 30 Active Recall कार्डे |
-| Quick Recall | मुख्य संकल्पना, स्थळे, संगीती व स्व-परीक्षा |
-| PYQ | अधिकृत प्रश्नपत्रिका/उत्तरतालिकेशी पडताळलेले प्रश्न सध्या नाहीत |
+| Detailed Notes | 2,096 words |
+| Practice MCQs | 50 questions, with answer key and explanations |
+| Topic Test | 40-mark assessment with objective, short-answer and/or analysis sections |
+| Flashcards | 30 active-recall cards |
+| Visual Revision | 7 organized visual sections using comparisons, tables, timelines or flow diagrams |
+| Quick Recall | One consolidated revision sheet with key facts, comparisons and self-test prompts |
+| PYQ | No official paper/key-verified questions recorded; study patterns only. |
+| Quality Report | Coverage, counts, caveats and publication checks documented here |
 
-## कव्हरेज तपासणी
+## Coverage checklist
 
-- [x] बुद्धांचे जीवन व चार प्रमुख स्थळे
-- [x] चार आर्यसत्ये, मध्यम मार्ग व अष्टांगिक मार्ग
-- [x] अनित्य, अनात्म, प्रतीत्यसमुत्पाद, पंचस्कंध
-- [x] संघ, पंचशील, त्रिपिटक व संगीती
-- [x] थेरवाद, महायान व वज्रयान
-- [x] प्रसार, अशोक, व्यापारी मार्ग व भाषांतर
-- [x] स्तूप, चैत्य, विहार व महाराष्ट्रातील गुहा
-- [x] अधिकृत PYQ नसल्याची पारदर्शक नोंद
+- [x] Detailed lesson notes with topic-specific subheadings and exam-focused explanations
+- [x] Visual revision sections that summarize relationships, chronology, sites or concepts
+- [x] 50 practice questions (newly authored practice; not labelled as PYQ)
+- [x] 40-mark topic test and answer guidance
+- [x] 30 flashcards for active recall
+- [x] Quick revision sheet
+- [x] PYQ status stated transparently; no unverified item is represented as officially confirmed
+- [x] Reference links included in the study notes
 
-## शैक्षणिक मर्यादा
+## Accuracy and publication limitations
 
-बुद्धांच्या जीवनकालाच्या अचूक तारखा आणि चौथ्या संगीतीसंबंधी परंपरांत मतभेद आहेत. गुणवत्ता अहवाल फाइल्सची व्याप्ती तपासतो; प्रत्येक दाव्याचे स्वतंत्र प्रमाणीकरण करत नाही.
+This audit checks file presence, approximate word count, question/card counts and topic coverage. It does **not** certify every historical claim, answer key or source interpretation. Before publication, cross-check dates, chronology, places, translations and answer keys against the linked academic/primary sources. Where scholarly or sectarian traditions differ, the notes identify the disagreement rather than force one universal answer.
 
-## संदर्भ
+## References
 
-- Encyclopaedia Britannica — Buddhism: https://www.britannica.com/topic/Buddhism
-- IGNOU eGyanKosh: https://egyankosh.ac.in/
-- Archaeological Survey of India: https://asi.nic.in/
+Britannica Buddhism: https://www.britannica.com/topic/Buddhism ; ASI: https://asi.nic.in/
 
-**स्थिती:** अभ्यासासाठी विस्तारित आवृत्ती; अंतिम प्रकाशनापूर्वी अधिकृत अभ्यासक्रम व मूळ संदर्भ तपासावेत.
+**Status:** Structurally complete study pack for review. Official MPSC PYQ verification remains separate and must use the original question paper plus official final answer key.
