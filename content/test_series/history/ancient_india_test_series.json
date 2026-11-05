@@ -6,7 +6,7 @@
   "exam_scope": "MPSC Saral Seva / objective Group B-C practice — Ancient Indian History HIS-001 to HIS-010; not a complete GS paper",
   "total_tests": 5,
   "total_question_attempts": 300,
-  "question_banks": "content/history/HIS-001..HIS-008/practice_mcqs.json",
+  "question_banks": "content/history/HIS-001..HIS-010/practice_mcqs.json",
   "delivery_policy": {
     "show_options_before_submission": true,
     "hide_correct_option_answer_explanation_until_submission": true,
@@ -15,7 +15,7 @@
     "never_label_author_created_practice_as_pyq": true,
     "omr_rule": "For the one-mark MPSC Saral Seva / Group B-C practice profile effective 2026-03-01: A-D correct +1; incorrect or multiple A-E response −0.25; E explicitly means not attempted and scores 0; blank across A-E −0.25. Use the applicable exam notification to change the profile for any other examination."
   },
-  "scoring_profile_note": "Rajyaseva GS-I practice preset. Before applying this preset to another MPSC examination, check that exam's latest notification and override the scoring fields if its scheme differs.",
+  "scoring_profile_note": "MPSC Saral Seva / Group B-C objective practice preset: 1 mark per question; 25% penalty for incorrect, multiple or fully blank A-E; E = not attempted, 0 marks. Recheck the target recruitment's latest official notification.",
   "tests": [
     {
       "test_id": "HIS-SEC-001",
@@ -1030,7 +1030,7 @@
       "test_type": "history_sectional_test",
       "exam_profile": "MPSC_GROUP_BC_PRACTICE",
       "question_count": 50,
-      "time_limit_minutes": 50,
+      "time_limit_minutes": 30,
       "total_marks": 50,
       "answer_visibility": "after_submission",
       "scoring": {
