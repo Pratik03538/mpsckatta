@@ -36,9 +36,9 @@ OUTPUT_ROOT = ROOT / "output"
 load_dotenv(ROOT / ".env")
 DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 MAX_SOURCE_CHARS = 55_000
-NOTES_MIN_WORDS = 1_800
-NOTES_TARGET_MIN = 2_000
-NOTES_TARGET_MAX = 2_600
+NOTES_MIN_WORDS = 2_400
+NOTES_TARGET_MIN = 2_800
+NOTES_TARGET_MAX = 3_500
 PRACTICE_MCQ_COUNT = 50
 
 
@@ -359,7 +359,7 @@ def notes_prompt(
 - फक्त परीक्षेसाठी नव्हे, तर विषय समजण्यासाठी लिहा. आवश्यक तेथे परीक्षेतील गोंधळ समजावून सांगा.
 
 ## लांबी व खोली — ही अंतर्गत संपादकीय मर्यादा आहे
-मुख्य नोट्स साधारण 2,000–2,600 मराठी शब्दांच्या असाव्यात. विषयाची गुणवत्ता महत्त्वाची;
+मुख्य नोट्स साधारण 2,800–3,500 मराठी शब्दांच्या असाव्यात. विषयाची गुणवत्ता महत्त्वाची;
 माहिती नसताना शब्दसंख्या पूर्ण करण्यासाठी मजकूर वाढवू नका.
 
 ## रचना — विद्यार्थ्यांच्या समजुतीनुसार नैसर्गिक क्रम निवडा
@@ -429,13 +429,13 @@ Subject: {subject}; Topic ID: {topic_id}; Topic: {topic}
 def practice_prompt(subject: str, topic_id: str, topic: str, notes: str) -> str:
     return f"""
 तुम्ही MPSC मराठी माध्यमासाठी उच्च दर्जाचा प्रश्नसंच तयार करणारे शिक्षक आहात.
-विषय: {subject}; Topic ID: {topic_id}; Topic: {topic}
+विषय: {subject}; Topic: {topic}
 
 आधार नोट्स:
-{notes[:24000]}
+{notes[:26000]}
 
-फक्त पूर्ण आणि parse करता येणारा JSON object द्या. Markdown fences नकोत.
-खालील keys आणि fields अनिवार्य आहेत:
+फक्त parse करता येणारा JSON object द्या. Markdown fences नकोत.
+या रचनेत फक्त practice_mcqs ही key असावी:
 
 {{
   "practice_mcqs": [
@@ -443,47 +443,25 @@ def practice_prompt(subject: str, topic_id: str, topic: str, notes: str) -> str:
       "question": "मराठी प्रश्न",
       "options": {{"A":"पर्याय","B":"पर्याय","C":"पर्याय","D":"पर्याय"}},
       "correct_option": "A",
-      "explanation": "योग्य उत्तराचे कारण आणि शक्य असल्यास इतर पर्याय का अयोग्य आहेत",
+      "explanation": "योग्य उत्तराचे कारण आणि इतर पर्याय का अयोग्य आहेत याचे स्पष्टीकरण",
       "concept": "तपासली जाणारी संकल्पना",
       "difficulty": "Easy/Medium/Hard"
     }}
-  ],
-  "topic_test": [
-    {{
-      "question": "मराठी प्रश्न",
-      "options": {{"A":"पर्याय","B":"पर्याय","C":"पर्याय","D":"पर्याय"}},
-      "correct_option": "A",
-      "explanation": "स्पष्टीकरण",
-      "concept": "संकल्पना",
-      "difficulty": "Easy/Medium/Hard"
-    }}
-  ],
-  "flashcards": [
-    {{"front":"प्रश्न/संज्ञा","back":"उत्तर व छोटी समजावणी"}}
-  ],
-  "quick_recall": [
-    {{"question":"आठवणीचा प्रश्न","answer":"संक्षिप्त समजावणी"}}
   ]
 }}
 
-अचूक संख्या:
-- practice_mcqs: {PRACTICE_MCQ_COUNT}
-- topic_test: 10
-- flashcards: 10
-- quick_recall: 5
+अचूक संख्या: {PRACTICE_MCQ_COUNT} स्वतंत्र व दर्जेदार प्रश्न.
 
-प्रश्नसंचाची गुणवत्ता:
-- 50 MCQ मध्ये संपूर्ण विषयाचे संतुलित coverage ठेवा; एकाच उपघटकावर प्रश्नांचा ढीग नको.
-- साधारण 10 सोपे, 25 मध्यम आणि 15 कठीण प्रश्न असा समतोल ठेवा.
-- सरळ माहिती, संकल्पना, कारण-परिणाम, तुलना, कालक्रम, स्थळ-पुरावा, विधानाधारित आणि निष्कर्षाधारित प्रकार मिसळा.
-- किमान 10 प्रश्न विचारपूर्वक विधान/योग्य जोड्या/योग्य क्रम या स्वरूपातील असावेत.
-- एकाच तथ्याची शब्दरचना बदलून पुनरावृत्ती करू नका.
-- प्रत्येक प्रश्नाला नेमके एकच योग्य उत्तर असावे. दोन पर्याय जवळजवळ सारखे किंवा संदिग्ध नकोत.
-- प्रत्येक स्पष्टीकरण विद्यार्थ्याला संकल्पना समजावेल असे असावे; फक्त योग्य पर्याय सांगू नका.
-- उत्तरांची अक्षरे A/B/C/D यांत समतोलाने वितरित करा; सतत एकाच अक्षराचे उत्तर देऊ नका.
-- Notes मध्ये आधार नसलेली तथ्ये घालू नका. आधार अपुरा असल्यास प्रश्न बनवू नका.
-- प्रश्न मराठीत नैसर्गिक आणि परीक्षेच्या पातळीला अनुरूप असावेत.
-- हे सर्व AI-निर्मित Practice MCQs आहेत; कोणत्याही प्रश्नाला PYQ म्हणून दाखवू नका.
+गुणवत्ता:
+- संपूर्ण विषयाचे संतुलित coverage ठेवा; एकाच उपघटकावर प्रश्नांचा ढीग नको.
+- साधारण 10 सोपे, 25 मध्यम आणि 15 कठीण प्रश्न ठेवा.
+- संकल्पना, कारण-परिणाम, तुलना, कालक्रम, स्थळ-पुरावा, विधानाधारित, योग्य जोड्या व निष्कर्षाधारित प्रकार मिसळा.
+- प्रश्नांची पुनरावृत्ती करू नका.
+- प्रत्येक प्रश्नाला एकच निर्विवाद योग्य उत्तर असावे.
+- प्रत्येक उत्तराचे अर्थपूर्ण स्पष्टीकरण द्या.
+- उत्तरांची अक्षरे A/B/C/D यांत शक्य तितकी समतोल ठेवा.
+- नोट्समध्ये आधार नसलेली नवी तथ्ये घालू नका.
+- हे सर्व नव्याने तयार केलेले Practice MCQs आहेत; त्यांना PYQ म्हणू नका.
 """
 
 
@@ -621,29 +599,6 @@ def write_markdown_questions(
     return "\n".join(lines)
 
 
-def write_flashcards(rows: list[dict[str, Any]]) -> str:
-    lines = ["# Flashcards", ""]
-    for i, item in enumerate(rows, start=1):
-        lines += [
-            f"## Card {i}",
-            f"**प्रश्न:** {item.get('front', '')}",
-            f"**उत्तर:** {item.get('back', '')}",
-            "",
-        ]
-    return "\n".join(lines)
-
-
-def write_recall(rows: list[dict[str, Any]]) -> str:
-    lines = ["# Quick Recall", ""]
-    for i, item in enumerate(rows, start=1):
-        lines += [
-            f"## {i}. {item.get('question', '')}",
-            f"**उत्तर:** {item.get('answer', '')}",
-            "",
-        ]
-    return "\n".join(lines)
-
-
 def write_pyq(
     local_rows: list[dict[str, Any]],
     local_sources: list[str],
@@ -767,6 +722,15 @@ def main() -> int:
     topic_id = safe_folder_name(topic_id)
     output_dir = OUTPUT_ROOT / topic_id
     output_dir.mkdir(parents=True, exist_ok=True)
+    internal_dir = OUTPUT_ROOT / "_internal" / topic_id
+    internal_dir.mkdir(parents=True, exist_ok=True)
+    for stale_name in (
+        "README.md", "topic_test.md", "flashcards.md", "quick_recall.md",
+        "pyq_candidates.md", "quality_report.md", "research_sources.json",
+    ):
+        stale_path = output_dir / stale_name
+        if stale_path.exists():
+            stale_path.unlink()
 
     print("\nMPSC Katta — AI Topic Pack Generator")
     print(f"Topic: {topic_id} | {subject} | {topic}")
@@ -842,23 +806,10 @@ def main() -> int:
         research["models_used"]["practice"] = used_model
 
         mcqs = practice.get("practice_mcqs", [])
-        tests = practice.get("topic_test", [])
-        flashcards = practice.get("flashcards", [])
-        recalls = practice.get("quick_recall", [])
 
         (output_dir / "practice_mcqs.md").write_text(
             write_markdown_questions(mcqs, f"{PRACTICE_MCQ_COUNT} सराव MCQ"),
             encoding="utf-8",
-        )
-        (output_dir / "topic_test.md").write_text(
-            write_markdown_questions(tests, "10 प्रश्नांची Topic Test"),
-            encoding="utf-8",
-        )
-        (output_dir / "flashcards.md").write_text(
-            write_flashcards(flashcards), encoding="utf-8"
-        )
-        (output_dir / "quick_recall.md").write_text(
-            write_recall(recalls), encoding="utf-8"
         )
 
         print("[4/4] PYQ extraction + Google Search research...")
@@ -924,12 +875,12 @@ def main() -> int:
             not in local_question_keys
         ]
 
-        (output_dir / "pyq_candidates.md").write_text(
+        (output_dir / "pyq.md").write_text(
             write_pyq(local_pyq_rows, pyq_files, web_pyq_rows),
             encoding="utf-8",
         )
 
-        (output_dir / "research_sources.json").write_text(
+        (internal_dir / "research_sources.json").write_text(
             json.dumps(research, ensure_ascii=False, indent=2),
             encoding="utf-8",
         )
@@ -949,12 +900,6 @@ def main() -> int:
             warnings.append(
                 f"Expected {PRACTICE_MCQ_COUNT} practice MCQs; received {len(mcqs)}."
             )
-        if len(tests) != 10:
-            warnings.append(f"Expected 10 test questions; received {len(tests)}.")
-        if len(flashcards) != 10:
-            warnings.append(f"Expected 10 flashcards; received {len(flashcards)}.")
-        if len(recalls) != 5:
-            warnings.append(f"Expected 5 recall questions; received {len(recalls)}.")
 
         report = [
             f"# Quality Report — {topic_id}",
@@ -965,9 +910,6 @@ def main() -> int:
             f"- Topic: {topic}",
             f"- Notes word count: {notes_words}",
             f"- Practice MCQs: {len(mcqs)} (target: {PRACTICE_MCQ_COUNT})",
-            f"- Topic test questions: {len(tests)}",
-            f"- Flashcards: {len(flashcards)}",
-            f"- Quick recall questions: {len(recalls)}",
             f"- PYQ candidates from local sources: {len(local_pyq_rows)}",
             f"- PYQ candidates from web search: {len(web_pyq_rows)}",
             f"- Local source items: {len(source_metadata)}",
@@ -987,32 +929,13 @@ def main() -> int:
             "",
             "This report checks structure and counts only; it does not certify factual accuracy.",
         ]
-        (output_dir / "quality_report.md").write_text(
+        (internal_dir / "quality_report.md").write_text(
             "\n".join(report), encoding="utf-8"
         )
 
-        index = [
-            f"# {topic_id} — {topic}",
-            "",
-            f"- Subject: {subject}",
-            "- Status: Draft — verification pending",
-            "",
-            "## Topic Pack",
-            "- [Detailed Notes](detailed_notes.md)",
-            "- [Visual Revision](visuals.md)",
-            "- [Practice MCQs](practice_mcqs.md)",
-            "- [Topic Test](topic_test.md)",
-            "- [Flashcards](flashcards.md)",
-            "- [Quick Recall](quick_recall.md)",
-            "- [PYQ Candidates](pyq_candidates.md)",
-            "- [Research Sources](research_sources.json)",
-            "- [Quality Report](quality_report.md)",
-        ]
-        (output_dir / "README.md").write_text("\n".join(index), encoding="utf-8")
-
         print("\nSUCCESS — Topic pack generated.")
-        print(f"Output folder: {output_dir}")
-        print("Review quality_report.md before using or publishing anything.")
+        print(f"Student pack (4 files): {output_dir}")
+        print(f"Internal audit files: {internal_dir}")
         return 0
 
     except Exception as exc:
