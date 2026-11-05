@@ -655,6 +655,12 @@
         "omr_rule_effective_date": {
           "type": "string",
           "format": "date"
+        },
+        "exam_profile": {
+          "type": "string"
+        },
+        "question_resolution": {
+          "type": "string"
         }
       },
       "additionalProperties": false
@@ -708,6 +714,9 @@
           "items": {
             "$ref": "#/$defs/testSeriesItem"
           }
+        },
+        "scoring_profile_note": {
+          "type": "string"
         }
       },
       "additionalProperties": false
