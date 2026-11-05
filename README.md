@@ -1,52 +1,111 @@
 # MPSC Katta
 
-A focused workspace for MPSC Saral Seva study content. The first milestone is one subject and one topic only:
+A Marathi common classroom content workspace for MPSC preparation. The first milestone is one subject and one topic: History — HIS-001, प्रागैतिहासिक काळ.
 
-- Subject: History
-- Topic ID: HIS-001
-- Topic: प्रागैतिहासिक काळ
-- Study flow: 25 min detailed notes + 5 min visual revision + 10 min PYQ + 10 min MCQ + 5 min quick recall
+## What the one-file generator creates
 
-## Current approach (no API cost)
+The single Python script, main.py, asks for one Topic ID, subject and topic name, then creates:
 
-This starter project does **not** call the OpenAI or Gemini API. A ChatGPT Go subscription does not include API credits. Use ChatGPT in the browser to draft the Marathi notes from the prompt in `prompts/HIS-001_prompt.md`, then save the approved draft locally as:
+- Detailed Marathi notes (target 2,000–2,800 words)
+- Visual revision pack (Mermaid flowchart/mind map, timeline and comparison table)
+- 30 practice MCQs with answers and explanations
+- 10-question topic test
+- 10 flashcards
+- 5 quick-recall questions
+- PYQ candidates extracted only from source question-paper PDFs supplied in sources/TOPIC-ID/pyq/
+- Research-source metadata and a quality report
 
-`output/HIS-001/detailed_notes.md`
+All generated files are saved under output/TOPIC-ID/.
 
-The project includes a small local helper to create the topic folders and check the notes file's structure and approximate length. These checks do not verify historical facts.
+## Important: API and subscription
+
+This generator uses the Gemini Developer API through Google AI Studio. A ChatGPT Go subscription does not provide OpenAI API credits or an API key. Gemini has a limited free tier for eligible models and accounts; quotas can change. Google states that free-tier content may be used to improve its products. Do not submit private or confidential information.
+
+Default model: gemini-3.8-flash. You can override it with the --model argument or GEMINI_MODEL in your .env file.
+
+Google AI Studio API key page: https://aistudio.google.com/apikey
 
 ## PyCharm setup
 
-1. Install Git for Windows and PyCharm.
-2. In PyCharm, choose **Get from VCS**.
-3. Repository URL: `https://github.com/Pratik03538/mpsckatta.git`
-4. Choose a local directory and click **Clone**.
-5. In the branch selector, check out `feature/his-001-topic-setup`.
-6. Open the PyCharm Terminal and run:
+1. Clone this repository or open your existing local clone.
+2. Create/activate your virtual environment.
+3. In the PyCharm Terminal run:
 
-   ```bash
-   python main.py
+   ```powershell
+   python -m pip install -r requirements.txt
    ```
 
-If PyCharm cloned the repository before the working branch was created, fetch branches and then check out `feature/his-001-topic-setup`.
+4. Copy .env.example to .env.
+5. Open .env and set GEMINI_API_KEY to your own Google AI Studio key.
+6. Never commit .env or paste the API key in chat.
 
-## First topic workflow
+## Run one topic
 
-1. Read `prompts/HIS-001_prompt.md`.
-2. Use the prompt in ChatGPT to prepare detailed, student-friendly Marathi notes.
-3. Check dates, site names, archaeological interpretations and references against reliable source material.
-4. Save the draft to `output/HIS-001/detailed_notes.md`.
-5. Run `python main.py --check` to review approximate word count and required sections.
-6. Do not publish until a human review is complete.
+Interactive:
 
-## Important accuracy rules
+```powershell
+python main.py
+```
 
-- AI-generated content is a draft, not automatically verified.
-- Do not invent PYQs, answer keys, references, authors, page numbers or dates.
-- Clearly distinguish established archaeological evidence from scholarly interpretations.
-- Chronology can vary by region; do not present one date range as universal for the whole subcontinent.
-- Free access to a book or website does not automatically grant permission to republish it. Respect source licences and copyright.
+Or provide the fields directly:
 
-## Project scope
+```powershell
+python main.py --topic-id HIS-001 --subject "इतिहास" --topic "प्रागैतिहासिक काळ"
+```
 
-Only HIS-001 is in scope for this initial branch. Do not generate the remaining History topics or other subjects until this topic's quality is reviewed and accepted.
+To enable Google Search grounding (uses search-grounding quota):
+
+```powershell
+python main.py --topic-id HIS-001 --subject "इतिहास" --topic "प्रागैतिहासिक काळ" --web-research
+```
+
+Web grounding is off by default to avoid using search quota without your choice.
+
+## Supplying source material
+
+Create a topic folder:
+
+```text
+sources/
+└── HIS-001/
+    ├── textbook_notes.pdf
+    ├── reference.txt
+    └── pyq/
+        └── mpsc_question_paper.pdf
+```
+
+Supported inputs: text-selectable PDF, TXT and Markdown. The PDF reader does not perform OCR. Scanned PDFs may not produce extracted text.
+
+Only PDFs placed inside the pyq subfolder are treated as possible question-paper sources. If no such PDF is provided, the script leaves the PYQ section empty rather than inventing exam questions.
+
+## Output files
+
+```text
+output/
+└── HIS-001/
+    ├── README.md
+    ├── detailed_notes.md
+    ├── visuals.md
+    ├── practice_mcqs.md
+    ├── topic_test.md
+    ├── flashcards.md
+    ├── quick_recall.md
+    ├── pyq_candidates.md
+    ├── research_sources.json
+    └── quality_report.md
+```
+
+## Accuracy and publication rules
+
+- AI output is a draft, not automatically verified study material.
+- Notes should explain concepts, causes, processes and results; they should not be filler or memorization-only bullet lists.
+- Check dates, place names, historical interpretations, answer keys and explanations against reliable sources.
+- PYQ candidates are never treated as confirmed PYQs until matched to the original paper and official answer key.
+- AI-created questions are labelled Practice MCQs, never PYQs.
+- Source-page labels are useful for review but are not proof that a PDF is an official paper.
+- Check copyright/licence before republishing any source. Free access does not automatically grant republication rights.
+- The quality report checks approximate length and item counts only. It does not certify factual accuracy.
+
+## Publishing
+
+Nothing is automatically sent to Telegram. Review the content, verify sources and answers, approve it manually, and only then publish.
