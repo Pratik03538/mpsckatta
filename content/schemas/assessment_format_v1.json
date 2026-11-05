@@ -1,0 +1,356 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MPSC Katta Assessment Data Schema",
+  "version": "1.0",
+  "description": "Stable machine-readable format for student-facing practice MCQs and official previous-year questions.",
+  "$defs": {
+    "options": {
+      "type": "object",
+      "required": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "properties": {
+        "A": {
+          "type": "string"
+        },
+        "B": {
+          "type": "string"
+        },
+        "C": {
+          "type": "string"
+        },
+        "D": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "mcqItem": {
+      "type": "object",
+      "required": [
+        "question_id",
+        "question_no",
+        "question",
+        "options",
+        "correct_option",
+        "answer",
+        "explanation",
+        "source_status",
+        "student_forwardable"
+      ],
+      "properties": {
+        "question_id": {
+          "type": "string",
+          "pattern": "^HIS-[0-9]{3}-MCQ-[0-9]{3}$"
+        },
+        "question_no": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "options": {
+          "$ref": "#/$defs/options"
+        },
+        "correct_option": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "answer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "explanation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_status": {
+          "const": "author_created_practice_not_pyq"
+        },
+        "student_forwardable": {
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "mcqDocument": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "topic_id",
+        "topic_title",
+        "language",
+        "content_type",
+        "question_count",
+        "answer_key_included",
+        "items"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "topic_id": {
+          "type": "string",
+          "pattern": "^HIS-[0-9]{3}$"
+        },
+        "topic_title": {
+          "type": "string"
+        },
+        "language": {
+          "const": "mr"
+        },
+        "content_type": {
+          "const": "practice_mcq"
+        },
+        "question_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "answer_key_included": {
+          "const": true
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/mcqItem"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "label",
+        "url",
+        "source_type"
+      ],
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "official_original_paper",
+            "official_final_answer_key",
+            "third_party_archive",
+            "other"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "pyqItem": {
+      "type": "object",
+      "required": [
+        "question_id",
+        "question_no",
+        "original_question_no",
+        "exam",
+        "year",
+        "paper",
+        "question",
+        "options",
+        "correct_option",
+        "answer",
+        "explanation",
+        "source",
+        "verification_status",
+        "official_paper_verified",
+        "official_final_answer_key_verified",
+        "student_forwardable"
+      ],
+      "properties": {
+        "question_id": {
+          "type": "string",
+          "pattern": "^HIS-[0-9]{3}-PYQ-[0-9]{3}$"
+        },
+        "question_no": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "original_question_no": {
+          "type": "string"
+        },
+        "exam": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer"
+        },
+        "paper": {
+          "type": "string"
+        },
+        "question": {
+          "type": "string"
+        },
+        "options": {
+          "$ref": "#/$defs/options"
+        },
+        "correct_option": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "answer": {
+          "type": "string"
+        },
+        "explanation": {
+          "type": "string"
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        },
+        "verification_status": {
+          "type": "string",
+          "enum": [
+            "verified",
+            "unverified_third_party_transcription",
+            "pending",
+            "rejected"
+          ]
+        },
+        "official_paper_verified": {
+          "type": "boolean"
+        },
+        "official_final_answer_key_verified": {
+          "type": "boolean"
+        },
+        "student_forwardable": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "questionPattern": {
+      "type": "object",
+      "required": [
+        "pattern_id",
+        "pattern_no",
+        "prompt",
+        "is_pyq",
+        "student_forwardable"
+      ],
+      "properties": {
+        "pattern_id": {
+          "type": "string"
+        },
+        "pattern_no": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "prompt": {
+          "type": "string"
+        },
+        "is_pyq": {
+          "const": false
+        },
+        "student_forwardable": {
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "pyqDocument": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "topic_id",
+        "topic_title",
+        "language",
+        "content_type",
+        "forward_policy",
+        "verified_items",
+        "unverified_candidates",
+        "question_patterns"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "topic_id": {
+          "type": "string",
+          "pattern": "^HIS-[0-9]{3}$"
+        },
+        "topic_title": {
+          "type": "string"
+        },
+        "language": {
+          "const": "mr"
+        },
+        "content_type": {
+          "const": "pyq"
+        },
+        "forward_policy": {
+          "type": "object",
+          "required": [
+            "only_verified_items_may_be_forwarded",
+            "required_verification",
+            "unverified_candidates_forward_allowed"
+          ],
+          "properties": {
+            "only_verified_items_may_be_forwarded": {
+              "const": true
+            },
+            "required_verification": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "unverified_candidates_forward_allowed": {
+              "const": false
+            }
+          },
+          "additionalProperties": false
+        },
+        "verified_items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/pyqItem"
+          }
+        },
+        "unverified_candidates": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/pyqItem"
+          }
+        },
+        "question_patterns": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/questionPattern"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/mcqDocument"
+    },
+    {
+      "$ref": "#/$defs/pyqDocument"
+    }
+  ]
+}
