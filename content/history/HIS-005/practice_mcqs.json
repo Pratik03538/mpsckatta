@@ -1,0 +1,811 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "HIS-005",
+  "topic_title": "जैन धर्म",
+  "language": "mr",
+  "content_type": "practice_mcq",
+  "question_count": 50,
+  "answer_key_included": true,
+  "items": [
+    {
+      "question_no": 1,
+      "question": "जैन परंपरेत तीर्थंकर किती मानले जातात?",
+      "options": {
+        "A": "24",
+        "B": "12",
+        "C": "23",
+        "D": "28"
+      },
+      "correct_option": "A",
+      "answer": "24",
+      "explanation": "परंपरेनुसार प्रत्येक अर्धचक्रात २४ तीर्थंकर.",
+      "question_id": "HIS-005-MCQ-001",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 2,
+      "question": "पहिले तीर्थंकर कोण मानले जातात?",
+      "options": {
+        "A": "महावीर",
+        "B": "ऋषभदेव",
+        "C": "पार्श्वनाथ",
+        "D": "नेमिनाथ"
+      },
+      "correct_option": "B",
+      "answer": "ऋषभदेव",
+      "explanation": "ऋषभदेव/आदिनाथ पहिले तीर्थंकर मानले जातात.",
+      "question_id": "HIS-005-MCQ-002",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 3,
+      "question": "२३ वे तीर्थंकर कोण?",
+      "options": {
+        "A": "ऋषभदेव",
+        "B": "महावीर",
+        "C": "पार्श्वनाथ",
+        "D": "अजितनाथ"
+      },
+      "correct_option": "C",
+      "answer": "पार्श्वनाथ",
+      "explanation": "पार्श्वनाथ हे २३ वे तीर्थंकर.",
+      "question_id": "HIS-005-MCQ-003",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 4,
+      "question": "२४ वे तीर्थंकर कोण?",
+      "options": {
+        "A": "पार्श्वनाथ",
+        "B": "ऋषभदेव",
+        "C": "शांतिनाथ",
+        "D": "महावीर"
+      },
+      "correct_option": "D",
+      "answer": "महावीर",
+      "explanation": "वर्धमान महावीर हे २४ वे तीर्थंकर.",
+      "question_id": "HIS-005-MCQ-004",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 5,
+      "question": "महावीरांचे पारंपरिक जन्मस्थान कोणते?",
+      "options": {
+        "A": "कुंडग्राम",
+        "B": "पावापुरी",
+        "C": "सारनाथ",
+        "D": "राजगृह"
+      },
+      "correct_option": "A",
+      "answer": "कुंडग्राम",
+      "explanation": "जैन परंपरेनुसार वैशालीजवळील कुंडग्राम.",
+      "question_id": "HIS-005-MCQ-005",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 6,
+      "question": "महावीरांच्या वडिलांचे नाव परंपरेनुसार काय?",
+      "options": {
+        "A": "शुद्धोधन",
+        "B": "सिद्धार्थ",
+        "C": "बिंबिसार",
+        "D": "चेटक"
+      },
+      "correct_option": "B",
+      "answer": "सिद्धार्थ",
+      "explanation": "जैन परंपरेत सिद्धार्थ हे वडिलांचे नाव.",
+      "question_id": "HIS-005-MCQ-006",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 7,
+      "question": "महावीरांच्या आईचे नाव परंपरेनुसार काय?",
+      "options": {
+        "A": "यशोधरा",
+        "B": "महामाया",
+        "C": "त्रिशला",
+        "D": "गौतमी"
+      },
+      "correct_option": "C",
+      "answer": "त्रिशला",
+      "explanation": "त्रिशला हे परंपरेतील नाव.",
+      "question_id": "HIS-005-MCQ-007",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 8,
+      "question": "महावीरांचे निर्वाणस्थळ कोणते?",
+      "options": {
+        "A": "लुंबिनी",
+        "B": "वैशाली",
+        "C": "कुशीनगर",
+        "D": "पावापुरी"
+      },
+      "correct_option": "D",
+      "answer": "पावापुरी",
+      "explanation": "जैन परंपरेनुसार पावापुरी.",
+      "question_id": "HIS-005-MCQ-008",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 9,
+      "question": "पार्श्वनाथांनी किती व्रते शिकवली अशी पारंपरिक मांडणी आहे?",
+      "options": {
+        "A": "चार",
+        "B": "तीन",
+        "C": "पाच",
+        "D": "आठ"
+      },
+      "correct_option": "A",
+      "answer": "चार",
+      "explanation": "चार व्रते; महावीरांनी ब्रह्मचर्य स्वतंत्रपणे जोडले असे सांगितले जाते.",
+      "question_id": "HIS-005-MCQ-009",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 10,
+      "question": "महावीरांनी कोणते व्रत स्वतंत्रपणे स्पष्ट केले असे मानले जाते?",
+      "options": {
+        "A": "अहिंसा",
+        "B": "ब्रह्मचर्य",
+        "C": "सत्य",
+        "D": "अस्तेय"
+      },
+      "correct_option": "B",
+      "answer": "ब्रह्मचर्य",
+      "explanation": "पार्श्वनाथांच्या चार व्रतांमध्ये ब्रह्मचर्याचा स्वतंत्र समावेश नव्हता, अशी परंपरा.",
+      "question_id": "HIS-005-MCQ-010",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 11,
+      "question": "पंचमहाव्रतांमध्ये कोणते येत नाही?",
+      "options": {
+        "A": "अहिंसा",
+        "B": "सत्य",
+        "C": "यज्ञ",
+        "D": "अस्तेय"
+      },
+      "correct_option": "C",
+      "answer": "यज्ञ",
+      "explanation": "यज्ञ हा पंचमहाव्रतांपैकी नाही.",
+      "question_id": "HIS-005-MCQ-011",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 12,
+      "question": "अहिंसेचा व्यापक अर्थ कोणता?",
+      "options": {
+        "A": "फक्त युद्ध टाळणे",
+        "B": "फक्त उपवास",
+        "C": "संपत्ती दान",
+        "D": "जीवांना हिंसा न करणे"
+      },
+      "correct_option": "D",
+      "answer": "जीवांना हिंसा न करणे",
+      "explanation": "विचार, वाणी व कृतीत जीवहानी टाळण्याचा प्रयत्न.",
+      "question_id": "HIS-005-MCQ-012",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 13,
+      "question": "अस्तेय म्हणजे काय?",
+      "options": {
+        "A": "न दिलेली वस्तू न घेणे",
+        "B": "सत्य बोलणे",
+        "C": "संग्रह करणे",
+        "D": "उपवास"
+      },
+      "correct_option": "A",
+      "answer": "न दिलेली वस्तू न घेणे",
+      "explanation": "अस्तेय म्हणजे चोरी किंवा न दिलेली वस्तू न घेणे.",
+      "question_id": "HIS-005-MCQ-013",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 14,
+      "question": "अपरिग्रह कोणत्या तत्त्वाशी संबंधित?",
+      "options": {
+        "A": "युद्ध करणे",
+        "B": "संग्रह व आसक्ती कमी करणे",
+        "C": "यज्ञ करणे",
+        "D": "राज्यविस्तार"
+      },
+      "correct_option": "B",
+      "answer": "संग्रह व आसक्ती कमी करणे",
+      "explanation": "अपरिग्रह म्हणजे मालकी/संग्रह व आसक्तीवर नियंत्रण.",
+      "question_id": "HIS-005-MCQ-014",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 15,
+      "question": "जैन धर्मातील त्रिरत्न कोणते?",
+      "options": {
+        "A": "बुद्ध, धम्म, संघ",
+        "B": "दान, यज्ञ, तप",
+        "C": "सम्यक दर्शन, ज्ञान, चारित्र",
+        "D": "धर्म, अर्थ, काम"
+      },
+      "correct_option": "C",
+      "answer": "सम्यक दर्शन, ज्ञान, चारित्र",
+      "explanation": "मोक्षमार्गासाठी तीन परस्परपूरक घटक.",
+      "question_id": "HIS-005-MCQ-015",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 16,
+      "question": "अनेकांतवादाचा मुख्य अर्थ काय?",
+      "options": {
+        "A": "एकच दृष्टिकोन अंतिम",
+        "B": "आत्मा नाही",
+        "C": "कर्म नाही",
+        "D": "वास्तव बहुपैलू आहे"
+      },
+      "correct_option": "D",
+      "answer": "वास्तव बहुपैलू आहे",
+      "explanation": "वास्तवाच्या अनेक बाजू आहेत; मर्यादित दृष्टी संपूर्ण सत्य पकडत नाही.",
+      "question_id": "HIS-005-MCQ-016",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 17,
+      "question": "स्याद्वाद म्हणजे काय?",
+      "options": {
+        "A": "सापेक्ष अटींसह विधान",
+        "B": "केवळ मौन",
+        "C": "नास्तिकता",
+        "D": "युद्धनीती"
+      },
+      "correct_option": "A",
+      "answer": "सापेक्ष अटींसह विधान",
+      "explanation": "'एका दृष्टिकोनातून/अटींनी' विधान करण्याची पद्धत.",
+      "question_id": "HIS-005-MCQ-017",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 18,
+      "question": "नयवाद कशाशी संबंधित?",
+      "options": {
+        "A": "सैन्यव्यवस्था",
+        "B": "मर्यादित दृष्टिकोनातून ज्ञान",
+        "C": "मंदिरशैली",
+        "D": "व्यापारकर"
+      },
+      "correct_option": "B",
+      "answer": "मर्यादित दृष्टिकोनातून ज्ञान",
+      "explanation": "नय म्हणजे विशिष्ट दृष्टिकोन किंवा आंशिक आकलन.",
+      "question_id": "HIS-005-MCQ-018",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 19,
+      "question": "जैन तत्त्वज्ञानात जीव म्हणजे काय?",
+      "options": {
+        "A": "अचेतन पदार्थ",
+        "B": "केवळ शरीर",
+        "C": "चेतन आत्मतत्त्व",
+        "D": "नाणे"
+      },
+      "correct_option": "C",
+      "answer": "चेतन आत्मतत्त्व",
+      "explanation": "जीव चेतन द्रव्य/आत्मा मानला जातो.",
+      "question_id": "HIS-005-MCQ-019",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 20,
+      "question": "अजीव म्हणजे काय?",
+      "options": {
+        "A": "चेतन आत्मा",
+        "B": "मुक्त जीव",
+        "C": "तीर्थंकर",
+        "D": "अचेतन द्रव्य"
+      },
+      "correct_option": "D",
+      "answer": "अचेतन द्रव्य",
+      "explanation": "अजीव हे अचेतन तत्त्व.",
+      "question_id": "HIS-005-MCQ-020",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 21,
+      "question": "पुद्गल कोणत्या प्रकारचे द्रव्य?",
+      "options": {
+        "A": "भौतिक पदार्थ",
+        "B": "चेतन आत्मा",
+        "C": "नैतिक व्रत",
+        "D": "संघ"
+      },
+      "correct_option": "A",
+      "answer": "भौतिक पदार्थ",
+      "explanation": "पुद्गल हा भौतिक/पदार्थात्मक द्रव्याशी संबंधित.",
+      "question_id": "HIS-005-MCQ-021",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 22,
+      "question": "दिगंबर पंथातील पारंपरिक साधुवेश कोणता?",
+      "options": {
+        "A": "पांढरे वस्त्र",
+        "B": "वस्त्रत्यागाचा आदर्श",
+        "C": "भगवे वस्त्र",
+        "D": "राजवस्त्र"
+      },
+      "correct_option": "B",
+      "answer": "वस्त्रत्यागाचा आदर्श",
+      "explanation": "दिगंबर संन्यासातील वस्त्रत्यागाचा आदर्श.",
+      "question_id": "HIS-005-MCQ-022",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 23,
+      "question": "श्वेतांबर पंथाचे नाव कशाशी संबंधित?",
+      "options": {
+        "A": "काळे वस्त्र",
+        "B": "शस्त्र",
+        "C": "पांढरे वस्त्र",
+        "D": "मुकुट"
+      },
+      "correct_option": "C",
+      "answer": "पांढरे वस्त्र",
+      "explanation": "श्वेतांबर साधू-साध्वी पांढरे वस्त्र धारण करतात.",
+      "question_id": "HIS-005-MCQ-023",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 24,
+      "question": "श्वेतांबर परंपरेत आगमांविषयी कोणती भूमिका?",
+      "options": {
+        "A": "आगम कधी नव्हते",
+        "B": "सर्व ग्रंथ ग्रीकमध्ये",
+        "C": "फक्त मौखिक सूत्र नाही",
+        "D": "आगम जतन झाले"
+      },
+      "correct_option": "D",
+      "answer": "आगम जतन झाले",
+      "explanation": "श्वेतांबर परंपरा आगम संकलन जतन झाल्याचे मानते.",
+      "question_id": "HIS-005-MCQ-024",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 25,
+      "question": "दिगंबर परंपरेत मूळ आगमांविषयी कोणती भूमिका?",
+      "options": {
+        "A": "मूळ आगम हरवले",
+        "B": "सर्व मूळ आगम पूर्ण जतन",
+        "C": "आगम फक्त संस्कृतमध्ये",
+        "D": "आगम बौद्ध ग्रंथ"
+      },
+      "correct_option": "A",
+      "answer": "मूळ आगम हरवले",
+      "explanation": "दिगंबर मतानुसार मूळ आगम उपलब्ध नाहीत.",
+      "question_id": "HIS-005-MCQ-025",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 26,
+      "question": "जैन आगमांची भाषा कोणत्या परंपरेशी संबंधित?",
+      "options": {
+        "A": "फारसी",
+        "B": "अर्धमागधी प्राकृत",
+        "C": "तमिळच",
+        "D": "ग्रीक"
+      },
+      "correct_option": "B",
+      "answer": "अर्धमागधी प्राकृत",
+      "explanation": "अर्धमागधी प्राकृताशी आगमपरंपरा जोडली जाते.",
+      "question_id": "HIS-005-MCQ-026",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 27,
+      "question": "दिगंबर परंपरेतील महत्त्वाचा ग्रंथ कोणता?",
+      "options": {
+        "A": "ऋग्वेद",
+        "B": "अर्थशास्त्र",
+        "C": "षट्खंडागम",
+        "D": "इंडिका"
+      },
+      "correct_option": "C",
+      "answer": "षट्खंडागम",
+      "explanation": "षट्खंडागम दिगंबर परंपरेतील महत्त्वाचा ग्रंथ.",
+      "question_id": "HIS-005-MCQ-027",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 28,
+      "question": "वल्लभी कोणत्या जैन साहित्यिक परंपरेशी संबंधित?",
+      "options": {
+        "A": "बौद्ध त्रिपिटक",
+        "B": "मौर्य नाणी",
+        "C": "वैदिक यज्ञ",
+        "D": "श्वेतांबर आगमांचे संकलन"
+      },
+      "correct_option": "D",
+      "answer": "श्वेतांबर आगमांचे संकलन",
+      "explanation": "वल्लभी येथे श्वेतांबर आगमांचे लिखित संकलन झाल्याची परंपरा.",
+      "question_id": "HIS-005-MCQ-028",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 29,
+      "question": "जैन संघाचे चार घटक कोणते?",
+      "options": {
+        "A": "साधू, साध्वी, श्रावक, श्राविका",
+        "B": "राजा, मंत्री, सैन्य, जनता",
+        "C": "गुरु, शिष्य, व्यापारी, सैनिक",
+        "D": "भिक्षू, राजा, राणी, दूत"
+      },
+      "correct_option": "A",
+      "answer": "साधू, साध्वी, श्रावक, श्राविका",
+      "explanation": "चार घटकांची पारंपरिक संघरचना.",
+      "question_id": "HIS-005-MCQ-029",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 30,
+      "question": "पावापुरी कोणत्या घटनेशी जोडले जाते?",
+      "options": {
+        "A": "बुद्ध जन्म",
+        "B": "महावीर निर्वाण",
+        "C": "अशोक राज्याभिषेक",
+        "D": "कनिष्क परिषद"
+      },
+      "correct_option": "B",
+      "answer": "महावीर निर्वाण",
+      "explanation": "महावीरांच्या निर्वाणाशी पावापुरी जोडले जाते.",
+      "question_id": "HIS-005-MCQ-030",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 31,
+      "question": "श्रवणबेळगोळ कशासाठी प्रसिद्ध?",
+      "options": {
+        "A": "विशाल स्नानगृह",
+        "B": "लोथल गोदी",
+        "C": "बाहुबली/गोम्मटेश्वर मूर्ती",
+        "D": "अशोक स्तंभ"
+      },
+      "correct_option": "C",
+      "answer": "बाहुबली/गोम्मटेश्वर मूर्ती",
+      "explanation": "कर्नाटकातील गोम्मटेश्वर बाहुबली मूर्ती प्रसिद्ध.",
+      "question_id": "HIS-005-MCQ-031",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 32,
+      "question": "उदयगिरी-खंडगिरी गुहा कोणत्या परंपरेशी जोडल्या जातात?",
+      "options": {
+        "A": "बौद्धच",
+        "B": "वैदिक",
+        "C": "इस्लामी",
+        "D": "जैन"
+      },
+      "correct_option": "D",
+      "answer": "जैन",
+      "explanation": "ओडिशातील या गुहा जैन साधूंच्या आश्रयाशी संबंधित.",
+      "question_id": "HIS-005-MCQ-032",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 33,
+      "question": "दिलवाडा मंदिरे कोणत्या राज्यात आहेत?",
+      "options": {
+        "A": "राजस्थान",
+        "B": "बिहार",
+        "C": "ओडिशा",
+        "D": "कर्नाटक"
+      },
+      "correct_option": "A",
+      "answer": "राजस्थान",
+      "explanation": "माउंट आबू, राजस्थान येथील संगमरवरी जैन मंदिरे.",
+      "question_id": "HIS-005-MCQ-033",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 34,
+      "question": "रणकपूर मंदिर कोणत्या धर्माशी संबंधित?",
+      "options": {
+        "A": "बौद्ध",
+        "B": "जैन",
+        "C": "शीख",
+        "D": "झोराष्ट्रियन"
+      },
+      "correct_option": "B",
+      "answer": "जैन",
+      "explanation": "रणकपूर हे महत्त्वाचे जैन मंदिरस्थळ.",
+      "question_id": "HIS-005-MCQ-034",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 35,
+      "question": "पालिताणा/शत्रुंजय तीर्थ कोणत्या राज्यात?",
+      "options": {
+        "A": "महाराष्ट्र",
+        "B": "आसाम",
+        "C": "गुजरात",
+        "D": "केरळ"
+      },
+      "correct_option": "C",
+      "answer": "गुजरात",
+      "explanation": "गुजरातमधील प्रसिद्ध जैन तीर्थक्षेत्र.",
+      "question_id": "HIS-005-MCQ-035",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 36,
+      "question": "भद्रबाहू-चंद्रगुप्त मौर्य स्थलांतरकथा कोणत्या परंपरेत महत्त्वाची?",
+      "options": {
+        "A": "श्वेतांबरच",
+        "B": "बौद्ध",
+        "C": "आजीवक",
+        "D": "दिगंबर"
+      },
+      "correct_option": "D",
+      "answer": "दिगंबर",
+      "explanation": "दक्षिणेकडील परंपरेत ही कथा महत्त्वाची आहे; इतिहासकार तपशील तपासतात.",
+      "question_id": "HIS-005-MCQ-036",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 37,
+      "question": "जैन धर्म कोणत्या व्यापक धार्मिक प्रवाहाचा भाग?",
+      "options": {
+        "A": "श्रमण",
+        "B": "सूफी",
+        "C": "भक्ती मध्ययुगीन",
+        "D": "वैष्णव पुराणिकच"
+      },
+      "correct_option": "A",
+      "answer": "श्रमण",
+      "explanation": "जैन धर्म प्राचीन श्रमण परंपरेशी संबंधित.",
+      "question_id": "HIS-005-MCQ-037",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 38,
+      "question": "जैन धर्मात मोक्ष म्हणजे काय?",
+      "options": {
+        "A": "राज्यप्राप्ती",
+        "B": "कर्मबंधनातून मुक्ती",
+        "C": "स्वर्गीय युद्ध",
+        "D": "संपत्ती वाढ"
+      },
+      "correct_option": "B",
+      "answer": "कर्मबंधनातून मुक्ती",
+      "explanation": "जीवाची कर्मबंधनातून मुक्त अवस्था.",
+      "question_id": "HIS-005-MCQ-038",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 39,
+      "question": "महावीरांचे केवलज्ञान कोणत्या अर्थाने वापरले जाते?",
+      "options": {
+        "A": "राजाभिषेक",
+        "B": "सैन्यविजय",
+        "C": "सर्वज्ञ/पूर्ण ज्ञानप्राप्ती",
+        "D": "ग्रंथलेखन"
+      },
+      "correct_option": "C",
+      "answer": "सर्वज्ञ/पूर्ण ज्ञानप्राप्ती",
+      "explanation": "जैन परंपरेतील सर्वोच्च ज्ञानप्राप्तीची संकल्पना.",
+      "question_id": "HIS-005-MCQ-039",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 40,
+      "question": "जैन धर्मातील गृहस्थांच्या व्रतांना कोणते नाव?",
+      "options": {
+        "A": "महायज्ञ",
+        "B": "राजसूय",
+        "C": "उपनिषद",
+        "D": "अणुव्रत"
+      },
+      "correct_option": "D",
+      "answer": "अणुव्रत",
+      "explanation": "गृहस्थांसाठी महाव्रतांचे मर्यादित आचरण अणुव्रत म्हणून सांगितले जाते.",
+      "question_id": "HIS-005-MCQ-040",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 41,
+      "question": "महाव्रते कोणासाठी कठोर स्वरूपात सांगितली जातात?",
+      "options": {
+        "A": "साधू-साध्वी",
+        "B": "फक्त राजा",
+        "C": "फक्त व्यापारी",
+        "D": "सैनिक"
+      },
+      "correct_option": "A",
+      "answer": "साधू-साध्वी",
+      "explanation": "संन्यस्त समुदायासाठी कठोर व्रतपालन.",
+      "question_id": "HIS-005-MCQ-041",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 42,
+      "question": "अनेकांतवादाचा चुकीचा अर्थ कोणता?",
+      "options": {
+        "A": "सत्याचे अनेक पैलू असतात",
+        "B": "सर्व मते आपोआप समान सत्य",
+        "C": "विधानाला संदर्भ असतो",
+        "D": "मर्यादित दृष्टी असू शकते"
+      },
+      "correct_option": "B",
+      "answer": "सर्व मते आपोआप समान सत्य",
+      "explanation": "अनेकांतवाद हा निरपेक्ष सापेक्षतावाद नाही.",
+      "question_id": "HIS-005-MCQ-042",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 43,
+      "question": "जैन धर्मात कर्मबंधनाचे कारण काय मानले जाते?",
+      "options": {
+        "A": "फक्त पर्जन्य",
+        "B": "केवळ राजकर",
+        "C": "राग-द्वेष व आसक्ती",
+        "D": "समुद्री व्यापार"
+      },
+      "correct_option": "C",
+      "answer": "राग-द्वेष व आसक्ती",
+      "explanation": "कषाय व आसक्तीमुळे कर्मबंधन वाढते असे तत्त्वज्ञान सांगते.",
+      "question_id": "HIS-005-MCQ-043",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 44,
+      "question": "सम्यक चारित्र म्हणजे काय?",
+      "options": {
+        "A": "योग्य व्यापार",
+        "B": "केवळ वाचन",
+        "C": "राजसत्ता",
+        "D": "योग्य आचरण"
+      },
+      "correct_option": "D",
+      "answer": "योग्य आचरण",
+      "explanation": "ज्ञान व श्रद्धेनुसार संयमित आचरण.",
+      "question_id": "HIS-005-MCQ-044",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 45,
+      "question": "बौद्ध व जैन तत्त्वज्ञानातील महत्त्वाचा फरक कोणता?",
+      "options": {
+        "A": "जैन जीव/आत्मा मानतात; बौद्ध अनात्मवाद मांडतात",
+        "B": "दोघेही एकच आत्मवाद मानतात",
+        "C": "जैन कर्म मानत नाहीत",
+        "D": "बौद्ध पुनर्जन्म मानत नाहीत"
+      },
+      "correct_option": "A",
+      "answer": "जैन जीव/आत्मा मानतात; बौद्ध अनात्मवाद मांडतात",
+      "explanation": "दोन्ही परंपरांत कर्मविचार असून आत्मतत्त्वाविषयी फरक आहे.",
+      "question_id": "HIS-005-MCQ-045",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 46,
+      "question": "जैन धर्माच्या प्रसारात कोणता घटक महत्त्वाचा?",
+      "options": {
+        "A": "फक्त परकीय सैन्य",
+        "B": "गृहस्थ व व्यापारी समुदायांचे जाळे",
+        "C": "केवळ समुद्री चाचे",
+        "D": "आधुनिक छापखाना"
+      },
+      "correct_option": "B",
+      "answer": "गृहस्थ व व्यापारी समुदायांचे जाळे",
+      "explanation": "दान, संघ, व्यापारी व शहरी समुदायांनी योगदान दिले.",
+      "question_id": "HIS-005-MCQ-046",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 47,
+      "question": "जैन मंदिर स्थापत्याचा अभ्यास करताना काय पाहावे?",
+      "options": {
+        "A": "फक्त रंग",
+        "B": "फक्त मंदिराचे नाव",
+        "C": "प्रदेश, आश्रय, कालखंड व शैली",
+        "D": "कालक्रम नको"
+      },
+      "correct_option": "C",
+      "answer": "प्रदेश, आश्रय, कालखंड व शैली",
+      "explanation": "स्थापत्याला ऐतिहासिक संदर्भात समजावे.",
+      "question_id": "HIS-005-MCQ-047",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 48,
+      "question": "जैन धर्मातील पर्युषण कोणत्या प्रकारचा सण?",
+      "options": {
+        "A": "पीककापणीचा सरकारी दिवस",
+        "B": "लष्करी उत्सव",
+        "C": "राजकीय निवडणूक",
+        "D": "आत्मपरीक्षण, क्षमा व तपाशी संबंधित"
+      },
+      "correct_option": "D",
+      "answer": "आत्मपरीक्षण, क्षमा व तपाशी संबंधित",
+      "explanation": "पर्युषण जैन धार्मिक साधना व आत्मपरीक्षणाशी संबंधित.",
+      "question_id": "HIS-005-MCQ-048",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 49,
+      "question": "जैन धर्मात अपरिग्रहाचा सामाजिक अर्थ काय असू शकतो?",
+      "options": {
+        "A": "संपत्ती व उपभोगावरील मर्यादा",
+        "B": "अनियंत्रित संग्रह",
+        "C": "युद्धविस्तार",
+        "D": "करचोरी"
+      },
+      "correct_option": "A",
+      "answer": "संपत्ती व उपभोगावरील मर्यादा",
+      "explanation": "अपरिग्रह आसक्ती व संग्रह कमी करण्यावर भर देतो.",
+      "question_id": "HIS-005-MCQ-049",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 50,
+      "question": "जैन धर्माच्या इतिहासाचा अभ्यास करताना कोणती पद्धत योग्य?",
+      "options": {
+        "A": "फक्त आख्यायिका स्वीकारणे",
+        "B": "पंथपरंपरा, ग्रंथ, शिलालेख व स्थापत्य यांची तुलना",
+        "C": "सर्व तारीखा निश्चित मानणे",
+        "D": "पुरावे टाळणे"
+      },
+      "correct_option": "B",
+      "answer": "पंथपरंपरा, ग्रंथ, शिलालेख व स्थापत्य यांची तुलना",
+      "explanation": "बहुस्रोत पद्धतीने इतिहास अधिक संतुलित समजतो.",
+      "question_id": "HIS-005-MCQ-050",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    }
+  ]
+}
