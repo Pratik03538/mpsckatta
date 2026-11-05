@@ -3,7 +3,7 @@
   "series_id": "MPSC-HISTORY-ANCIENT-01",
   "series_title": "MPSC Katta — Ancient Indian History MCQ Test Series",
   "language": "mr",
-  "exam_scope": "Rajyaseva Prelims GS-I history practice; ancient India topics HIS-001 to HIS-008 only",
+  "exam_scope": "MPSC Saral Seva / objective Group B-C practice — Ancient Indian History (HIS-001 to HIS-008), not a complete GS paper",
   "total_tests": 4,
   "total_question_attempts": 250,
   "question_banks": "content/history/HIS-001..HIS-008/practice_mcqs.json",
@@ -13,7 +13,7 @@
     "show_correct_answer_and_explanation_after_submission": true,
     "store_attempts_by_test_id_and_question_id": true,
     "never_label_author_created_practice_as_pyq": true,
-    "omr_rule": "Select one of A-D for an answer, or E to record not attempted. Leaving all five options blank, marking multiple options, or selecting a wrong answer incurs a 25% deduction of the question's marks."
+    "omr_rule": "For the one-mark MPSC Saral Seva / Group B-C practice profile effective 2026-03-01: A-D correct +1; incorrect or multiple A-E response −0.25; E explicitly means not attempted and scores 0; blank across A-E −0.25. Use the applicable exam notification to change the profile for any other examination."
   },
   "scoring_profile_note": "Rajyaseva GS-I practice preset. Before applying this preset to another MPSC examination, check that exam's latest notification and override the scoring fields if its scheme differs.",
   "tests": [
@@ -21,20 +21,20 @@
       "test_id": "HIS-SEC-001",
       "title": "प्रागैतिहासिक काळ व सिंधू संस्कृती",
       "language": "mr",
-      "exam_target": "MPSC Rajyaseva Preliminary — GS Paper I, History practice",
+      "exam_target": "MPSC Saral Seva / Group B-C objective examination — History practice",
       "test_type": "history_sectional_test",
       "question_count": 50,
-      "time_limit_minutes": 60,
-      "total_marks": 100,
+      "time_limit_minutes": 30,
+      "total_marks": 50,
       "scoring": {
-        "marks_per_question": 2,
+        "marks_per_question": 1,
         "negative_marking_fraction": 0.25,
-        "wrong_answer_penalty": 0.5,
-        "multiple_mark_penalty": 0.5,
-        "blank_all_five_options_penalty": 0.5,
+        "wrong_answer_penalty": 0.25,
+        "multiple_mark_penalty": 0.25,
+        "blank_all_five_options_penalty": 0.25,
         "explicit_not_attempted_option": "E",
         "explicit_not_attempted_penalty": 0,
-        "formula": "Correct +2; wrong/multiple/blank A-E -0.5; E (not attempted) 0."
+        "formula": "Correct +1; wrong/multiple/blank A-E -0.25; E (not attempted) 0."
       },
       "answer_visibility": "after_submission",
       "question_resolution": "Resolve each question_id from its source_file; do not duplicate or rewrite canonical question text.",
@@ -349,26 +349,27 @@
         "D",
         "E"
       ],
-      "omr_rule_effective_date": "2026-03-01"
+      "omr_rule_effective_date": "2026-03-01",
+      "exam_profile": "MPSC_GROUP_BC_PRACTICE"
     },
     {
       "test_id": "HIS-SEC-002",
       "title": "वैदिक ते श्रमण परंपरा",
       "language": "mr",
-      "exam_target": "MPSC Rajyaseva Preliminary — GS Paper I, History practice",
+      "exam_target": "MPSC Saral Seva / Group B-C objective examination — History practice",
       "test_type": "history_sectional_test",
       "question_count": 50,
-      "time_limit_minutes": 60,
-      "total_marks": 100,
+      "time_limit_minutes": 30,
+      "total_marks": 50,
       "scoring": {
-        "marks_per_question": 2,
+        "marks_per_question": 1,
         "negative_marking_fraction": 0.25,
-        "wrong_answer_penalty": 0.5,
-        "multiple_mark_penalty": 0.5,
-        "blank_all_five_options_penalty": 0.5,
+        "wrong_answer_penalty": 0.25,
+        "multiple_mark_penalty": 0.25,
+        "blank_all_five_options_penalty": 0.25,
         "explicit_not_attempted_option": "E",
         "explicit_not_attempted_penalty": 0,
-        "formula": "Correct +2; wrong/multiple/blank A-E -0.5; E (not attempted) 0."
+        "formula": "Correct +1; wrong/multiple/blank A-E -0.25; E (not attempted) 0."
       },
       "answer_visibility": "after_submission",
       "question_resolution": "Resolve each question_id from its source_file; do not duplicate or rewrite canonical question text.",
@@ -683,26 +684,27 @@
         "D",
         "E"
       ],
-      "omr_rule_effective_date": "2026-03-01"
+      "omr_rule_effective_date": "2026-03-01",
+      "exam_profile": "MPSC_GROUP_BC_PRACTICE"
     },
     {
       "test_id": "HIS-SEC-003",
       "title": "मौर्य साम्राज्य व अशोक",
       "language": "mr",
-      "exam_target": "MPSC Rajyaseva Preliminary — GS Paper I, History practice",
+      "exam_target": "MPSC Saral Seva / Group B-C objective examination — History practice",
       "test_type": "history_sectional_test",
       "question_count": 50,
-      "time_limit_minutes": 60,
-      "total_marks": 100,
+      "time_limit_minutes": 30,
+      "total_marks": 50,
       "scoring": {
-        "marks_per_question": 2,
+        "marks_per_question": 1,
         "negative_marking_fraction": 0.25,
-        "wrong_answer_penalty": 0.5,
-        "multiple_mark_penalty": 0.5,
-        "blank_all_five_options_penalty": 0.5,
+        "wrong_answer_penalty": 0.25,
+        "multiple_mark_penalty": 0.25,
+        "blank_all_five_options_penalty": 0.25,
         "explicit_not_attempted_option": "E",
         "explicit_not_attempted_penalty": 0,
-        "formula": "Correct +2; wrong/multiple/blank A-E -0.5; E (not attempted) 0."
+        "formula": "Correct +1; wrong/multiple/blank A-E -0.25; E (not attempted) 0."
       },
       "answer_visibility": "after_submission",
       "question_resolution": "Resolve each question_id from its source_file; do not duplicate or rewrite canonical question text.",
@@ -1017,26 +1019,27 @@
         "D",
         "E"
       ],
-      "omr_rule_effective_date": "2026-03-01"
+      "omr_rule_effective_date": "2026-03-01",
+      "exam_profile": "MPSC_GROUP_BC_PRACTICE"
     },
     {
       "test_id": "HIS-MOCK-001",
       "title": "प्राचीन भारत — मिश्रित इतिहास मॉक टेस्ट",
       "language": "mr",
-      "exam_target": "MPSC Rajyaseva Preliminary — GS Paper I, History practice",
+      "exam_target": "MPSC Saral Seva / Group B-C objective examination — History practice",
       "test_type": "mixed_history_mock",
       "question_count": 100,
-      "time_limit_minutes": 120,
-      "total_marks": 200,
+      "time_limit_minutes": 60,
+      "total_marks": 100,
       "scoring": {
-        "marks_per_question": 2,
+        "marks_per_question": 1,
         "negative_marking_fraction": 0.25,
-        "wrong_answer_penalty": 0.5,
-        "multiple_mark_penalty": 0.5,
-        "blank_all_five_options_penalty": 0.5,
+        "wrong_answer_penalty": 0.25,
+        "multiple_mark_penalty": 0.25,
+        "blank_all_five_options_penalty": 0.25,
         "explicit_not_attempted_option": "E",
         "explicit_not_attempted_penalty": 0,
-        "formula": "Correct +2; wrong/multiple/blank A-E -0.5; E (not attempted) 0."
+        "formula": "Correct +1; wrong/multiple/blank A-E -0.25; E (not attempted) 0."
       },
       "answer_visibility": "after_submission",
       "question_resolution": "Resolve each question_id from its source_file; do not duplicate or rewrite canonical question text.",
@@ -1651,7 +1654,8 @@
         "D",
         "E"
       ],
-      "omr_rule_effective_date": "2026-03-01"
+      "omr_rule_effective_date": "2026-03-01",
+      "exam_profile": "MPSC_GROUP_BC_PRACTICE"
     }
   ]
 }
