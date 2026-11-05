@@ -1,37 +1,35 @@
-# HIS-008 — गुणवत्ता अहवाल
+# HIS-008 — Quality Report (Actual Content Audit)
 
-## प्रत्यक्ष सामग्रीस्थिती
+## Verified structure and counts on this branch
 
-| घटक | या आवृत्तीतील व्याप्ती |
+| Component | Actual status |
 |---|---|
-| Detailed Notes | कलिंग युद्ध, धम्म, अधिकारी, शिलालेख प्रकार, भाषा-लिपी, स्थळे, कला व स्रोतचिकित्सा |
-| Visual Revision | 7 विभाग: युद्ध, धम्म, लेखक्रम, प्रकार, भाषा-लिपी, स्थळे, स्रोत |
-| Practice MCQs | 50 नवीन प्रश्न; उत्तर व स्पष्टीकरण |
-| Topic Test | 40 गुणांची चाचणी |
-| Flashcards | 30 कार्डे |
-| Quick Recall | महत्त्वाचे लेख, स्थळे, भाषा-लिपी व चुका |
-| PYQ | अधिकृत प्रश्नपत्रिका/अंतिम उत्तरतालिकेशी पडताळलेले प्रश्न सध्या नाहीत |
+| Detailed Notes | 2,050 words |
+| Practice MCQs | 50 questions, with answer key and explanations |
+| Topic Test | 40-mark assessment with objective, short-answer and/or analysis sections |
+| Flashcards | 30 active-recall cards |
+| Visual Revision | 7 organized visual sections using comparisons, tables, timelines or flow diagrams |
+| Quick Recall | One consolidated revision sheet with key facts, comparisons and self-test prompts |
+| PYQ | No official paper/key-verified questions recorded; study patterns only. |
+| Quality Report | Coverage, counts, caveats and publication checks documented here |
 
-## कव्हरेज
+## Coverage checklist
 
-- [x] कलिंग युद्ध व तेरावा प्रमुख शिलालेख
-- [x] धम्माचे नैतिक-सामाजिक स्वरूप
-- [x] धम्ममहामात्र व धम्मयात्रा
-- [x] प्रमुख/लघु शिलालेख, स्तंभलेख, गुहालेख व स्वतंत्र कलिंग लेख
-- [x] भाषा व लिपीतील प्रादेशिक फरक
-- [x] महत्त्वाची स्थळे व त्यांची ओळख
-- [x] बाराबर गुहा, स्तंभकला व सारनाथ सिंहशीर्ष
-- [x] स्रोतांचे महत्त्व व मर्यादा
+- [x] Detailed lesson notes with topic-specific subheadings and exam-focused explanations
+- [x] Visual revision sections that summarize relationships, chronology, sites or concepts
+- [x] 50 practice questions (newly authored practice; not labelled as PYQ)
+- [x] 40-mark topic test and answer guidance
+- [x] 30 flashcards for active recall
+- [x] Quick revision sheet
+- [x] PYQ status stated transparently; no unverified item is represented as officially confirmed
+- [x] Reference links included in the study notes
 
-## गुणवत्ता मर्यादा
+## Accuracy and publication limitations
 
-शिलालेखांच्या प्रादेशिक आवृत्त्या व भाषांतरांत फरक असू शकतो. क्रमांकानुसार विषयांची नोंद परीक्षाभिमुख संक्षेप आहे; अंतिम वापरासाठी अभिलेखाचा पूर्ण अनुवाद तपासावा. हा अहवाल प्रत्येक ऐतिहासिक दाव्याचे स्वतंत्र प्रमाणीकरण करत नाही.
+This audit checks file presence, approximate word count, question/card counts and topic coverage. It does **not** certify every historical claim, answer key or source interpretation. Before publication, cross-check dates, chronology, places, translations and answer keys against the linked academic/primary sources. Where scholarly or sectarian traditions differ, the notes identify the disagreement rather than force one universal answer.
 
-## संदर्भ
+## References
 
-- Archaeological Survey of India: https://asi.nic.in/
-- Siddham — Ashokan inscriptions: https://www.siddham.uk/
-- Britannica — Ashoka: https://www.britannica.com/biography/Ashoka
-- IGNOU eGyanKosh: https://egyankosh.ac.in/
+Britannica Ashoka: https://www.britannica.com/biography/Ashoka ; ASI: https://asi.nic.in/ ; Siddham: https://www.siddham.uk/
 
-**स्थिती:** अभ्यासासाठी विस्तारित मसुदा; अंतिम प्रकाशनापूर्वी मूळ अभिलेख, भाषांतर व अधिकृत अभ्यासक्रम तपासावा.
+**Status:** Structurally complete study pack for review. Official MPSC PYQ verification remains separate and must use the original question paper plus official final answer key.
