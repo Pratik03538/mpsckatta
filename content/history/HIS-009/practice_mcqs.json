@@ -4,7 +4,7 @@
   "topic_title": "मौर्योत्तर राजवंश",
   "language": "mr",
   "content_type": "practice_mcq",
-  "question_count": 39,
+  "question_count": 50,
   "answer_key_included": true,
   "items": [
     {
@@ -628,6 +628,182 @@
       "answer": "साहित्य, अभिलेख, नाणी व पुरातत्त्व",
       "explanation": "वंशावळ, राजकीय घडामोडी आणि अर्थव्यवस्थेसाठी विविध स्रोतांची परस्पर पडताळणी आवश्यक असते.",
       "question_id": "HIS-009-MCQ-039",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 40,
+      "question": "मालविकाग्निमित्रम् या नाटकाचा नायक कोण?",
+      "options": {
+        "A": "अग्निमित्र",
+        "B": "पुष्यमित्र",
+        "C": "वसुदेव",
+        "D": "कनिष्क"
+      },
+      "correct_option": "A",
+      "answer": "अग्निमित्र",
+      "explanation": "कालिदासाच्या मालविकाग्निमित्रम् नाटकाचा नायक शुंग शासक अग्निमित्र आहे.",
+      "question_id": "HIS-009-MCQ-040",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 41,
+      "question": "शुंग वंशातील पुष्यमित्रानंतर कोणाचा उल्लेख उत्तराधिकारी म्हणून येतो?",
+      "options": {
+        "A": "अग्निमित्र",
+        "B": "कनिष्क",
+        "C": "मेनांडर",
+        "D": "चष्टन"
+      },
+      "correct_option": "A",
+      "answer": "अग्निमित्र",
+      "explanation": "अग्निमित्र हा पुष्यमित्र शुंगाचा पुत्र व उत्तराधिकारी मानला जातो.",
+      "question_id": "HIS-009-MCQ-041",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 42,
+      "question": "हाथीगुंफा शिलालेख कोणत्या राजाशी संबंधित आहे?",
+      "options": {
+        "A": "खारवेल",
+        "B": "रुद्रदामन",
+        "C": "कनिष्क",
+        "D": "मेनांडर"
+      },
+      "correct_option": "A",
+      "answer": "खारवेल",
+      "explanation": "ओडिशातील उदयगिरी परिसरातील हाथीगुंफा शिलालेख कलिंगचा राजा खारवेल याच्याशी संबंधित आहे.",
+      "question_id": "HIS-009-MCQ-042",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 43,
+      "question": "खारवेल कोणत्या राजवंशाशी संबंधित मानला जातो?",
+      "options": {
+        "A": "महामेघवाहन/चेदी",
+        "B": "गुप्त",
+        "C": "कुषाण",
+        "D": "कण्व"
+      },
+      "correct_option": "A",
+      "answer": "महामेघवाहन/चेदी",
+      "explanation": "खारवेलचा संबंध महामेघवाहन किंवा चेदी परंपरेशी जोडला जातो.",
+      "question_id": "HIS-009-MCQ-043",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 44,
+      "question": "इंडो-ग्रीक नाण्यांचे एक महत्त्वाचे वैशिष्ट्य कोणते?",
+      "options": {
+        "A": "राजाची प्रतिमा व द्विभाषिक लेख",
+        "B": "फक्त चौकोनी आकार",
+        "C": "फक्त देवनागरी लेख",
+        "D": "नाण्यांवर कोणतेही चिन्ह नाही"
+      },
+      "correct_option": "A",
+      "answer": "राजाची प्रतिमा व द्विभाषिक लेख",
+      "explanation": "अनेक इंडो-ग्रीक नाण्यांवर राजप्रतिमा आणि ग्रीक-खरोष्ठी/भारतीय भाषिक लेख आढळतात.",
+      "question_id": "HIS-009-MCQ-044",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 45,
+      "question": "बॅक्ट्रिया आजच्या कोणत्या प्रदेशाशी प्रामुख्याने संबंधित आहे?",
+      "options": {
+        "A": "उत्तर अफगाणिस्तान व आसपासचा मध्य आशिया",
+        "B": "दक्षिण तमिळनाडू",
+        "C": "बंगालचा डेल्टा",
+        "D": "केरळ किनारा"
+      },
+      "correct_option": "A",
+      "answer": "उत्तर अफगाणिस्तान व आसपासचा मध्य आशिया",
+      "explanation": "बॅक्ट्रिया हा हिंदुकुशच्या उत्तरेकडील प्राचीन मध्य आशियाई प्रदेश होता.",
+      "question_id": "HIS-009-MCQ-045",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 46,
+      "question": "पश्चिम क्षत्रपांच्या नाण्यांवरील लेख इतिहासकारांना मुख्यतः कशासाठी मदत करतात?",
+      "options": {
+        "A": "शासकांचा क्रम व कालक्रम समजण्यासाठी",
+        "B": "वैदिक मंत्र पुनर्रचित करण्यासाठी",
+        "C": "हडप्पा लिपी वाचण्यासाठी",
+        "D": "मौर्य स्तंभ हलवण्यासाठी"
+      },
+      "correct_option": "A",
+      "answer": "शासकांचा क्रम व कालक्रम समजण्यासाठी",
+      "explanation": "नाण्यांवरील नावे, पदव्या आणि दिनांक यांमुळे क्षत्रपांचा राजकीय क्रम व कालक्रम समजण्यास मदत होते.",
+      "question_id": "HIS-009-MCQ-046",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 47,
+      "question": "रुद्रदामनच्या जुनागढ लेखाचे ऐतिहासिक महत्त्व काय?",
+      "options": {
+        "A": "संस्कृत प्रशस्ती व जलव्यवस्थेची माहिती",
+        "B": "हडप्पा लिपीचे वाचन",
+        "C": "बुद्धांच्या जन्माची नोंद",
+        "D": "दिल्ली सल्तनतीची स्थापना"
+      },
+      "correct_option": "A",
+      "answer": "संस्कृत प्रशस्ती व जलव्यवस्थेची माहिती",
+      "explanation": "या लेखातून रुद्रदामनची प्रशस्ती, सुदर्शन तलावाची दुरुस्ती आणि त्याच्या सत्ताक्षेत्राची माहिती मिळते.",
+      "question_id": "HIS-009-MCQ-047",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 48,
+      "question": "कुषाण काळात 'क्षत्रप' या पदाचा संबंध कोणत्या कामाशी होता?",
+      "options": {
+        "A": "प्रांतीय प्रशासन/प्रतिनिधी शासन",
+        "B": "बौद्ध भिक्षूंचा संघ",
+        "C": "ग्रामातील कारागीर संघ",
+        "D": "नाणे टाकण्याची पद्धत"
+      },
+      "correct_option": "A",
+      "answer": "प्रांतीय प्रशासन/प्रतिनिधी शासन",
+      "explanation": "कुषाण साम्राज्याच्या विस्तृत प्रदेशांचे व्यवस्थापन करण्यासाठी क्षत्रपांसारखे प्रांतीय प्रतिनिधी वापरले जात.",
+      "question_id": "HIS-009-MCQ-048",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 49,
+      "question": "कुषाण नाण्यांवरील विविध देवतांची प्रतिमा कोणता निष्कर्ष सूचित करते?",
+      "options": {
+        "A": "धार्मिक व सांस्कृतिक बहुविधता",
+        "B": "सर्व धर्मांवर बंदी",
+        "C": "केवळ बौद्ध प्रतिमा",
+        "D": "परकीय संस्कृतीचा पूर्ण नकार"
+      },
+      "correct_option": "A",
+      "answer": "धार्मिक व सांस्कृतिक बहुविधता",
+      "explanation": "नाण्यांवर विविध देवतांचे दर्शन कुषाण दरबारातील बहुसांस्कृतिक संपर्क व धार्मिक विविधता दाखवते.",
+      "question_id": "HIS-009-MCQ-049",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 50,
+      "question": "मौर्योत्तर राजकीय इतिहास समजताना नाण्यांचा उपयोग का महत्त्वाचा आहे?",
+      "options": {
+        "A": "राजांची नावे, पदव्या, अर्थव्यवस्था व व्यापाराचे संकेत मिळतात",
+        "B": "ते नेहमी राजांचे आत्मचरित्र असतात",
+        "C": "त्यांवरून सर्व सामाजिक स्तर कळतात",
+        "D": "ते फक्त धार्मिक कथा सांगतात"
+      },
+      "correct_option": "A",
+      "answer": "राजांची नावे, पदव्या, अर्थव्यवस्था व व्यापाराचे संकेत मिळतात",
+      "explanation": "नाणे हे राजकीय अधिकार, आर्थिक व्यवहार, देवतांची प्रतिमा आणि प्रादेशिक संपर्क यांचे महत्त्वाचे पुरावे आहेत.",
+      "question_id": "HIS-009-MCQ-050",
       "source_status": "author_created_practice_not_pyq",
       "student_forwardable": true
     }
