@@ -1,0 +1,811 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "HIS-006",
+  "topic_title": "बौद्ध धर्म",
+  "language": "mr",
+  "content_type": "practice_mcq",
+  "question_count": 50,
+  "answer_key_included": true,
+  "items": [
+    {
+      "question_no": 1,
+      "question": "बुद्धांचा जन्मस्थळ कोणते?",
+      "options": {
+        "A": "लुंबिनी",
+        "B": "बोधगया",
+        "C": "सारनाथ",
+        "D": "कुशीनगर"
+      },
+      "correct_option": "A",
+      "answer": "लुंबिनी",
+      "explanation": "लुंबिनी हे बुद्धांचे जन्मस्थळ मानले जाते.",
+      "question_id": "HIS-006-MCQ-001",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 2,
+      "question": "बुद्धांना ज्ञानप्राप्ती कोठे झाली?",
+      "options": {
+        "A": "राजगृह",
+        "B": "बोधगया",
+        "C": "वैशाली",
+        "D": "श्रावस्ती"
+      },
+      "correct_option": "B",
+      "answer": "बोधगया",
+      "explanation": "बोधगया येथे बोधीप्राप्तीची परंपरा आहे.",
+      "question_id": "HIS-006-MCQ-002",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 3,
+      "question": "बुद्धांचा पहिला उपदेश कुठे झाला?",
+      "options": {
+        "A": "कुशीनगर",
+        "B": "लुंबिनी",
+        "C": "सारनाथ",
+        "D": "पाटलीपुत्र"
+      },
+      "correct_option": "C",
+      "answer": "सारनाथ",
+      "explanation": "सारनाथ येथे धर्मचक्रप्रवर्तन झाले.",
+      "question_id": "HIS-006-MCQ-003",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 4,
+      "question": "बुद्धांचे महापरिनिर्वाण स्थळ कोणते?",
+      "options": {
+        "A": "कपिलवस्तू",
+        "B": "वैशाली",
+        "C": "नालंदा",
+        "D": "कुशीनगर"
+      },
+      "correct_option": "D",
+      "answer": "कुशीनगर",
+      "explanation": "कुशीनगर हे महापरिनिर्वाणाशी संबंधित आहे.",
+      "question_id": "HIS-006-MCQ-004",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 5,
+      "question": "बुद्धांचे बालनाव काय?",
+      "options": {
+        "A": "सिद्धार्थ गौतम",
+        "B": "वर्धमान",
+        "C": "राहुल",
+        "D": "आनंद"
+      },
+      "correct_option": "A",
+      "answer": "सिद्धार्थ गौतम",
+      "explanation": "सिद्धार्थ गौतम हे बुद्धांचे पारंपरिक नाव.",
+      "question_id": "HIS-006-MCQ-005",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 6,
+      "question": "चार दृश्यांपैकी कोणते दृश्य परंपरेत समाविष्ट नाही?",
+      "options": {
+        "A": "वृद्ध",
+        "B": "व्यापारी",
+        "C": "रोगी",
+        "D": "मृतदेह"
+      },
+      "correct_option": "B",
+      "answer": "व्यापारी",
+      "explanation": "वृद्ध, रोगी, मृतदेह आणि संन्यासी ही चार दृश्ये.",
+      "question_id": "HIS-006-MCQ-006",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 7,
+      "question": "गृहत्यागाला कोणती संज्ञा वापरली जाते?",
+      "options": {
+        "A": "धर्मचक्रप्रवर्तन",
+        "B": "महापरिनिर्वाण",
+        "C": "महाभिनिष्क्रमण",
+        "D": "उपोसथ"
+      },
+      "correct_option": "C",
+      "answer": "महाभिनिष्क्रमण",
+      "explanation": "महाभिनिष्क्रमण म्हणजे गृहत्याग.",
+      "question_id": "HIS-006-MCQ-007",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 8,
+      "question": "बोधीप्राप्तीनंतर सिद्धार्थांना कोणत्या नावाने ओळखले गेले?",
+      "options": {
+        "A": "जिन",
+        "B": "तीर्थंकर",
+        "C": "महावीर",
+        "D": "बुद्ध"
+      },
+      "correct_option": "D",
+      "answer": "बुद्ध",
+      "explanation": "बुद्ध म्हणजे जागृत/ज्ञानप्राप्त.",
+      "question_id": "HIS-006-MCQ-008",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 9,
+      "question": "चार आर्यसत्यांपैकी पहिले सत्य कोणते?",
+      "options": {
+        "A": "दुःख",
+        "B": "तृष्णा",
+        "C": "निर्वाण",
+        "D": "कर्म"
+      },
+      "correct_option": "A",
+      "answer": "दुःख",
+      "explanation": "पहिले आर्यसत्य दुःख.",
+      "question_id": "HIS-006-MCQ-009",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 10,
+      "question": "दुःखसमुदयाचा मुख्य संबंध कशाशी आहे?",
+      "options": {
+        "A": "दान",
+        "B": "तृष्णा",
+        "C": "ध्यानस्थळ",
+        "D": "राजसत्ता"
+      },
+      "correct_option": "B",
+      "answer": "तृष्णा",
+      "explanation": "तृष्णा व आसक्ती दुःखाच्या उत्पत्तीशी जोडली जाते.",
+      "question_id": "HIS-006-MCQ-010",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 11,
+      "question": "दुःखाचा निरोध कोणत्या संकल्पनेशी संबंधित?",
+      "options": {
+        "A": "पुनर्जन्म",
+        "B": "यज्ञ",
+        "C": "निर्वाण",
+        "D": "वर्ण"
+      },
+      "correct_option": "C",
+      "answer": "निर्वाण",
+      "explanation": "तृष्णेचा क्षय व निर्वाण.",
+      "question_id": "HIS-006-MCQ-011",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 12,
+      "question": "दुःखनिरोधाकडे नेणारा मार्ग कोणता?",
+      "options": {
+        "A": "पंचमहाभूत",
+        "B": "पंचशीलच",
+        "C": "वेदांग",
+        "D": "अष्टांगिक मार्ग"
+      },
+      "correct_option": "D",
+      "answer": "अष्टांगिक मार्ग",
+      "explanation": "चौथे आर्यसत्य अष्टांगिक मार्ग सांगते.",
+      "question_id": "HIS-006-MCQ-012",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 13,
+      "question": "मध्यम मार्ग कोणत्या दोन टोकांना नाकारतो?",
+      "options": {
+        "A": "अतिभोग व अतितप",
+        "B": "व्यापार व शेती",
+        "C": "ज्ञान व दान",
+        "D": "संघ व गृहस्थ"
+      },
+      "correct_option": "A",
+      "answer": "अतिभोग व अतितप",
+      "explanation": "बुद्धांनी अतिभोग आणि कठोर आत्मपीडा टाळण्यास सांगितले.",
+      "question_id": "HIS-006-MCQ-013",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 14,
+      "question": "अष्टांगिक मार्गातील 'सम्यक वाचा' म्हणजे?",
+      "options": {
+        "A": "योग्य व्यापार",
+        "B": "योग्य वाणी",
+        "C": "योग्य कर",
+        "D": "योग्य जन्म"
+      },
+      "correct_option": "B",
+      "answer": "योग्य वाणी",
+      "explanation": "असत्य, कठोर, चुगली आणि निरर्थक बोलणे टाळणे.",
+      "question_id": "HIS-006-MCQ-014",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 15,
+      "question": "'सम्यक आजीविका' कशाशी संबंधित?",
+      "options": {
+        "A": "युद्धकला",
+        "B": "राजवंश",
+        "C": "नैतिक उपजीविका",
+        "D": "मंदिर बांधकाम"
+      },
+      "correct_option": "C",
+      "answer": "नैतिक उपजीविका",
+      "explanation": "इतरांना हानी न पोहोचवणारा उपजीविकामार्ग.",
+      "question_id": "HIS-006-MCQ-015",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 16,
+      "question": "अनित्य या संकल्पनेचा अर्थ?",
+      "options": {
+        "A": "आत्मा कायम बदलत नाही",
+        "B": "सर्व वस्तू स्थिर",
+        "C": "कर्म अस्तित्वात नाही",
+        "D": "सर्व संस्कारित गोष्टी बदलतात"
+      },
+      "correct_option": "D",
+      "answer": "सर्व संस्कारित गोष्टी बदलतात",
+      "explanation": "अनित्य म्हणजे अस्थिरता/बदल.",
+      "question_id": "HIS-006-MCQ-016",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 17,
+      "question": "अनात्मवाद कोणत्या विचाराला नकार देतो?",
+      "options": {
+        "A": "स्थिर अपरिवर्तनीय आत्मा",
+        "B": "कर्म",
+        "C": "नैतिकता",
+        "D": "ध्यान"
+      },
+      "correct_option": "A",
+      "answer": "स्थिर अपरिवर्तनीय आत्मा",
+      "explanation": "बौद्ध विचार स्थिर आत्मतत्त्व मानत नाही.",
+      "question_id": "HIS-006-MCQ-017",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 18,
+      "question": "प्रतीत्यसमुत्पाद काय स्पष्ट करतो?",
+      "options": {
+        "A": "एकमेव सर्जक",
+        "B": "परस्परावलंबी कारणसाखळी",
+        "C": "राजकीय शासन",
+        "D": "व्यापारमार्ग"
+      },
+      "correct_option": "B",
+      "answer": "परस्परावलंबी कारणसाखळी",
+      "explanation": "घटना कारण-परिस्थितींवर अवलंबून उदयास येतात.",
+      "question_id": "HIS-006-MCQ-018",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 19,
+      "question": "पंचस्कंधांपैकी कोणता घटक आहे?",
+      "options": {
+        "A": "राजन्",
+        "B": "यज्ञ",
+        "C": "रूप",
+        "D": "महाजनपद"
+      },
+      "correct_option": "C",
+      "answer": "रूप",
+      "explanation": "रूप, वेदना, संज्ञा, संस्कार, विज्ञान हे पंचस्कंध.",
+      "question_id": "HIS-006-MCQ-019",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 20,
+      "question": "बौद्ध संघाचे चार घटक कोणते?",
+      "options": {
+        "A": "राजा, मंत्री, सेना, जनता",
+        "B": "ऋषी, यजमान, पुरोहित, व्यापारी",
+        "C": "साधू, साध्वी, श्रावक, श्राविका",
+        "D": "भिक्षू, भिक्षुणी, उपासक, उपासिका"
+      },
+      "correct_option": "D",
+      "answer": "भिक्षू, भिक्षुणी, उपासक, उपासिका",
+      "explanation": "बौद्ध समुदायाचे पारंपरिक चार घटक.",
+      "question_id": "HIS-006-MCQ-020",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 21,
+      "question": "गृहस्थ बौद्धांसाठी पाच नैतिक नियमांना काय म्हणतात?",
+      "options": {
+        "A": "पंचशील",
+        "B": "पंचमहाव्रत",
+        "C": "त्रिरत्न",
+        "D": "सप्तभंगी"
+      },
+      "correct_option": "A",
+      "answer": "पंचशील",
+      "explanation": "पंचशील गृहस्थ नैतिक आचरणाचा आधार.",
+      "question_id": "HIS-006-MCQ-021",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 22,
+      "question": "विनयपिटकात काय आहे?",
+      "options": {
+        "A": "बुद्धांचे केवळ चरित्र",
+        "B": "संघशिस्त व नियम",
+        "C": "तात्त्विक वर्गीकरण",
+        "D": "जातक कथा"
+      },
+      "correct_option": "B",
+      "answer": "संघशिस्त व नियम",
+      "explanation": "विनयपिटक भिक्षुसंघाच्या शिस्तीशी संबंधित.",
+      "question_id": "HIS-006-MCQ-022",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 23,
+      "question": "सुत्तपिटकात काय आहे?",
+      "options": {
+        "A": "फक्त मठांचे नियम",
+        "B": "केवळ मूर्ती",
+        "C": "उपदेश व प्रवचने",
+        "D": "करनोंदी"
+      },
+      "correct_option": "C",
+      "answer": "उपदेश व प्रवचने",
+      "explanation": "सुत्तपिटकात बुद्धांचे उपदेश व संवाद.",
+      "question_id": "HIS-006-MCQ-023",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 24,
+      "question": "अभिधम्मपिटकाचे स्वरूप काय?",
+      "options": {
+        "A": "राजकीय करनोंदी",
+        "B": "स्थापत्यनियम",
+        "C": "व्यापारकथा",
+        "D": "तात्त्विक/मानसिक घटकांचे विश्लेषण"
+      },
+      "correct_option": "D",
+      "answer": "तात्त्विक/मानसिक घटकांचे विश्लेषण",
+      "explanation": "अभिधम्मात तात्त्विक विश्लेषण दिसते.",
+      "question_id": "HIS-006-MCQ-024",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 25,
+      "question": "पहिली बौद्ध संगीती पारंपरिकरित्या कुठे?",
+      "options": {
+        "A": "राजगृह",
+        "B": "वैशाली",
+        "C": "पाटलीपुत्र",
+        "D": "काश्मीर"
+      },
+      "correct_option": "A",
+      "answer": "राजगृह",
+      "explanation": "पहिली संगीती राजगृहाशी जोडली जाते.",
+      "question_id": "HIS-006-MCQ-025",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 26,
+      "question": "दुसरी संगीती कोणत्या स्थळाशी जोडली जाते?",
+      "options": {
+        "A": "सारनाथ",
+        "B": "वैशाली",
+        "C": "सांची",
+        "D": "तक्षशिला"
+      },
+      "correct_option": "B",
+      "answer": "वैशाली",
+      "explanation": "दुसरी संगीती वैशालीशी संबंधित.",
+      "question_id": "HIS-006-MCQ-026",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 27,
+      "question": "अशोकाशी संबंधित तिसरी संगीती कुठे झाली अशी परंपरा आहे?",
+      "options": {
+        "A": "कुशीनगर",
+        "B": "लुंबिनी",
+        "C": "पाटलीपुत्र",
+        "D": "उज्जयिनी"
+      },
+      "correct_option": "C",
+      "answer": "पाटलीपुत्र",
+      "explanation": "थेरवादी परंपरेत पाटलीपुत्र.",
+      "question_id": "HIS-006-MCQ-027",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 28,
+      "question": "कनिष्काशी संबंधित चौथी संगीती कोणत्या प्रदेशाशी जोडली जाते?",
+      "options": {
+        "A": "वैशाली",
+        "B": "लुंबिनी",
+        "C": "चंपा",
+        "D": "काश्मीर/कुंडलवन"
+      },
+      "correct_option": "D",
+      "answer": "काश्मीर/कुंडलवन",
+      "explanation": "काही उत्तर बौद्ध परंपरांत काश्मीर.",
+      "question_id": "HIS-006-MCQ-028",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 29,
+      "question": "त्रिपिटकातील तीन पिटक कोणते?",
+      "options": {
+        "A": "विनय, सुत्त, अभिधम्म",
+        "B": "ऋग्, साम, यजुर",
+        "C": "जीव, अजीव, कर्म",
+        "D": "सभा, समिती, विदथ"
+      },
+      "correct_option": "A",
+      "answer": "विनय, सुत्त, अभिधम्म",
+      "explanation": "पाली त्रिपिटकाची तीन विभागणी.",
+      "question_id": "HIS-006-MCQ-029",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 30,
+      "question": "जातककथा कशाशी संबंधित?",
+      "options": {
+        "A": "मौर्य राजवंश",
+        "B": "बुद्धांच्या पूर्वजन्मांच्या कथा",
+        "C": "जैन तीर्थंकर",
+        "D": "वैदिक यज्ञ"
+      },
+      "correct_option": "B",
+      "answer": "बुद्धांच्या पूर्वजन्मांच्या कथा",
+      "explanation": "जातकांमध्ये बुद्धांच्या पूर्वजन्मकथा आहेत.",
+      "question_id": "HIS-006-MCQ-030",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 31,
+      "question": "थेरवाद परंपरेचा महत्त्वाचा ग्रंथसंच कोणता?",
+      "options": {
+        "A": "वेद",
+        "B": "आगम",
+        "C": "पाली कॅनन",
+        "D": "अर्थशास्त्र"
+      },
+      "correct_option": "C",
+      "answer": "पाली कॅनन",
+      "explanation": "थेरवाद पाली त्रिपिटकावर आधारित आहे.",
+      "question_id": "HIS-006-MCQ-031",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 32,
+      "question": "महायान परंपरेत कोणत्या आदर्शाला महत्त्व?",
+      "options": {
+        "A": "अश्वमेध",
+        "B": "राजसूय",
+        "C": "तीर्थंकर",
+        "D": "बोधिसत्त्व"
+      },
+      "correct_option": "D",
+      "answer": "बोधिसत्त्व",
+      "explanation": "बोधिसत्त्व आदर्श महायानात केंद्रस्थानी.",
+      "question_id": "HIS-006-MCQ-032",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 33,
+      "question": "वज्रयानात कोणत्या साधनांना विशेष महत्त्व?",
+      "options": {
+        "A": "मंत्र, मुद्रा, मंडल",
+        "B": "केवळ यज्ञ",
+        "C": "पंचमहाव्रत",
+        "D": "नाणेप्रचलन"
+      },
+      "correct_option": "A",
+      "answer": "मंत्र, मुद्रा, मंडल",
+      "explanation": "वज्रयान तांत्रिक साधनांशी संबंधित.",
+      "question_id": "HIS-006-MCQ-033",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 34,
+      "question": "अशोकाच्या काळात बौद्ध धर्माला काय मिळाले?",
+      "options": {
+        "A": "पूर्ण अंत",
+        "B": "महत्त्वाचा राजाश्रय व प्रसाराची चालना",
+        "C": "फक्त व्यापारबंदी",
+        "D": "कोणताही बदल नाही"
+      },
+      "correct_option": "B",
+      "answer": "महत्त्वाचा राजाश्रय व प्रसाराची चालना",
+      "explanation": "अशोकाच्या आश्रयाची परंपरा व अभिलेखीय संदर्भ महत्त्वाचे.",
+      "question_id": "HIS-006-MCQ-034",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 35,
+      "question": "स्तूपाचा मुख्य उपयोग/संबंध कोणता?",
+      "options": {
+        "A": "भिक्षूंचे निवासस्थान",
+        "B": "बाजारपेठ",
+        "C": "बौद्ध अवशेष व स्मारकपूजा",
+        "D": "राजदरबार"
+      },
+      "correct_option": "C",
+      "answer": "बौद्ध अवशेष व स्मारकपूजा",
+      "explanation": "स्तूप बौद्ध स्मारक व उपासनेशी संबंधित.",
+      "question_id": "HIS-006-MCQ-035",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 36,
+      "question": "चैत्य म्हणजे काय?",
+      "options": {
+        "A": "भिक्षूंचा निवास",
+        "B": "धान्यकोठार",
+        "C": "राजवाडा",
+        "D": "प्रार्थना/उपासना सभागृह"
+      },
+      "correct_option": "D",
+      "answer": "प्रार्थना/उपासना सभागृह",
+      "explanation": "चैत्यगृह उपासनेसाठी वापरले जाई.",
+      "question_id": "HIS-006-MCQ-036",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 37,
+      "question": "विहार कशासाठी वापरला जाई?",
+      "options": {
+        "A": "भिक्षूंचे निवास व अध्ययन",
+        "B": "राजकीय सभा",
+        "C": "नाणे टाकसाळ",
+        "D": "शस्त्रागार"
+      },
+      "correct_option": "A",
+      "answer": "भिक्षूंचे निवास व अध्ययन",
+      "explanation": "विहार संघजीवनाचे केंद्र.",
+      "question_id": "HIS-006-MCQ-037",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 38,
+      "question": "सांची कोणत्या स्थापत्याशी प्रसिद्ध?",
+      "options": {
+        "A": "जैन मंदिर",
+        "B": "बौद्ध स्तूप",
+        "C": "मुघल मकबरा",
+        "D": "वैदिक वेदी"
+      },
+      "correct_option": "B",
+      "answer": "बौद्ध स्तूप",
+      "explanation": "सांचीचा स्तूप बौद्ध स्थापत्याचे प्रमुख उदाहरण.",
+      "question_id": "HIS-006-MCQ-038",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 39,
+      "question": "अजिंठा कोणत्या कलाप्रकारासाठी प्रसिद्ध?",
+      "options": {
+        "A": "अशोकाचे शिलालेख",
+        "B": "सिंधू शिक्के",
+        "C": "बौद्ध विषयांवरील चित्रकला व गुहा",
+        "D": "जैन परिषद"
+      },
+      "correct_option": "C",
+      "answer": "बौद्ध विषयांवरील चित्रकला व गुहा",
+      "explanation": "अजिंठा चित्रकला व गुहा स्थापत्य महत्त्वाचे.",
+      "question_id": "HIS-006-MCQ-039",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 40,
+      "question": "कार्ले कोणत्या स्थापत्याशी विशेष संबंधित?",
+      "options": {
+        "A": "जैन परिषद",
+        "B": "वैदिक वेदी",
+        "C": "मौर्य राजवाडा",
+        "D": "बौद्ध चैत्यगृह"
+      },
+      "correct_option": "D",
+      "answer": "बौद्ध चैत्यगृह",
+      "explanation": "कार्लेचे चैत्यगृह प्रसिद्ध आहे.",
+      "question_id": "HIS-006-MCQ-040",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 41,
+      "question": "बौद्ध धर्माचा श्रीलंकेतील प्रसार कोणत्या नावांशी जोडला जातो?",
+      "options": {
+        "A": "महिंद व संघमित्ता",
+        "B": "मेगॅस्थेनीज व कौटिल्य",
+        "C": "ऋषभदेव व महावीर",
+        "D": "बिंबिसार व अजातशत्रू"
+      },
+      "correct_option": "A",
+      "answer": "महिंद व संघमित्ता",
+      "explanation": "श्रीलंकेतील धम्मप्रसाराची परंपरा.",
+      "question_id": "HIS-006-MCQ-041",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 42,
+      "question": "रेशीम मार्गाने बौद्ध धर्माच्या प्रसाराला काय मदत केली?",
+      "options": {
+        "A": "फक्त सैन्य",
+        "B": "भिक्षू, व्यापारी व भाषांतरजाळे",
+        "C": "शेतीवरील बंदी",
+        "D": "समुद्री चाचे"
+      },
+      "correct_option": "B",
+      "answer": "भिक्षू, व्यापारी व भाषांतरजाळे",
+      "explanation": "व्यापारी संपर्क व भाषांतरांनी प्रसारास मदत केली.",
+      "question_id": "HIS-006-MCQ-042",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 43,
+      "question": "जैन धर्माशी तुलना करता बौद्ध धर्मातील एक तात्त्विक फरक कोणता?",
+      "options": {
+        "A": "बौद्ध कर्म नाकारतात",
+        "B": "बौद्ध पुनर्जन्म नाकारतात",
+        "C": "बौद्ध अनात्मवाद मांडतात",
+        "D": "बौद्ध संघ नसतो"
+      },
+      "correct_option": "C",
+      "answer": "बौद्ध अनात्मवाद मांडतात",
+      "explanation": "आत्मतत्त्वाविषयी दोन्ही परंपरांत महत्त्वाचा फरक.",
+      "question_id": "HIS-006-MCQ-043",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 44,
+      "question": "बौद्ध संघातील उपासक म्हणजे कोण?",
+      "options": {
+        "A": "भिक्षुणी",
+        "B": "राजाधिकारी",
+        "C": "परकीय व्यापारी",
+        "D": "गृहस्थ पुरुष अनुयायी"
+      },
+      "correct_option": "D",
+      "answer": "गृहस्थ पुरुष अनुयायी",
+      "explanation": "उपासक हा गृहस्थ पुरुष अनुयायी.",
+      "question_id": "HIS-006-MCQ-044",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 45,
+      "question": "भिक्षुणी संघ कशाशी संबंधित?",
+      "options": {
+        "A": "स्त्रियांचा संन्यस्त बौद्ध समुदाय",
+        "B": "व्यापारी संघ",
+        "C": "सैन्यदल",
+        "D": "जैन परिषद"
+      },
+      "correct_option": "A",
+      "answer": "स्त्रियांचा संन्यस्त बौद्ध समुदाय",
+      "explanation": "भिक्षुणी म्हणजे संन्यस्त स्त्री समुदाय.",
+      "question_id": "HIS-006-MCQ-045",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 46,
+      "question": "धम्मपद कोणत्या परंपरेतील ग्रंथ?",
+      "options": {
+        "A": "जैन",
+        "B": "बौद्ध",
+        "C": "वैदिक",
+        "D": "मुघल"
+      },
+      "correct_option": "B",
+      "answer": "बौद्ध",
+      "explanation": "धम्मपद हा बौद्ध गाथांचा प्रसिद्ध संग्रह.",
+      "question_id": "HIS-006-MCQ-046",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 47,
+      "question": "बौद्ध कला व स्थापत्याचा महाराष्ट्रातील समूह कोणता?",
+      "options": {
+        "A": "दिलवाडा, रणकपूर",
+        "B": "लोथल, धोलावीरा",
+        "C": "कार्ले, भाजे, नाशिक, अजिंठा",
+        "D": "पाटलीपुत्र, वैशाली"
+      },
+      "correct_option": "C",
+      "answer": "कार्ले, भाजे, नाशिक, अजिंठा",
+      "explanation": "ही महाराष्ट्रातील महत्त्वाची बौद्ध गुहा/स्थळे.",
+      "question_id": "HIS-006-MCQ-047",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 48,
+      "question": "बुद्धांच्या जीवनातील चार प्रमुख स्थळांचा योग्य क्रम कोणता?",
+      "options": {
+        "A": "सारनाथ-लुंबिनी-कुशीनगर-बोधगया",
+        "B": "वैशाली-राजगृह-पाटलीपुत्र-काश्मीर",
+        "C": "सांची-भरहूत-अमरावती-अजिंठा",
+        "D": "लुंबिनी-बोधगया-सारनाथ-कुशीनगर"
+      },
+      "correct_option": "D",
+      "answer": "लुंबिनी-बोधगया-सारनाथ-कुशीनगर",
+      "explanation": "जन्म, ज्ञान, पहिला उपदेश, महापरिनिर्वाण.",
+      "question_id": "HIS-006-MCQ-048",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 49,
+      "question": "बौद्ध इतिहासाचा अभ्यास करताना योग्य पद्धत कोणती?",
+      "options": {
+        "A": "साहित्य, शिलालेख, पुरातत्त्व व पंथभेदांची तुलना",
+        "B": "एकाच परंपरेचे सर्व तपशील निर्विवाद मानणे",
+        "C": "फक्त आख्यायिका वापरणे",
+        "D": "कालक्रम दुर्लक्षित करणे"
+      },
+      "correct_option": "A",
+      "answer": "साहित्य, शिलालेख, पुरातत्त्व व पंथभेदांची तुलना",
+      "explanation": "बहुस्रोत दृष्टिकोन अधिक संतुलित इतिहास देतो.",
+      "question_id": "HIS-006-MCQ-049",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 50,
+      "question": "बौद्ध धर्माचा इतिहास अभ्यासताना सर्वाधिक योग्य स्रोतपद्धती कोणती?",
+      "options": {
+        "A": "फक्त बुद्धचरित्रातील आख्यायिका अक्षरशः स्वीकारणे",
+        "B": "पाली साहित्य, शिलालेख, स्तूप-गुहा व पुरातत्त्वीय पुरावे यांची तुलना करणे",
+        "C": "सर्व बौद्ध पंथ एकसारखे मानणे",
+        "D": "संगीतींचे मतभेद दुर्लक्षित करणे"
+      },
+      "correct_option": "B",
+      "answer": "पाली साहित्य, शिलालेख, स्तूप-गुहा व पुरातत्त्वीय पुरावे यांची तुलना करणे",
+      "explanation": "बौद्ध इतिहासाचे स्रोत वेगवेगळ्या काळांत व परंपरांत तयार झाले. त्यांची परस्पर तुलना केल्यास घटना, प्रसार आणि पंथभेद अधिक संतुलितरीत्या समजतात.",
+      "question_id": "HIS-006-MCQ-050",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    }
+  ]
+}
