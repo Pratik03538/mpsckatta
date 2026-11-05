@@ -1,36 +1,35 @@
-# HIS-005 — गुणवत्ता अहवाल
+# HIS-005 — Quality Report (Actual Content Audit)
 
-## प्रत्यक्ष सामग्री तपासणी
+## Verified structure and counts on this branch
 
-| घटक | या आवृत्तीतील स्थिती |
+| Component | Actual status |
 |---|---|
-| Detailed Notes | तीर्थंकर, महावीर, पंचमहाव्रते, तत्त्वज्ञान, पंथ, साहित्य, प्रसार, कला व स्रोतचिकित्सा |
-| Visual Revision | 7 विभाग: तीर्थंकर, व्रते, त्रिरत्न, तत्त्वज्ञान, पंथ, स्थळे, साहित्य |
-| Practice MCQs | 50 नवीन सराव प्रश्न; उत्तर व स्पष्टीकरण |
-| Topic Test | 40 गुणांची विभागवार चाचणी |
-| Flashcards | 30 Active Recall कार्डे |
-| Quick Recall | संकल्पना तुलना व स्व-परीक्षा |
-| PYQ | अधिकृत मूळ प्रश्नपत्रिका/अंतिम उत्तरतालिकेशी पडताळलेले प्रश्न सध्या नाहीत |
+| Detailed Notes | 2,028 words |
+| Practice MCQs | 50 questions, with answer key and explanations |
+| Topic Test | 40-mark assessment with objective, short-answer and/or analysis sections |
+| Flashcards | 30 active-recall cards |
+| Visual Revision | 7 organized visual sections using comparisons, tables, timelines or flow diagrams |
+| Quick Recall | One consolidated revision sheet with key facts, comparisons and self-test prompts |
+| PYQ | No official paper/key-verified questions recorded; study patterns only. |
+| Quality Report | Coverage, counts, caveats and publication checks documented here |
 
-## कव्हरेज तपासणी
+## Coverage checklist
 
-- [x] २४ तीर्थंकर व महावीरांचे जीवन
-- [x] पंचमहाव्रते, त्रिरत्न व मोक्षमार्ग
-- [x] जीव-अजीव, कर्म, अनेकांतवाद, स्याद्वाद व नयवाद
-- [x] दिगंबर व श्वेतांबर पंथ
-- [x] साहित्य, आगम, भाषा व परिषदपरंपरा
-- [x] जैन संघ, प्रसार, राजाश्रय, कला व स्थळे
-- [x] सराव प्रश्न, चाचणी व Active Recall
-- [x] अधिकृत PYQ नसल्याचे स्पष्ट
+- [x] Detailed lesson notes with topic-specific subheadings and exam-focused explanations
+- [x] Visual revision sections that summarize relationships, chronology, sites or concepts
+- [x] 50 practice questions (newly authored practice; not labelled as PYQ)
+- [x] 40-mark topic test and answer guidance
+- [x] 30 flashcards for active recall
+- [x] Quick revision sheet
+- [x] PYQ status stated transparently; no unverified item is represented as officially confirmed
+- [x] Reference links included in the study notes
 
-## शैक्षणिक मर्यादा
+## Accuracy and publication limitations
 
-महावीरांच्या जीवनकालाच्या अचूक तारखा, पंथभेदांच्या विकासाचा क्रम आणि परिषदांचे तपशील विविध परंपरांमध्ये बदलतात. गुणवत्ता अहवाल सामग्रीची व्याप्ती तपासतो; प्रत्येक दाव्याचे स्वतंत्र ऐतिहासिक प्रमाणीकरण करत नाही.
+This audit checks file presence, approximate word count, question/card counts and topic coverage. It does **not** certify every historical claim, answer key or source interpretation. Before publication, cross-check dates, chronology, places, translations and answer keys against the linked academic/primary sources. Where scholarly or sectarian traditions differ, the notes identify the disagreement rather than force one universal answer.
 
-## संदर्भ
+## References
 
-- Encyclopaedia Britannica — Jainism: https://www.britannica.com/topic/Jainism
-- Jainpedia — https://www.jainpedia.org/
-- IGNOU eGyanKosh — https://egyankosh.ac.in/
+Britannica Jainism: https://www.britannica.com/topic/Jainism ; Jainpedia: https://www.jainpedia.org/
 
-**स्थिती:** अभ्यासासाठी विस्तारित आवृत्ती; अंतिम प्रकाशनापूर्वी अधिकृत अभ्यासक्रम व मूळ संदर्भांशी पडताळणी आवश्यक.
+**Status:** Structurally complete study pack for review. Official MPSC PYQ verification remains separate and must use the original question paper plus official final answer key.
