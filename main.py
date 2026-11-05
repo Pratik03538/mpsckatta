@@ -521,6 +521,7 @@ Topic: {topic}
      "source_section": null,
      "source_url": null,
      "answer_source_url": null,
+     "answer_verified": false,
      "source_type": "local_pdf_or_reference_record",
      "verification_status": "needs_human_verification",
      "notes": "काय तपासणे बाकी आहे"
@@ -699,6 +700,10 @@ def write_pyq(
                     lines.append(f"- विभाग: {row.get('source_section')}")
                 if row.get("source_url"):
                     lines.append(f"- मूळ URL: {row.get('source_url')}")
+                if row.get("answer_source_url"):
+                    lines.append(f"- उत्तरतालिका URL: {row.get('answer_source_url')}")
+                if row.get("source_type"):
+                    lines.append(f"- स्रोत प्रकार: {row.get('source_type')}")
                 lines.append(f"- पडताळणी: {row.get('verification_status', 'मानवी पडताळणी आवश्यक')}")
             if row.get("notes"):
                 lines.append(f"- तपासणी नोंद: {row['notes']}")
