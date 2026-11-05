@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "MPSC Katta Assessment Data Schema",
-  "version": "1.0",
-  "description": "Stable machine-readable format for student-facing practice MCQs and official previous-year questions.",
+  "title": "MPSC Katta Assessment & Test Series Data Schema",
+  "version": "1.1",
+  "description": "Stable machine-readable format for student-facing practice MCQs, verified official PYQs, MPSC topic tests and reference-based test series.",
   "$defs": {
     "options": {
       "type": "object",
@@ -343,6 +343,374 @@
         }
       },
       "additionalProperties": false
+    },
+    "topicTestScoring": {
+      "type": "object",
+      "required": [
+        "marks_per_question",
+        "negative_marking_fraction",
+        "wrong_answer_penalty",
+        "multiple_mark_penalty",
+        "blank_all_five_options_penalty",
+        "explicit_not_attempted_option",
+        "explicit_not_attempted_penalty",
+        "formula"
+      ],
+      "properties": {
+        "marks_per_question": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "negative_marking_fraction": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "wrong_answer_penalty": {
+          "type": "number",
+          "minimum": 0
+        },
+        "multiple_mark_penalty": {
+          "type": "number",
+          "minimum": 0
+        },
+        "blank_all_five_options_penalty": {
+          "type": "number",
+          "minimum": 0
+        },
+        "explicit_not_attempted_option": {
+          "const": "E"
+        },
+        "explicit_not_attempted_penalty": {
+          "type": "number",
+          "minimum": 0
+        },
+        "formula": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "testMcqItem": {
+      "type": "object",
+      "required": [
+        "question_id",
+        "question_no",
+        "question",
+        "options",
+        "correct_option",
+        "answer",
+        "explanation",
+        "source_status",
+        "student_forwardable",
+        "display_answer_after_submission"
+      ],
+      "properties": {
+        "question_id": {
+          "type": "string",
+          "pattern": "^HIS-[0-9]{3}-MCQ-[0-9]{3}$"
+        },
+        "question_no": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "options": {
+          "$ref": "#/$defs/options"
+        },
+        "correct_option": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "answer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "explanation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "explanation_status": {
+          "type": "string"
+        },
+        "source_status": {
+          "const": "author_created_practice_not_pyq"
+        },
+        "student_forwardable": {
+          "const": true
+        },
+        "display_answer_after_submission": {
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "topicTestDocument": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "test_id",
+        "topic_id",
+        "topic_title",
+        "language",
+        "content_type",
+        "exam_target",
+        "question_count",
+        "time_limit_minutes",
+        "total_marks",
+        "scoring",
+        "answer_visibility",
+        "source_status",
+        "student_forwardable",
+        "items",
+        "response_options",
+        "skip_option",
+        "exam_rule_effective_date"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "test_id": {
+          "type": "string"
+        },
+        "topic_id": {
+          "type": "string",
+          "pattern": "^HIS-[0-9]{3}$"
+        },
+        "topic_title": {
+          "type": "string"
+        },
+        "language": {
+          "const": "mr"
+        },
+        "content_type": {
+          "const": "mpsc_topic_test"
+        },
+        "exam_target": {
+          "type": "string"
+        },
+        "question_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "time_limit_minutes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "total_marks": {
+          "type": "number",
+          "minimum": 1
+        },
+        "scoring": {
+          "$ref": "#/$defs/topicTestScoring"
+        },
+        "answer_visibility": {
+          "const": "after_submission"
+        },
+        "source_status": {
+          "const": "author_created_practice_not_pyq"
+        },
+        "student_forwardable": {
+          "const": true
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/testMcqItem"
+          }
+        },
+        "response_options": {
+          "const": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        "skip_option": {
+          "const": "E"
+        },
+        "exam_rule_effective_date": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "additionalProperties": false
+    },
+    "testQuestionReference": {
+      "type": "object",
+      "required": [
+        "question_no",
+        "question_id",
+        "topic_id",
+        "source_file"
+      ],
+      "properties": {
+        "question_no": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "question_id": {
+          "type": "string",
+          "pattern": "^HIS-[0-9]{3}-MCQ-[0-9]{3}$"
+        },
+        "topic_id": {
+          "type": "string",
+          "pattern": "^HIS-[0-9]{3}$"
+        },
+        "source_file": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "testSeriesItem": {
+      "type": "object",
+      "required": [
+        "test_id",
+        "title",
+        "language",
+        "exam_target",
+        "test_type",
+        "question_count",
+        "time_limit_minutes",
+        "total_marks",
+        "scoring",
+        "answer_visibility",
+        "source_status",
+        "student_forwardable",
+        "questions",
+        "response_options",
+        "omr_rule_effective_date"
+      ],
+      "properties": {
+        "test_id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "language": {
+          "const": "mr"
+        },
+        "exam_target": {
+          "type": "string"
+        },
+        "test_type": {
+          "type": "string",
+          "enum": [
+            "history_sectional_test",
+            "mixed_history_mock"
+          ]
+        },
+        "question_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "time_limit_minutes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "total_marks": {
+          "type": "number",
+          "minimum": 1
+        },
+        "scoring": {
+          "$ref": "#/$defs/topicTestScoring"
+        },
+        "answer_visibility": {
+          "const": "after_submission"
+        },
+        "source_status": {
+          "const": "author_created_practice_not_pyq"
+        },
+        "student_forwardable": {
+          "const": true
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/testQuestionReference"
+          }
+        },
+        "response_options": {
+          "const": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        "omr_rule_effective_date": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "additionalProperties": false
+    },
+    "testSeriesDocument": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "series_id",
+        "series_title",
+        "language",
+        "exam_scope",
+        "total_tests",
+        "total_question_attempts",
+        "question_banks",
+        "delivery_policy",
+        "tests"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "series_id": {
+          "type": "string"
+        },
+        "series_title": {
+          "type": "string"
+        },
+        "language": {
+          "const": "mr"
+        },
+        "exam_scope": {
+          "type": "string"
+        },
+        "total_tests": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "total_question_attempts": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "question_banks": {
+          "type": "string"
+        },
+        "delivery_policy": {
+          "type": "object"
+        },
+        "tests": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/testSeriesItem"
+          }
+        }
+      },
+      "additionalProperties": false
     }
   },
   "oneOf": [
@@ -351,6 +719,12 @@
     },
     {
       "$ref": "#/$defs/pyqDocument"
+    },
+    {
+      "$ref": "#/$defs/topicTestDocument"
+    },
+    {
+      "$ref": "#/$defs/testSeriesDocument"
     }
   ]
 }
