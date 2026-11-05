@@ -1,60 +1,47 @@
 # MPSC Katta — Ancient Indian History MCQ Test Series
 
-ही test series MPSC Saral Seva / Group B-C objective च्या GS-I इतिहास सरावासाठी तयार केली आहे. सध्या यात repository मधील HIS-001 ते HIS-008 (प्राचीन भारत) हेच विषय समाविष्ट आहेत. हा पूर्ण GS Paper-I mock नाही; इतर विषयांची प्रश्नबँक जोडल्यावर स्वतंत्र full-GS mock तयार करावा.
+ही test series MPSC Saral Seva / Group B-C प्रकारच्या objective परीक्षांच्या इतिहास सरावासाठी आहे. आत्ता यामध्ये HIS-001 ते HIS-010 हे 10 प्राचीन भारत विषय समाविष्ट आहेत. हा पूर्ण MPSC History syllabus किंवा full GS mock नाही.
 
-## उपलब्ध चाचण्या
+## विद्यार्थ्यांसाठी उपलब्ध चाचण्या
 
-| Test ID | विभाग | प्रश्न | वेळ |
+| Test ID | घटक | प्रश्न | वेळ |
 |---|---|---:|---:|
-| HIS-SEC-001 | प्रागैतिहासिक काळ + सिंधू संस्कृती | 50 | 60 मिनिटे |
-| HIS-SEC-002 | वैदिक ते श्रमण परंपरा | 50 | 60 मिनिटे |
+| HIS-SEC-001 | प्रागैतिहासिक काळ + सिंधू संस्कृती | 50 | 30 मिनिटे |
+| HIS-SEC-002 | वैदिक संस्कृती + महाजनपदे + जैन-बौद्ध परंपरा | 50 | 30 मिनिटे |
 | HIS-SEC-003 | मौर्य साम्राज्य + अशोक | 50 | 30 मिनिटे |
 | HIS-SEC-004 | मौर्योत्तर राजवंश + सातवाहन | 50 | 30 मिनिटे |
-| HIS-MOCK-001 | प्राचीन भारत — HIS-001 ते HIS-010 मिश्रित इतिहास | 100 | 60 मिनिटे |
+| HIS-MOCK-001 | HIS-001 ते HIS-010 प्राचीन भारत मिश्रित मॉक | 100 | 60 मिनिटे |
 
-## Topic tests
+याशिवाय प्रत्येक topic folder मध्ये स्वतंत्र 50 प्रश्नांची topic test आहे.
 
-प्रत्येक HIS-001 ते HIS-008 फोल्डरमध्ये:
-- `topic_test.md` — उत्तर न दाखवणारी 50 प्रश्नांची MCQ प्रश्नपत्रिका.
-- `topic_test_answer_key.md` — बरोबर पर्याय व स्पष्टीकरण.
-- `topic_test.json` — bot / website / test engine साठी पूर्ण machine-readable test.
+## प्रश्नपत्रिका व उत्तरतालिका
 
-## MPSC OMR व scoring
+प्रत्येक HIS-001 ते HIS-010 फोल्डरमध्ये:
+- `practice_mcqs.md` — 50 प्रश्न, पर्याय, उत्तर व स्पष्टीकरणासह विद्यार्थी अभ्यास संच.
+- `practice_mcqs.json` — bot / website साठी canonical MCQ records.
+- `topic_test.md` — उत्तर न दाखवणारी MCQ प्रश्नपत्रिका.
+- `topic_test_answer_key.md` — योग्य उत्तरे व स्पष्टीकरण.
+- `topic_test.json` — machine-readable test.
+- HIS-009 आणि HIS-010 मध्ये `sources_and_further_reading.md` आहे.
 
-1 मार्च 2026 पासून लागू objective-exam सूचनांनुसार प्रत्येक प्रश्नासाठी A–D पैकी उत्तर किंवा E (प्रश्न attempt न करण्यासाठी) नोंदवायचा आहे. 2 गुणांच्या Rajyaseva GS-I practice question साठी:
-- बरोबर उत्तर: +2
-- चुकीचे उत्तर: −0.50
-- अनेक पर्याय mark करणे: −0.50
-- A–E पैकी एकही पर्याय mark न करणे: −0.50
-- E (not attempted) निवडणे: 0
+## MPSC Saral Seva / Group B-C default scoring profile
 
-MPSC च्या प्रत्यक्ष OMR सूचनांनुसारच उत्तर नोंदवा. दुसऱ्या MPSC भरती/परीक्षेसाठी प्रश्नांचे गुण वेगळे असल्यास त्या परीक्षेच्या नवीन जाहिरातीतील marks-per-question नुसार penalty पुन्हा मोजावी.
+- बरोबर उत्तर: +1.
+- चुकीचे उत्तर: −0.25.
+- एकापेक्षा जास्त पर्याय mark केले: −0.25.
+- A–E पैकी एकही पर्याय नोंदवला नाही: −0.25.
+- E (उत्तर द्यायचे नाही) निवडले: 0.
+
+हा अभ्यासासाठीचा default profile आहे. प्रत्येक MPSC भरतीची प्रश्नसंख्या, वेळ आणि गुणपद्धती त्या परीक्षेच्या अद्ययावत अधिकृत जाहिरातीनुसार configure करावी.
 
 ## Automation contract
 
-- Test JSON मधील `questions[].question_id` वापरून संबंधित topic च्या `practice_mcqs.json` मधील प्रश्न शोधा.
-- Test सुरू असताना फक्त प्रश्न व A–D पर्याय दाखवा. योग्य उत्तर, answer आणि explanation submission/प्रश्न पूर्ण झाल्यानंतरच दाखवा.
-- E हा content answer नसून "not attempted" response आहे; तो A–D options मध्ये मिसळू नका.
-- प्रत्येक attempt मध्ये test_id, question_id, selected_option, response_status, score, timestamp नोंदवा.
-- एकाच question_id ला वेगवेगळ्या tests मध्ये परवानगी आहे; पण त्याच attempt मध्ये duplicate question पाठवू नका.
-- सर्व नवीन authored MCQs ला `author_created_practice_not_pyq` असेच label ठेवा. अधिकृत paper + final answer key verified नसलेला प्रश्न PYQ म्हणून पाठवू नका.
+- Test JSON मधील `questions[].question_id` व `source_file` ने मूळ MCQ शोधा.
+- प्रश्न सोडवताना A–D पर्याय दाखवा; उत्तर, बरोबर पर्याय व स्पष्टीकरण submission नंतरच दाखवा.
+- E हा “not attempted” response आहे; तो प्रश्नाचा पाचवा content option नाही.
+- Attempt log मध्ये test_id, question_id, selected_option, response_status, score आणि timestamp नोंदवा.
+- Authored questions कधीही PYQ म्हणून दाखवू नका. Verified PYQ साठी मूळ अधिकृत paper व final answer key दोन्ही तपासणे बंधनकारक आहे.
 
-## मर्यादा
+## पुढील विस्तार
 
-हे tests विद्यमान 8 विषयांच्या सराव प्रश्नांवर आधारित आहेत. PYQ नव्हेत आणि पूर्ण History syllabus कव्हर झाल्याचा दावा नाही. पुढील expansion मध्ये मध्ययुगीन भारत, मराठा इतिहास, आधुनिक भारत, महाराष्ट्राचा सामाजिक-सुधारक व स्वातंत्र्यलढा इतिहास जोडून नंतर पूर्ण History grand test बनवावा.
-
-
-## Updated MPSC Saral Seva practice profile
-
-- Topic tests: 50 MCQ, 50 गुण, 30 मिनिटे.
-- 100-question mixed History mock: 100 गुण, 60 मिनिटे.
-- बरोबर उत्तर: +1; चुकीचे/एकापेक्षा जास्त पर्याय/सर्व A–E रिकामे: −0.25; E (उत्तर द्यायचे नाही): 0.
-- हा generic MPSC Group B/C-style सराव profile आहे. प्रत्येक भरतीची अचूक वेळ व गुणपद्धती त्या परीक्षेच्या नवीनतम अधिकृत जाहिरातीनुसार configure करावी.
-
-
-## नवीन समावेश: HIS-009 व HIS-010
-
-- HIS-009 मौर्योत्तर राजवंश: 39 नव्याने तयार केलेले MCQ, 39 प्रश्नांची topic test, स्वतंत्र answer key आणि JSON.
-- HIS-010 सातवाहन राजवंश: 39 नव्याने तयार केलेले MCQ, 39 प्रश्नांची topic test, स्वतंत्र answer key आणि JSON.
-- HIS-SEC-004 मध्ये या दोन्ही विषयांतील 25 + 25 प्रश्न आहेत.
-- HIS-MOCK-001 आता HIS-001 ते HIS-010 मधून प्रत्येकी 10 प्रश्न घेणारा 100 प्रश्नांचा Ancient History mock आहे.
+उर्वरित प्राचीन भारत, मध्ययुगीन भारत, मराठा इतिहास, आधुनिक भारत आणि महाराष्ट्रातील समाजसुधारक/चळवळी यांसाठीही अशीच 50-MCQ topic banks व sectional tests तयार करायचे आहेत.
