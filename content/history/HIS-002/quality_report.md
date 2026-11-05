@@ -1,30 +1,35 @@
-# HIS-002 गुणवत्ता अहवाल
+# HIS-002 — Quality Report (Actual Content Audit)
 
-## व्याप्ती
-सिंधू/हडप्पा संस्कृतीचे नामकरण, शोध, कालविभाग, भौगोलिक विस्तार, प्रमुख स्थळे, नगररचना, जलव्यवस्थापन, शेती, पशुपालन, हस्तव्यवसाय, व्यापार, लिपी, कला, धर्मविषयक पुरावे आणि नागरी परिवर्तन.
+## Verified structure and counts on this branch
 
-## फाइल तपासणी
-- README: अभ्यासक्रम व नेव्हिगेशन
-- detailed_notes: मुख्य विषयाचे विस्तृत स्पष्टीकरण
-- visuals: कालरेषा, स्थळ-तक्ता व संकल्पनात्मक आकृत्या
-- practice_mcqs: 50 सराव प्रश्न व उत्तरसूची
-- pyq: वारंवार विचारले जाणारे प्रश्नप्रकार; अधिकृत PYQ असल्याचा अप्रमाणित दावा नाही
-- flashcards: 25 Active Recall कार्डे
-- quick_recall: स्थळे, संकल्पना व परीक्षेतील काळजी
-- topic_test: 40 गुणांची चाचणी
+| Component | Actual status |
+|---|---|
+| Detailed Notes | 2,076 words |
+| Practice MCQs | 50 questions, with answer key and explanations |
+| Topic Test | 40-mark assessment with objective, short-answer and/or analysis sections |
+| Flashcards | 25 active-recall cards |
+| Visual Revision | 7 organized visual sections using comparisons, tables, timelines or flow diagrams |
+| Quick Recall | One consolidated revision sheet with key facts, comparisons and self-test prompts |
+| PYQ | No official paper/key-verified questions recorded; study patterns only. |
+| Quality Report | Coverage, counts, caveats and publication checks documented here |
 
-## तथ्यात्मक सावधगिरी
-1. परिपक्व हडप्पा कालमर्यादा साधारण म्हणून दिली आहे.
-2. लोथलच्या जलरचनेला गोदीसदृश म्हटले आहे; तिच्या कार्याविषयी चर्चा नोंदवली आहे.
-3. हडप्पा लिपी निश्चितपणे वाचलेली नाही असे स्पष्ट केले आहे.
-4. धार्मिक प्रतिमांचे अर्थ निश्चित मानलेले नाहीत.
-5. ऱ्हास एकाच कारणाने झाल्याचा दावा केलेला नाही.
-6. “पुरोहित-राजा” ही आधुनिक पारंपरिक संज्ञा असल्याचे स्पष्ट केले आहे.
+## Coverage checklist
 
-## प्रकाशनापूर्वी आवश्यक पडताळणी
-- प्रत्येक स्थळाच्या कालमर्यादा व उत्खनन निष्कर्षांसाठी पुरातत्त्वीय प्रकाशने तपासावीत.
-- PYQ साठी मूळ MPSC प्रश्नपत्रिका व अधिकृत उत्तरतालिका जोडावी.
-- प्रतिमा वापरताना परवाना व स्रोत द्यावा.
-- अभ्यासक्रमाच्या नवीनतम अधिसूचनेशी topic mapping तपासावी.
+- [x] Detailed lesson notes with topic-specific subheadings and exam-focused explanations
+- [x] Visual revision sections that summarize relationships, chronology, sites or concepts
+- [x] 50 practice questions (newly authored practice; not labelled as PYQ)
+- [x] 40-mark topic test and answer guidance
+- [x] 25 flashcards for active recall
+- [x] Quick revision sheet
+- [x] PYQ status stated transparently; no unverified item is represented as officially confirmed
+- [x] Reference links included in the study notes
 
-**स्थिती:** अभ्यासासाठी विस्तारित कार्यरत आवृत्ती; अधिकृत PYQ व संदर्भांची स्वतंत्र पडताळणी बाकी.
+## Accuracy and publication limitations
+
+This audit checks file presence, approximate word count, question/card counts and topic coverage. It does **not** certify every historical claim, answer key or source interpretation. Before publication, cross-check dates, chronology, places, translations and answer keys against the linked academic/primary sources. Where scholarly or sectarian traditions differ, the notes identify the disagreement rather than force one universal answer.
+
+## References
+
+Archaeological Survey of India: https://asi.nic.in/ ; INFLIBNET: https://ebooks.inflibnet.ac.in/
+
+**Status:** Structurally complete study pack for review. Official MPSC PYQ verification remains separate and must use the original question paper plus official final answer key.
