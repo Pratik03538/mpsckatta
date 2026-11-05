@@ -32,6 +32,7 @@ ROOT = Path(__file__).resolve().parent
 SOURCES_ROOT = ROOT / "sources"
 OUTPUT_ROOT = ROOT / "output"
 
+load_dotenv(ROOT / ".env")
 DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 MAX_SOURCE_CHARS = 55_000
 NOTES_MIN_WORDS = 1_800
@@ -632,7 +633,11 @@ def main() -> int:
 
         print("[4/4] PYQ candidates from supplied question-paper PDFs...")
         pdf_files = [
-            item["file"] for item in source_metadata if item.get("type") == "pdf"
+            item["file"]
+            for item in source_metadata
+            if item.get("type") == "pdf"
+            and item.get("pages_with_extractable_text", 0) > 0
+            and any(part.lower() == "pyq" for part in Path(item["file"]).parts)
         ]
         pyq_rows: list[dict[str, Any]] = []
         if pdf_files and source_text:
