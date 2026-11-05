@@ -21,7 +21,7 @@ All generated files are saved under output/TOPIC-ID/.
 
 This generator uses the Gemini Developer API through Google AI Studio. A ChatGPT Go subscription does not provide OpenAI API credits or an API key. Gemini has a limited free tier for eligible models and accounts; quotas can change. Google states that free-tier content may be used to improve its products. Do not submit private or confidential information.
 
-Default model: gemini-3.8-flash. You can override it with the --model argument or GEMINI_MODEL in your .env file.
+Default model: gemini-3.8-flash. If it returns repeated 503 overload errors, main.py automatically retries and then falls back to gemini-3.5-flash-lite. You can change GEMINI_MODEL or GEMINI_FALLBACK_MODEL in .env. The fallback is not guaranteed to avoid capacity errors.
 
 Google AI Studio API key page: https://aistudio.google.com/apikey
 
@@ -37,7 +37,7 @@ Google AI Studio API key page: https://aistudio.google.com/apikey
 
 4. Copy .env.example to .env.
 5. Open .env and set GEMINI_API_KEY to your own Google AI Studio key.
-6. Never commit .env or paste the API key in chat.
+6. Never commit .env or paste the API key in chat.\n\nExample optional model settings:\n\n   ```env\n   GEMINI_MODEL=gemini-3.8-flash\n   GEMINI_FALLBACK_MODEL=gemini-3.5-flash-lite\n   ```
 
 ## Run one topic
 
