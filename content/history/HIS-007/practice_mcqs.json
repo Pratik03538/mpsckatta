@@ -1,0 +1,811 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "HIS-007",
+  "topic_title": "मौर्य साम्राज्य",
+  "language": "mr",
+  "content_type": "practice_mcq",
+  "question_count": 50,
+  "answer_key_included": true,
+  "items": [
+    {
+      "question_no": 1,
+      "question": "मौर्य साम्राज्याचा संस्थापक कोण?",
+      "options": {
+        "A": "चंद्रगुप्त मौर्य",
+        "B": "अशोक",
+        "C": "बिंदुसार",
+        "D": "बृहद्रथ"
+      },
+      "correct_option": "A",
+      "answer": "चंद्रगुप्त मौर्य",
+      "explanation": "चंद्रगुप्त मौर्याने मौर्य सत्ता स्थापन केली.",
+      "question_id": "HIS-007-MCQ-001",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 2,
+      "question": "चंद्रगुप्त मौर्याशी कोणत्या सल्लागाराचे नाव जोडले जाते?",
+      "options": {
+        "A": "कालिदास",
+        "B": "कौटिल्य",
+        "C": "बाणभट्ट",
+        "D": "मेगॅस्थेनीज"
+      },
+      "correct_option": "B",
+      "answer": "कौटिल्य",
+      "explanation": "कौटिल्य/चाणक्य परंपरेने चंद्रगुप्ताशी संबंधित.",
+      "question_id": "HIS-007-MCQ-002",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 3,
+      "question": "मौर्य साम्राज्याची राजधानी कोणती?",
+      "options": {
+        "A": "उज्जयिनी",
+        "B": "तक्षशिला",
+        "C": "पाटलीपुत्र",
+        "D": "वाराणसी"
+      },
+      "correct_option": "C",
+      "answer": "पाटलीपुत्र",
+      "explanation": "पाटलीपुत्र हे मौर्य साम्राज्याचे मुख्य केंद्र.",
+      "question_id": "HIS-007-MCQ-003",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 4,
+      "question": "चंद्रगुप्ताचा तह कोणत्या ग्रीक शासकाशी जोडला जातो?",
+      "options": {
+        "A": "अलेक्झांडर",
+        "B": "मिनँडर",
+        "C": "डेमेट्रियस",
+        "D": "सेल्युकस निकेटर"
+      },
+      "correct_option": "D",
+      "answer": "सेल्युकस निकेटर",
+      "explanation": "सेल्युकस निकेटरशी संघर्ष व तहाची परंपरा.",
+      "question_id": "HIS-007-MCQ-004",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 5,
+      "question": "मेगॅस्थेनीज कोणाच्या दरबाराशी संबंधित?",
+      "options": {
+        "A": "चंद्रगुप्त मौर्य",
+        "B": "अशोक",
+        "C": "कनिष्क",
+        "D": "समुद्रगुप्त"
+      },
+      "correct_option": "A",
+      "answer": "चंद्रगुप्त मौर्य",
+      "explanation": "मेगॅस्थेनीज हा सेल्यूकिड राजदूत म्हणून पाटलीपुत्रात आला.",
+      "question_id": "HIS-007-MCQ-005",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 6,
+      "question": "मेगॅस्थेनीजच्या ग्रंथाचे नाव काय?",
+      "options": {
+        "A": "अर्थशास्त्र",
+        "B": "इंडिका",
+        "C": "राजतरंगिणी",
+        "D": "महाभाष्य"
+      },
+      "correct_option": "B",
+      "answer": "इंडिका",
+      "explanation": "इंडिका मूळ ग्रंथ हरवलेला असून उतारे टिकले.",
+      "question_id": "HIS-007-MCQ-006",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 7,
+      "question": "चंद्रगुप्तानंतर कोण गादीवर आला?",
+      "options": {
+        "A": "अशोक",
+        "B": "दशरथ",
+        "C": "बिंदुसार",
+        "D": "बृहद्रथ"
+      },
+      "correct_option": "C",
+      "answer": "बिंदुसार",
+      "explanation": "बिंदुसार चंद्रगुप्ताचा उत्तराधिकारी.",
+      "question_id": "HIS-007-MCQ-007",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 8,
+      "question": "बिंदुसाराचा ग्रीक स्रोतांतील उल्लेख कोणत्या रूपात?",
+      "options": {
+        "A": "देवपुत्र",
+        "B": "प्रियदर्शी",
+        "C": "विक्रमादित्य",
+        "D": "अमित्रोखेट्स"
+      },
+      "correct_option": "D",
+      "answer": "अमित्रोखेट्स",
+      "explanation": "अमित्रोखेट्सचा संबंध अमित्रघाताशी जोडला जातो.",
+      "question_id": "HIS-007-MCQ-008",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 9,
+      "question": "कलिंग युद्ध कोणत्या सम्राटाशी संबंधित?",
+      "options": {
+        "A": "अशोक",
+        "B": "बिंदुसार",
+        "C": "चंद्रगुप्त",
+        "D": "बृहद्रथ"
+      },
+      "correct_option": "A",
+      "answer": "अशोक",
+      "explanation": "कलिंग युद्ध अशोकाच्या कारकिर्दीतील प्रमुख घटना.",
+      "question_id": "HIS-007-MCQ-009",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 10,
+      "question": "कलिंग युद्धाच्या पश्चात्तापाचे वर्णन कोणत्या लेखात?",
+      "options": {
+        "A": "पहिला स्तंभलेख",
+        "B": "तेरावा प्रमुख शिलालेख",
+        "C": "लघु शिलालेख",
+        "D": "बाराबर गुहा लेख"
+      },
+      "correct_option": "B",
+      "answer": "तेरावा प्रमुख शिलालेख",
+      "explanation": "तेरावा प्रमुख शिलालेख युद्धहानी व पश्चात्ताप सांगतो.",
+      "question_id": "HIS-007-MCQ-010",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 11,
+      "question": "अशोकाचा धम्म मुख्यतः कोणत्या स्वरूपाचा होता?",
+      "options": {
+        "A": "केवळ बौद्ध मठविधी",
+        "B": "सैनिकी कायदा",
+        "C": "नैतिक-सामाजिक आचारसंहिता",
+        "D": "करपद्धती"
+      },
+      "correct_option": "C",
+      "answer": "नैतिक-सामाजिक आचारसंहिता",
+      "explanation": "धम्मात दया, आदर, संयम व सहिष्णुता.",
+      "question_id": "HIS-007-MCQ-011",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 12,
+      "question": "धम्ममहामात्र कोणाशी संबंधित अधिकारी?",
+      "options": {
+        "A": "नाणे टाकसाळ",
+        "B": "सैन्य घोडदळ",
+        "C": "सिंचन मोजणी",
+        "D": "धम्मविषयक कामकाज"
+      },
+      "correct_option": "D",
+      "answer": "धम्मविषयक कामकाज",
+      "explanation": "धम्मविषयक संदेश व कल्याणाशी संबंधित अधिकारी.",
+      "question_id": "HIS-007-MCQ-012",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 13,
+      "question": "अशोकाच्या बहुतांश लेखांची भाषा कोणती?",
+      "options": {
+        "A": "प्राकृत",
+        "B": "तमिळ",
+        "C": "फारसी",
+        "D": "ग्रीकच"
+      },
+      "correct_option": "A",
+      "answer": "प्राकृत",
+      "explanation": "बहुतांश लेख प्राकृत भाषेत आहेत.",
+      "question_id": "HIS-007-MCQ-013",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 14,
+      "question": "अशोकाच्या बहुतांश लेखांची लिपी कोणती?",
+      "options": {
+        "A": "देवनागरी",
+        "B": "ब्राह्मी",
+        "C": "शारदा",
+        "D": "गुरुमुखी"
+      },
+      "correct_option": "B",
+      "answer": "ब्राह्मी",
+      "explanation": "ब्राह्मीचा वापर मोठ्या प्रमाणात.",
+      "question_id": "HIS-007-MCQ-014",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 15,
+      "question": "वायव्य भारतातील काही अशोकलेख कोणत्या लिपीत?",
+      "options": {
+        "A": "ग्रंथ",
+        "B": "मोडी",
+        "C": "खरोष्ठी",
+        "D": "नागरी"
+      },
+      "correct_option": "C",
+      "answer": "खरोष्ठी",
+      "explanation": "उत्तर-पश्चिम भागात खरोष्ठी.",
+      "question_id": "HIS-007-MCQ-015",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 16,
+      "question": "कंधारमधील काही अशोकलेख कोणत्या भाषांत?",
+      "options": {
+        "A": "संस्कृत व तमिळ",
+        "B": "पाली व चिनी",
+        "C": "फारसी व अरबी",
+        "D": "ग्रीक व अरामाइक"
+      },
+      "correct_option": "D",
+      "answer": "ग्रीक व अरामाइक",
+      "explanation": "कंधार परिसरात ग्रीक-अरामाइक लेख.",
+      "question_id": "HIS-007-MCQ-016",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 17,
+      "question": "अशोकाच्या शिलालेखांचे महत्त्व काय?",
+      "options": {
+        "A": "समकालीन राजकीय व नैतिक संदेश",
+        "B": "फक्त आख्यायिका",
+        "C": "आधुनिक जनगणना",
+        "D": "नाट्यसाहित्य"
+      },
+      "correct_option": "A",
+      "answer": "समकालीन राजकीय व नैतिक संदेश",
+      "explanation": "अभिलेख समकालीन प्राथमिक स्रोत आहेत.",
+      "question_id": "HIS-007-MCQ-017",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 18,
+      "question": "अशोकाचे धम्मधोरण कोणत्या मूल्यावर भर देते?",
+      "options": {
+        "A": "अनिवार्य धर्मांतर",
+        "B": "पालकांचा आदर व सहिष्णुता",
+        "C": "केवळ यज्ञ",
+        "D": "व्यापारबंदी"
+      },
+      "correct_option": "B",
+      "answer": "पालकांचा आदर व सहिष्णुता",
+      "explanation": "धम्मात सामाजिक नैतिकतेला महत्त्व.",
+      "question_id": "HIS-007-MCQ-018",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 19,
+      "question": "मौर्य प्रशासनाचे सर्वोच्च केंद्र कोण?",
+      "options": {
+        "A": "ग्रामसभा",
+        "B": "व्यापारी संघ",
+        "C": "सम्राट",
+        "D": "मंदिर परिषद"
+      },
+      "correct_option": "C",
+      "answer": "सम्राट",
+      "explanation": "सम्राट हा केंद्रीकृत सत्तेचा केंद्रबिंदू.",
+      "question_id": "HIS-007-MCQ-019",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 20,
+      "question": "मौर्य साम्राज्याची एक महत्त्वाची प्रांतीय राजधानी कोणती?",
+      "options": {
+        "A": "पावापुरी",
+        "B": "मदुराई",
+        "C": "कांची",
+        "D": "तक्षशिला"
+      },
+      "correct_option": "D",
+      "answer": "तक्षशिला",
+      "explanation": "तक्षशिला प्रांतीय केंद्र म्हणून नमूद होते.",
+      "question_id": "HIS-007-MCQ-020",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 21,
+      "question": "उज्जयिनी कोणत्या भूमिकेत महत्त्वाची?",
+      "options": {
+        "A": "प्रांतीय केंद्र",
+        "B": "मौर्यांची मुख्य राजधानी",
+        "C": "कलिंगची राजधानी",
+        "D": "जैन परिषद"
+      },
+      "correct_option": "A",
+      "answer": "प्रांतीय केंद्र",
+      "explanation": "उज्जयिनी पश्चिम/मध्य भारतातील प्रमुख केंद्र.",
+      "question_id": "HIS-007-MCQ-021",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 22,
+      "question": "अर्थशास्त्राचा परंपरागत लेखक कोण?",
+      "options": {
+        "A": "मेगॅस्थेनीज",
+        "B": "कौटिल्य",
+        "C": "अशोक",
+        "D": "पतंजली"
+      },
+      "correct_option": "B",
+      "answer": "कौटिल्य",
+      "explanation": "अर्थशास्त्र परंपरेने कौटिल्याशी संबंधित.",
+      "question_id": "HIS-007-MCQ-022",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 23,
+      "question": "अर्थशास्त्राचा वापर करताना कोणती काळजी?",
+      "options": {
+        "A": "तो शिलालेख आहे",
+        "B": "तो फक्त कविता आहे",
+        "C": "त्याचा रचनाकाल/स्वरूप व प्रत्यक्ष व्यवहार वेगळे तपासावे",
+        "D": "तो अशोकाने लिहिला हे निश्चित"
+      },
+      "correct_option": "C",
+      "answer": "त्याचा रचनाकाल/स्वरूप व प्रत्यक्ष व्यवहार वेगळे तपासावे",
+      "explanation": "ग्रंथ मार्गदर्शक स्वरूपाचा; रचनास्तरांवर चर्चा आहे.",
+      "question_id": "HIS-007-MCQ-023",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 24,
+      "question": "मौर्य अर्थव्यवस्थेचा महत्त्वाचा आधार कोणता?",
+      "options": {
+        "A": "फक्त लुटमार",
+        "B": "फक्त समुद्री कर",
+        "C": "डिजिटल व्यापार",
+        "D": "शेती व महसूल"
+      },
+      "correct_option": "D",
+      "answer": "शेती व महसूल",
+      "explanation": "शेती, कर व विविध संसाधने राजकोषासाठी महत्त्वाची.",
+      "question_id": "HIS-007-MCQ-024",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 25,
+      "question": "मौर्य सैन्यात कोणते घटक नमूद होतात?",
+      "options": {
+        "A": "पायदळ, घोडदळ, रथ, हत्ती",
+        "B": "फक्त नौदल",
+        "C": "फक्त पायदळ",
+        "D": "फक्त धनुर्धारी"
+      },
+      "correct_option": "A",
+      "answer": "पायदळ, घोडदळ, रथ, हत्ती",
+      "explanation": "चतुरंग सैन्याची पारंपरिक मांडणी.",
+      "question_id": "HIS-007-MCQ-025",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 26,
+      "question": "बाराबर गुहा कोणत्या समूहाशी संबंधित दानलेखांसाठी प्रसिद्ध?",
+      "options": {
+        "A": "मुघल",
+        "B": "आजीवक",
+        "C": "चोल",
+        "D": "पल्लव"
+      },
+      "correct_option": "B",
+      "answer": "आजीवक",
+      "explanation": "अशोक/दशरथ यांच्या लेखांशी आजीवक गुहा जोडल्या जातात.",
+      "question_id": "HIS-007-MCQ-026",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 27,
+      "question": "सारनाथ सिंहशीर्ष कोणत्या काळाशी संबंधित?",
+      "options": {
+        "A": "गुप्त",
+        "B": "मुघल",
+        "C": "मौर्य/अशोक",
+        "D": "सातवाहन"
+      },
+      "correct_option": "C",
+      "answer": "मौर्य/अशोक",
+      "explanation": "अशोकस्तंभावरील सिंहशीर्ष प्रसिद्ध.",
+      "question_id": "HIS-007-MCQ-027",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 28,
+      "question": "मौर्य साम्राज्याचा शेवटचा शासक कोण मानला जातो?",
+      "options": {
+        "A": "अशोक",
+        "B": "बिंदुसार",
+        "C": "धनानंद",
+        "D": "बृहद्रथ"
+      },
+      "correct_option": "D",
+      "answer": "बृहद्रथ",
+      "explanation": "बृहद्रथ शेवटचा मौर्य शासक मानला जातो.",
+      "question_id": "HIS-007-MCQ-028",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 29,
+      "question": "बृहद्रथानंतर शुंग सत्ता कोणी स्थापन केली?",
+      "options": {
+        "A": "पुष्यमित्र शुंग",
+        "B": "कनिष्क",
+        "C": "गौतमीपुत्र",
+        "D": "समुद्रगुप्त"
+      },
+      "correct_option": "A",
+      "answer": "पुष्यमित्र शुंग",
+      "explanation": "पुष्यमित्र शुंगाशी मौर्य सत्तांतर जोडले जाते.",
+      "question_id": "HIS-007-MCQ-029",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 30,
+      "question": "अशोकाचे दुसरे नाव/बिरुद कोणते?",
+      "options": {
+        "A": "विक्रमादित्य",
+        "B": "देवानांप्रिय प्रियदर्शी",
+        "C": "परमेश्वर",
+        "D": "अमित्रघात"
+      },
+      "correct_option": "B",
+      "answer": "देवानांप्रिय प्रियदर्शी",
+      "explanation": "अशोकाच्या लेखांत देवानांप्रिय प्रियदर्शी ही बिरुदे.",
+      "question_id": "HIS-007-MCQ-030",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 31,
+      "question": "मौर्य साम्राज्याचा अभ्यास करण्यासाठी सर्वाधिक समकालीन स्रोत कोणता?",
+      "options": {
+        "A": "नंतरचे पुराण",
+        "B": "आधुनिक कादंबरी",
+        "C": "अशोकाचे शिलालेख",
+        "D": "लोककथा"
+      },
+      "correct_option": "C",
+      "answer": "अशोकाचे शिलालेख",
+      "explanation": "शिलालेख समकालीन अभिलेख आहेत.",
+      "question_id": "HIS-007-MCQ-031",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 32,
+      "question": "कलिंग युद्धानंतर अशोकाने कोणत्या विजयावर भर दिला?",
+      "options": {
+        "A": "केवळ दिग्विजय",
+        "B": "समुद्रविजय",
+        "C": "अश्वमेध",
+        "D": "धम्मविजय"
+      },
+      "correct_option": "D",
+      "answer": "धम्मविजय",
+      "explanation": "तेराव्या लेखात धम्मविजयाचा संदेश.",
+      "question_id": "HIS-007-MCQ-032",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 33,
+      "question": "धम्माचा अर्थ काय समजणे अधिक योग्य?",
+      "options": {
+        "A": "सर्वांसाठी नैतिक आचारसंहिता",
+        "B": "बौद्ध संघाचे नियमच",
+        "C": "करप्रणाली",
+        "D": "सैन्यशिस्त"
+      },
+      "correct_option": "A",
+      "answer": "सर्वांसाठी नैतिक आचारसंहिता",
+      "explanation": "धम्म सार्वजनिक नैतिक संदेश म्हणून मांडला.",
+      "question_id": "HIS-007-MCQ-033",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 34,
+      "question": "राजुकांचा संबंध कोणत्या कामाशी जोडला जातो?",
+      "options": {
+        "A": "समुद्री व्यापार",
+        "B": "प्रादेशिक/ग्रामीण प्रशासन व न्याय",
+        "C": "शिल्पनिर्मिती",
+        "D": "घोड्यांचे प्रशिक्षण"
+      },
+      "correct_option": "B",
+      "answer": "प्रादेशिक/ग्रामीण प्रशासन व न्याय",
+      "explanation": "अशोकलेखांत राजुकांचा उल्लेख प्रशासनाशी जोडला आहे.",
+      "question_id": "HIS-007-MCQ-034",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 35,
+      "question": "मौर्य प्रांतांचे उदाहरण कोणते?",
+      "options": {
+        "A": "पावापुरी",
+        "B": "कुशीनगर",
+        "C": "तोसली",
+        "D": "अंजठा"
+      },
+      "correct_option": "C",
+      "answer": "तोसली",
+      "explanation": "तोसली कलिंग प्रदेशाशी संबंधित प्रांतीय केंद्र.",
+      "question_id": "HIS-007-MCQ-035",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 36,
+      "question": "सुवर्णगिरी कोणत्या भूमिकेत नमूद?",
+      "options": {
+        "A": "जैन तीर्थ",
+        "B": "बौद्ध स्तूप",
+        "C": "ग्रीक बंदर",
+        "D": "मौर्य प्रांतीय केंद्र"
+      },
+      "correct_option": "D",
+      "answer": "मौर्य प्रांतीय केंद्र",
+      "explanation": "सुवर्णगिरी दक्षिणेकडील प्रांतीय केंद्र म्हणून नमूद.",
+      "question_id": "HIS-007-MCQ-036",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 37,
+      "question": "मौर्यकालीन अर्थव्यवस्थेत खाणी व वनसंपत्तीचे महत्त्व काय?",
+      "options": {
+        "A": "राज्यसंसाधन व महसूलाचा भाग",
+        "B": "त्यांचा वापर नव्हता",
+        "C": "फक्त धार्मिक उपयोग",
+        "D": "केवळ आयात"
+      },
+      "correct_option": "A",
+      "answer": "राज्यसंसाधन व महसूलाचा भाग",
+      "explanation": "राज्याच्या विविध उत्पन्नस्रोतांत संसाधने समाविष्ट होती.",
+      "question_id": "HIS-007-MCQ-037",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 38,
+      "question": "इंडिका आज कोणत्या स्वरूपात उपलब्ध?",
+      "options": {
+        "A": "संपूर्ण मूळ प्रत",
+        "B": "नंतरच्या लेखकांनी दिलेल्या उताऱ्यांतून",
+        "C": "अशोकस्तंभावर",
+        "D": "पाली त्रिपिटकात"
+      },
+      "correct_option": "B",
+      "answer": "नंतरच्या लेखकांनी दिलेल्या उताऱ्यांतून",
+      "explanation": "मूळ ग्रंथ हरवलेला; fragments/quotations टिकले.",
+      "question_id": "HIS-007-MCQ-038",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 39,
+      "question": "अशोकाच्या शिलालेखांत धर्मसहिष्णुतेचा संदेश कोणत्या दृष्टीने महत्त्वाचा?",
+      "options": {
+        "A": "सर्व धर्म बंद",
+        "B": "सक्तीचे धर्मांतर",
+        "C": "विविध पंथांबद्दल आदर",
+        "D": "केवळ एका पंथास मान्यता"
+      },
+      "correct_option": "C",
+      "answer": "विविध पंथांबद्दल आदर",
+      "explanation": "धार्मिक समूहांमध्ये परस्पर आदराचा संदेश.",
+      "question_id": "HIS-007-MCQ-039",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 40,
+      "question": "मौर्य साम्राज्याच्या ऱ्हासाचे योग्य स्पष्टीकरण कोणते?",
+      "options": {
+        "A": "फक्त एकच कारण निश्चित",
+        "B": "केवळ हवामान",
+        "C": "फक्त समुद्री व्यापार",
+        "D": "उत्तराधिकार, प्रांतिक स्वायत्तता व इतर अनेक घटक"
+      },
+      "correct_option": "D",
+      "answer": "उत्तराधिकार, प्रांतिक स्वायत्तता व इतर अनेक घटक",
+      "explanation": "बहुकारणी प्रक्रिया म्हणून ऱ्हास समजावा.",
+      "question_id": "HIS-007-MCQ-040",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 41,
+      "question": "धम्मयात्रा कोणत्या संकल्पनेशी जोडली जाते?",
+      "options": {
+        "A": "नैतिक संदेश व लोकसंपर्क",
+        "B": "सैनिकी मोहिम",
+        "C": "व्यापारनौका",
+        "D": "कर वसुली"
+      },
+      "correct_option": "A",
+      "answer": "नैतिक संदेश व लोकसंपर्क",
+      "explanation": "अशोकाने पारंपरिक विहारयात्रेपेक्षा धम्मयात्रेला महत्त्व दिले.",
+      "question_id": "HIS-007-MCQ-041",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 42,
+      "question": "अशोकाचे लघु शिलालेख कोणत्या गोष्टीसाठी उपयुक्त?",
+      "options": {
+        "A": "फक्त नाणी",
+        "B": "राजाचा वैयक्तिक धम्मसंबंध व इतर निर्देश",
+        "C": "सिंधू व्यापार",
+        "D": "मुघल प्रशासन"
+      },
+      "correct_option": "B",
+      "answer": "राजाचा वैयक्तिक धम्मसंबंध व इतर निर्देश",
+      "explanation": "काही लघुलेख वैयक्तिक धार्मिक बांधिलकीचे संकेत देतात.",
+      "question_id": "HIS-007-MCQ-042",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 43,
+      "question": "मौर्य कला कोणत्या वैशिष्ट्याने ओळखली जाते?",
+      "options": {
+        "A": "केवळ विटांची मंदिरे",
+        "B": "गॉथिक कमानी",
+        "C": "दगडी स्तंभ व उच्च पॉलिश",
+        "D": "लोखंडी गगनचुंबी इमारती"
+      },
+      "correct_option": "C",
+      "answer": "दगडी स्तंभ व उच्च पॉलिश",
+      "explanation": "मौर्य पॉलिश व स्तंभकला प्रसिद्ध.",
+      "question_id": "HIS-007-MCQ-043",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 44,
+      "question": "सांची स्तूपाचा पुढील इतिहास कसा समजावा?",
+      "options": {
+        "A": "पूर्णतः गुप्तकालीनच",
+        "B": "फक्त मुघलकालीन",
+        "C": "जैन तीर्थ",
+        "D": "अशोकाशी संबंधित प्रारंभिक परंपरा; पुढील काळात विस्तार/बदल"
+      },
+      "correct_option": "D",
+      "answer": "अशोकाशी संबंधित प्रारंभिक परंपरा; पुढील काळात विस्तार/बदल",
+      "explanation": "स्तूपाच्या विविध बांधकाम टप्प्यांचा विचार करावा.",
+      "question_id": "HIS-007-MCQ-044",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 45,
+      "question": "अशोकाने धम्ममहामात्रांची नियुक्ती कोणत्या हेतूने केली?",
+      "options": {
+        "A": "धम्म व लोककल्याणविषयक कामे",
+        "B": "सैनिकी घोडदळ",
+        "C": "नाणी टाकणे",
+        "D": "बंदरकर"
+      },
+      "correct_option": "A",
+      "answer": "धम्म व लोककल्याणविषयक कामे",
+      "explanation": "धम्मसंदेश व प्रजाहिताशी संबंधित जबाबदाऱ्या.",
+      "question_id": "HIS-007-MCQ-045",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 46,
+      "question": "मौर्य साम्राज्याच्या इतिहासात चंद्रगुप्ताचा काळ महत्त्वाचा का?",
+      "options": {
+        "A": "धम्मलेखांची निर्मिती",
+        "B": "साम्राज्य स्थापना व उत्तर-पश्चिमेतील राजनैतिक विस्तार",
+        "C": "गुप्तकालीन कला",
+        "D": "वज्रयान प्रसार"
+      },
+      "correct_option": "B",
+      "answer": "साम्राज्य स्थापना व उत्तर-पश्चिमेतील राजनैतिक विस्तार",
+      "explanation": "संस्थापक म्हणून राजकीय एकत्रीकरणाचा आरंभ.",
+      "question_id": "HIS-007-MCQ-046",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 47,
+      "question": "बिंदुसाराबाबत कोणते विधान अधिक सावध?",
+      "options": {
+        "A": "त्याने संपूर्ण आग्नेय आशिया जिंकला",
+        "B": "तो पहिला सम्राट नव्हता",
+        "C": "त्याच्या दक्षिणेकडील प्रभावाबाबत परंपरा आहे; पूर्ण दक्षिण भारतावर थेट सत्ता निश्चित नाही",
+        "D": "त्याचा उल्लेखच नाही"
+      },
+      "correct_option": "C",
+      "answer": "त्याच्या दक्षिणेकडील प्रभावाबाबत परंपरा आहे; पूर्ण दक्षिण भारतावर थेट सत्ता निश्चित नाही",
+      "explanation": "पुरावा व परंपरेतील फरक लक्षात घ्यावा.",
+      "question_id": "HIS-007-MCQ-047",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 48,
+      "question": "अशोकाच्या शिलालेखांत कोणत्या गोष्टीची माहिती मिळते?",
+      "options": {
+        "A": "फक्त राजदरबारातील पोशाख",
+        "B": "आधुनिक लोकसंख्या",
+        "C": "नाट्यसंहिता",
+        "D": "प्रशासन, धम्म, प्रजा व भौगोलिक विस्तार"
+      },
+      "correct_option": "D",
+      "answer": "प्रशासन, धम्म, प्रजा व भौगोलिक विस्तार",
+      "explanation": "शिलालेख बहुविषयक प्राथमिक स्रोत आहेत.",
+      "question_id": "HIS-007-MCQ-048",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 49,
+      "question": "मौर्यकालीन स्रोतांचे योग्य मूल्यमापन कोणते?",
+      "options": {
+        "A": "अभिलेख, साहित्य, पुरातत्त्व व नाणी तुलना करणे",
+        "B": "एकच ग्रंथ अक्षरशः मानणे",
+        "C": "सर्व आख्यायिका नाकारणे",
+        "D": "कालक्रम टाळणे"
+      },
+      "correct_option": "A",
+      "answer": "अभिलेख, साहित्य, पुरातत्त्व व नाणी तुलना करणे",
+      "explanation": "बहुस्रोत पद्धतीने निष्कर्ष विश्वासार्ह होतात.",
+      "question_id": "HIS-007-MCQ-049",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 50,
+      "question": "मौर्य प्रशासनाचा अभ्यास करताना अर्थशास्त्र आणि अशोकलेख यांचा योग्य वापर कोणता?",
+      "options": {
+        "A": "दोन्ही एकाच काळातील समान स्वरूपाचे सरकारी आदेश मानणे",
+        "B": "अर्थशास्त्राला राज्यकारभारावरील मार्गदर्शक ग्रंथ आणि अशोकलेखांना समकालीन राजकीय संदेश मानून तुलना करणे",
+        "C": "दोन्ही ग्रंथ आधुनिक काळातील कादंबऱ्या मानणे",
+        "D": "फक्त अर्थशास्त्र वापरून शिलालेख दुर्लक्षित करणे"
+      },
+      "correct_option": "B",
+      "answer": "अर्थशास्त्राला राज्यकारभारावरील मार्गदर्शक ग्रंथ आणि अशोकलेखांना समकालीन राजकीय संदेश मानून तुलना करणे",
+      "explanation": "दोन्ही स्रोतांचे स्वरूप, रचनाकाळ आणि हेतू वेगळे आहेत. त्यांची तुलना करताना थेट समानता गृहीत न धरता मर्यादा लक्षात घ्याव्यात.",
+      "question_id": "HIS-007-MCQ-050",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    }
+  ]
+}
