@@ -4,7 +4,7 @@
   "topic_title": "सातवाहन राजवंश",
   "language": "mr",
   "content_type": "practice_mcq",
-  "question_count": 39,
+  "question_count": 50,
   "answer_key_included": true,
   "items": [
     {
@@ -628,6 +628,182 @@
       "answer": "मातृकुळ/आईचे नाव प्रतिष्ठेने वापरण्याची परंपरा",
       "explanation": "मातृनामाचा वापर महत्त्वाचा सामाजिक संकेत आहे; पण एकट्या नावावरून संपूर्ण समाजरचना मातृसत्ताक ठरवता येत नाही.",
       "question_id": "HIS-010-MCQ-039",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 40,
+      "question": "सातवाहन शासकांचा उल्लेख पुराणांमध्ये अनेकदा कोणत्या नावाने येतो?",
+      "options": {
+        "A": "आंध्र",
+        "B": "पल्लव",
+        "C": "चोल",
+        "D": "गुर्जर"
+      },
+      "correct_option": "A",
+      "answer": "आंध्र",
+      "explanation": "पुराणांमध्ये सातवाहनांना अनेकदा आंध्र किंवा आंध्रभृत्य असे संबोधलेले आढळते.",
+      "question_id": "HIS-010-MCQ-040",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 41,
+      "question": "सातवाहनांची सत्ता दख्खनमध्ये कोणत्या ऐतिहासिक प्रक्रियेसाठी महत्त्वाची मानली जाते?",
+      "options": {
+        "A": "प्रादेशिक राज्यसंस्थेच्या उभारणीसाठी",
+        "B": "दिल्लीतील सल्तनती स्थापनेसाठी",
+        "C": "मुघल साम्राज्याच्या विस्तारासाठी",
+        "D": "युरोपीय वसाहतवादाच्या सुरुवातीसाठी"
+      },
+      "correct_option": "A",
+      "answer": "प्रादेशिक राज्यसंस्थेच्या उभारणीसाठी",
+      "explanation": "दख्खनमध्ये संघटित राज्यव्यवस्थेच्या विकासात सातवाहन सत्तेचे महत्त्व आहे.",
+      "question_id": "HIS-010-MCQ-041",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 42,
+      "question": "सातवाहन राजांच्या दानलेखांत कोणत्या धार्मिक समुदायांना दान दिल्याचे पुरावे दिसतात?",
+      "options": {
+        "A": "बौद्ध भिक्षुसंघ व ब्राह्मण",
+        "B": "फक्त रोमन व्यापारी",
+        "C": "केवळ ग्रीक सैनिक",
+        "D": "फक्त जैन साधू"
+      },
+      "correct_option": "A",
+      "answer": "बौद्ध भिक्षुसंघ व ब्राह्मण",
+      "explanation": "अभिलेखांत बौद्ध संघांना गुंफा/गावांचे दान तसेच ब्राह्मणांना दान व वैदिक यज्ञांचे संदर्भ दोन्ही दिसतात.",
+      "question_id": "HIS-010-MCQ-042",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 43,
+      "question": "कार्ले येथील चैत्यगृह कोणत्या वास्तुप्रकाराचे उदाहरण आहे?",
+      "options": {
+        "A": "बौद्ध चैत्यगृह",
+        "B": "वैदिक यज्ञशाळा",
+        "C": "मुघल मकबरा",
+        "D": "जैन कीर्तीस्तंभ"
+      },
+      "correct_option": "A",
+      "answer": "बौद्ध चैत्यगृह",
+      "explanation": "कार्लेचे प्रसिद्ध चैत्यगृह हे बौद्ध उपासना-वास्तूचे उत्कृष्ट उदाहरण आहे.",
+      "question_id": "HIS-010-MCQ-043",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 44,
+      "question": "सातवाहन इतिहासात नाशिक गुंफांचे महत्त्व कोणत्या कारणामुळे आहे?",
+      "options": {
+        "A": "राजकीय प्रशस्ती व दानलेख",
+        "B": "हडप्पा लिपी",
+        "C": "गुप्तकालीन नाणे टांकसाळ",
+        "D": "दिल्ली सल्तनतीचे दस्तऐवज"
+      },
+      "correct_option": "A",
+      "answer": "राजकीय प्रशस्ती व दानलेख",
+      "explanation": "नाशिक गुंफांतील लेखांमधून राजे, राण्या, दानकर्ते आणि राजकीय संघर्षांची माहिती मिळते.",
+      "question_id": "HIS-010-MCQ-044",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 45,
+      "question": "सातवाहन काळातील व्यापाराचा प्रमुख भौगोलिक आधार कोणता?",
+      "options": {
+        "A": "दख्खनमधील अंतर्गत मार्ग आणि पश्चिम किनाऱ्याची बंदरे",
+        "B": "फक्त हिमालयीन खिंडी",
+        "C": "केवळ गंगा नदी",
+        "D": "फक्त थार वाळवंट"
+      },
+      "correct_option": "A",
+      "answer": "दख्खनमधील अंतर्गत मार्ग आणि पश्चिम किनाऱ्याची बंदरे",
+      "explanation": "घाटमार्गांनी दख्खनमधील बाजारपेठा पश्चिम किनाऱ्यावरील बंदरांशी जोडल्या; सागरी व्यापारालाही चालना मिळाली.",
+      "question_id": "HIS-010-MCQ-045",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 46,
+      "question": "'भृगुकच्छ' हे प्राचीन बंदर आजच्या कोणत्या ठिकाणाशी संबंधित आहे?",
+      "options": {
+        "A": "भरूच",
+        "B": "मुंबई",
+        "C": "चेन्नई",
+        "D": "कोची"
+      },
+      "correct_option": "A",
+      "answer": "भरूच",
+      "explanation": "भृगुकच्छ/बॅरिगाझा हे आजच्या गुजरातमधील भरूचशी संबंधित प्राचीन बंदर आहे.",
+      "question_id": "HIS-010-MCQ-046",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 47,
+      "question": "सातवाहन काळातील नाण्यांच्या अभ्यासातून कोणती माहिती समजू शकते?",
+      "options": {
+        "A": "आर्थिक व्यवहार, सत्तेची व्याप्ती व व्यापार",
+        "B": "फक्त राजांची उंची",
+        "C": "केवळ धार्मिक मंत्र",
+        "D": "हवामानाचा रोजचा अंदाज"
+      },
+      "correct_option": "A",
+      "answer": "आर्थिक व्यवहार, सत्तेची व्याप्ती व व्यापार",
+      "explanation": "नाण्यांचे धातू, लेख, चिन्हे आणि सापडण्याची स्थाने अर्थव्यवस्था व राजकीय नियंत्रणाचा मागोवा देतात.",
+      "question_id": "HIS-010-MCQ-047",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 48,
+      "question": "सातवाहन काळातील काही शासकांच्या नावांत 'पुत्र' हा घटक काय दर्शवतो?",
+      "options": {
+        "A": "मातृनाम/मातृकुळाशी संबंध",
+        "B": "सैन्यदलातील पद",
+        "C": "व्यापारी संघटना",
+        "D": "नाण्याचा प्रकार"
+      },
+      "correct_option": "A",
+      "answer": "मातृनाम/मातृकुळाशी संबंध",
+      "explanation": "गौतमीपुत्र व वशिष्ठीपुत्र ही उदाहरणे मातृनामाच्या वापराची आहेत; त्यावरून संपूर्ण समाज मातृसत्ताक होता असे होत नाही.",
+      "question_id": "HIS-010-MCQ-048",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 49,
+      "question": "'त्रिसमुद्रतोयपीतवाहन' ही उपाधी कोणत्या शासकाशी जोडली जाते?",
+      "options": {
+        "A": "गौतमीपुत्र सातकर्णी",
+        "B": "सिमुक",
+        "C": "हाला",
+        "D": "कृष्ण"
+      },
+      "correct_option": "A",
+      "answer": "गौतमीपुत्र सातकर्णी",
+      "explanation": "नाशिक प्रशस्तीच्या परंपरेत गौतमीपुत्र सातकर्णीच्या व्यापक विजयदाव्याशी ही उपाधी जोडली जाते.",
+      "question_id": "HIS-010-MCQ-049",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 50,
+      "question": "सातवाहनांच्या इतिहासासाठी पुराणीय राजसूचींचा वापर कसा करावा?",
+      "options": {
+        "A": "इतर अभिलेख व नाण्यांशी पडताळून",
+        "B": "अंतिम व निर्विवाद सत्य मानून",
+        "C": "सर्व नाणी नाकारून",
+        "D": "फक्त आख्यायिका म्हणून"
+      },
+      "correct_option": "A",
+      "answer": "इतर अभिलेख व नाण्यांशी पडताळून",
+      "explanation": "पुराणीय याद्यांमध्ये कालक्रम व नावांबाबत मतभेद असू शकतात; अभिलेख व नाण्यांशी तुलना करावी.",
+      "question_id": "HIS-010-MCQ-050",
       "source_status": "author_created_practice_not_pyq",
       "student_forwardable": true
     }
