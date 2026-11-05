@@ -45,3 +45,7 @@
 ## अभ्यास-सामग्रीची मर्यादा
 
 हा HIS-001 ते HIS-010 असा Ancient India विभाग आहे; संपूर्ण MPSC History syllabus किंवा full GS paper नाही. पुढील विस्तारात HIS-011 पासून उर्वरित प्राचीन, मध्ययुगीन, मराठा, आधुनिक आणि महाराष्ट्राच्या इतिहासाचे विषय जोडावेत.
+
+## पूर्ण Cross-check Report
+
+- [HIS-001 ते HIS-010 Cross-check Report](CROSS_CHECK_REPORT.md) — detailed notes word counts, 500 MCQs, test/answer-key sync, flashcards, PYQ status, JSON schema आणि 5-test series references यांची audit नोंद.
