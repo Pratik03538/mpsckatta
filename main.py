@@ -199,7 +199,7 @@ def generate_text(
     max_output_tokens: int,
     use_web_search: bool,
     json_mode: bool = False,
-) -> tuple[str, Any]:
+) -> tuple[str, Any, str]:
     config: dict[str, Any] = {
         "temperature": 0.35,
         "max_output_tokens": max_output_tokens,
@@ -209,33 +209,54 @@ def generate_text(
     if use_web_search:
         config["tools"] = [types.Tool(google_search=types.GoogleSearch())]
 
-    # Retry temporary 5xx/availability errors with exponential backoff.
-    # Do not retry 400/401/403 or 429 quota errors automatically.
-    waits = (3, 8, 15)
-    for attempt in range(len(waits) + 1):
-        try:
-            response = client.models.generate_content(
-                model=model,
-                contents=prompt,
-                config=config,
-            )
-            response_text = (response.text or "").strip()
-            if not response_text:
-                raise RuntimeError(
-                    "The model returned no text. Check API quota, model access and safety feedback."
-                )
-            return response_text, get_grounding_metadata(response)
-        except Exception as exc:
-            if not is_temporary_server_error(exc) or attempt >= len(waits):
-                raise
-            delay = waits[attempt]
-            print(
-                f"Gemini temporary server error. "
-                f"Retry {attempt + 1}/{len(waits)} in {delay} seconds..."
-            )
-            time.sleep(delay)
+    # If the primary model is overloaded, try a cheaper stable fallback.
+    # 503 is temporary service capacity; 429 quota errors are not retried here.
+    fallback_model = os.getenv("GEMINI_FALLBACK_MODEL", "gemini-3.5-flash-lite").strip()
+    model_candidates = [model]
+    if fallback_model and fallback_model != model:
+        model_candidates.append(fallback_model)
 
-    raise RuntimeError("Generation failed after retry attempts.")
+    waits = (3, 8, 15)
+    last_error: Exception | None = None
+
+    for model_index, candidate_model in enumerate(model_candidates):
+        for attempt in range(len(waits) + 1):
+            try:
+                response = client.models.generate_content(
+                    model=candidate_model,
+                    contents=prompt,
+                    config=config,
+                )
+                response_text = (response.text or "").strip()
+                if not response_text:
+                    raise RuntimeError(
+                        "The model returned no text. Check API quota, model access and safety feedback."
+                    )
+                if candidate_model != model:
+                    print(f"Fallback model succeeded: {candidate_model}")
+                return response_text, get_grounding_metadata(response), candidate_model
+            except Exception as exc:
+                last_error = exc
+                if not is_temporary_server_error(exc):
+                    raise
+                if attempt < len(waits):
+                    delay = waits[attempt]
+                    print(
+                        f"{candidate_model} is temporarily unavailable. "
+                        f"Retry {attempt + 1}/{len(waits)} in {delay} seconds..."
+                    )
+                    time.sleep(delay)
+                elif model_index + 1 < len(model_candidates):
+                    print(
+                        f"{candidate_model} is still overloaded after retries. "
+                        f"Switching to fallback: {model_candidates[model_index + 1]}"
+                    )
+                else:
+                    raise
+
+    if last_error:
+        raise last_error
+    raise RuntimeError("Generation failed without a response.")
 
 
 def json_from_response(raw: str) -> dict[str, Any]:
@@ -617,8 +638,9 @@ def main() -> int:
             "grounding_metadata": {},
         }
 
+        research["models_used"] = {}
         print("\n[1/4] Detailed Marathi notes...")
-        notes, grounding = generate_text(
+        notes, grounding, used_model = generate_text(
             client,
             args.model,
             notes_prompt(subject, topic_id, topic, source_text, args.web_research),
@@ -627,9 +649,10 @@ def main() -> int:
         )
         (output_dir / "detailed_notes.md").write_text(notes, encoding="utf-8")
         research["grounding_metadata"]["notes"] = grounding
+        research["models_used"]["notes"] = used_model
 
         print("[2/4] Visual revision pack...")
-        visuals, grounding = generate_text(
+        visuals, grounding, used_model = generate_text(
             client,
             args.model,
             visuals_prompt(subject, topic_id, topic, notes),
@@ -638,9 +661,10 @@ def main() -> int:
         )
         (output_dir / "visuals.md").write_text(visuals, encoding="utf-8")
         research["grounding_metadata"]["visuals"] = grounding
+        research["models_used"]["visuals"] = used_model
 
         print("[3/4] MCQs, topic test, flashcards and quick recall...")
-        practice_raw, grounding = generate_text(
+        practice_raw, grounding, used_model = generate_text(
             client,
             args.model,
             practice_prompt(subject, topic_id, topic, notes),
@@ -650,6 +674,7 @@ def main() -> int:
         )
         practice = json_from_response(practice_raw)
         research["grounding_metadata"]["practice"] = grounding
+        research["models_used"]["practice"] = used_model
 
         mcqs = practice.get("practice_mcqs", [])
         tests = practice.get("topic_test", [])
@@ -681,7 +706,7 @@ def main() -> int:
         ]
         pyq_rows: list[dict[str, Any]] = []
         if pdf_files and pyq_source_text:
-            pyq_raw, grounding = generate_text(
+            pyq_raw, grounding, used_model = generate_text(
                 client,
                 args.model,
                 pyq_prompt(topic_id, topic, pyq_source_text),
@@ -692,6 +717,7 @@ def main() -> int:
             pyq_data = json_from_response(pyq_raw)
             pyq_rows = pyq_data.get("pyq_candidates", [])
             research["grounding_metadata"]["pyq_extraction"] = grounding
+            research["models_used"]["pyq_extraction"] = used_model
         else:
             print("No extractable source-paper PDF; no PYQs will be invented.")
 
