@@ -1,92 +1,68 @@
-# MPSC Katta — Student Content & Automation Contract (v1.0)
+# MPSC Katta — Assessment & Automation Contract (v1.2)
 
-## विद्यार्थी थेट पाठवण्यासाठी
+## सध्याची History coverage
 
-प्रत्येक History topic मध्ये पुढील फाइल्स उपलब्ध आहेत:
+या working pack मध्ये HIS-001 ते HIS-010 (प्राचीन भारत) उपलब्ध आहेत. प्रत्येक topic मध्ये 50 authored practice MCQs, 50-question MCQ-only topic test, स्वतंत्र answer key आणि JSON उपलब्ध आहेत. HIS-001 ते HIS-008 साठी विस्तृत notes/flashcards/quick recall/visuals आहेत; HIS-009 व HIS-010 साठी सध्या संक्षिप्त notes व source references आहेत. उर्वरित HIS-011 ते HIS-094 अद्याप या pack मध्ये पूर्ण झालेले नाहीत.
 
-- `detailed_notes.md` — मराठीत विद्यार्थी-केंद्रित, स्वतंत्रपणे वाचता येणारा धडा.
-- `practice_mcqs.md` — 50 सराव प्रश्न; प्रत्येक प्रश्नाखाली A–D पर्याय, योग्य पर्याय, बरोबर उत्तर आणि स्पष्टीकरण.
-- `pyq.md` — अधिकृतरीत्या पडताळलेले PYQ उपलब्ध आहेत का याची स्पष्ट नोंद; PYQ नसल्यास अभ्यासासाठीचे प्रश्नप्रकार स्वतंत्रपणे दिलेले.
-- `quick_recall.md`, `flashcards.md`, `visuals.md`, `topic_test.md` — पुनरावृत्ती व स्वमूल्यांकनासाठी.
+सर्व MCQ हे authored practice आहेत; PYQ नाहीत.
 
-ही Markdown फाइल्स वाचनीय आणि थेट विद्यार्थी-वितरणासाठी आहेत. MCQ/PYQ automation साठी JSON फाइल्स वापराव्यात.
+## मुख्य files
 
-## मशीन-वाचनीय फाइल्स
+प्रत्येक topic:
+- `practice_mcqs.md` — विद्यार्थी वाचनासाठी प्रश्न, A–D पर्याय, उत्तर व स्पष्टीकरण.
+- `practice_mcqs.json` — canonical question bank.
+- `topic_test.md` — उत्तर न दाखवणारी 50 प्रश्नांची test paper.
+- `topic_test_answer_key.md` — उत्तरे व स्पष्टीकरण.
+- `topic_test.json` — bot/test-engine साठी machine-readable test.
+- `pyq.json` / `pyq.md` — अधिकृत PYQ verification registry व स्थिती.
 
-प्रत्येक topic साठी:
+Test series:
+- `content/test_series/history/ancient_india_test_series.json`
+- `content/test_series/history/README.md`
 
-- `practice_mcqs.json` — canonical MCQ dataset.
-- `pyq.json` — verified PYQ registry, unverified candidates आणि non-PYQ question patterns.
+Shared schema: `content/schemas/assessment_format_v1.json`.
 
-सर्व JSON फाइल्स `content/schemas/assessment_format_v1.json` या schema शी सुसंगत ठेवाव्यात.
+## MCQ fields
 
-## MCQ field contract
+प्रत्येक MCQ मध्ये:
+- `question_id` — stable ID, उदा. `HIS-009-MCQ-001`
+- `question_no`
+- `question`
+- `options.A`, `options.B`, `options.C`, `options.D`
+- `correct_option` — A/B/C/D
+- `answer` — योग्य पर्यायाचा पूर्ण मजकूर
+- `explanation`
+- `source_status: author_created_practice_not_pyq`
+- `student_forwardable: true`
 
-प्रत्येक item मध्ये हे स्थिर fields आहेत:
+Content बदलले तरी stable ID विनाकारण बदलू नका. नवीन प्रश्न जोडताना नवीन क्रमांक व ID द्या; हटवलेला ID पुन्हा वापरू नका.
 
-| Field | अर्थ |
-|---|---|
-| `question_id` | स्थिर ID, उदा. `HIS-003-MCQ-012` |
-| `question_no` | topic मधील क्रमांक |
-| `question` | प्रश्नाचा मजकूर |
-| `options.A` … `options.D` | चार पर्याय |
-| `correct_option` | योग्य पर्यायाचे अक्षर A/B/C/D |
-| `answer` | योग्य पर्यायाचा पूर्ण मजकूर |
-| `explanation` | विद्यार्थ्यांसाठी स्पष्टीकरण |
-| `source_status` | `author_created_practice_not_pyq` |
-| `student_forwardable` | सराव MCQ विद्यार्थी-वितरणासाठी योग्य असल्यास true |
+## MPSC test delivery
 
-MCQ हे नव्याने तयार केलेले सराव प्रश्न आहेत. त्यांना PYQ म्हणून दाखवू नये.
+- Test JSON मधील `questions[].question_id` व `source_file` वापरून canonical MCQ शोधा.
+- प्रश्न देताना प्रश्न व A–D पर्याय दाखवा. योग्य उत्तर, उत्तराचा मजकूर व स्पष्टीकरण submit केल्यानंतरच दाखवा.
+- E हा “उत्तर द्यायचे नाही” असा OMR response आहे; तो पाचवा factual option नाही.
+- सध्याचा Saral Seva / Group B-C practice preset: बरोबर +1; चुकीचे किंवा multiple mark −0.25; A–E पैकी काहीच mark न केल्यास −0.25; E निवडल्यास 0.
+- Topic test: 50 प्रश्न / 50 गुण / 30 मिनिटे. 100 प्रश्नांचा Ancient History mixed mock: 100 गुण / 60 मिनिटे.
+- हा practice preset आहे. विशिष्ट MPSC भरतीसाठी marks, time limit किंवा OMR rule बदलण्यापूर्वी त्या भरतीची नवीनतम अधिकृत जाहिरात तपासा.
+- Attempt log मध्ये `test_id`, `question_id`, `selected_option`, `response_status`, `score`, `timestamp` नोंदवा. एका test attempt मध्ये duplicate question पाठवू नका.
 
-## PYQ forwarding rule — अत्यावश्यक
+## PYQ forwarding — अत्यावश्यक
 
-Automation ने **फक्त** `pyq.json` मधील `verified_items` मधील records पाठवावेत, आणि प्रत्येक record साठी हे सर्व तपासावे:
-
+फक्त `pyq.json` मधील `verified_items` मधून प्रश्न पाठवा आणि प्रत्येक item साठी सर्व अटी तपासा:
 1. `verification_status === "verified"`
 2. `official_paper_verified === true`
 3. `official_final_answer_key_verified === true`
 4. `student_forwardable === true`
 
-`unverified_candidates` कधीही विद्यार्थी किंवा Telegram group ला पाठवू नयेत. `question_patterns` हे अभ्यासासाठीचे नव्याने मांडलेले प्रश्नप्रकार आहेत; ते PYQ नाहीत.
+`unverified_candidates` आणि `question_patterns` कधीही PYQ म्हणून पाठवू नका. सध्या या History pack मध्ये अधिकृतरीत्या verified PYQ नोंदवलेले नाहीत. HIS-001 मधील दोन third-party transcription candidates अप्रमाणित आहेत आणि forwarding बंद आहे.
 
-सध्या HIS-001 मध्ये तृतीय-पक्षीय archive मधील 2 candidates आहेत; मूळ प्रश्नपत्रिका आणि अधिकृत अंतिम उत्तरतालिका पडताळली नसल्याने ते `unverified_candidates` मध्येच राहतात. सर्व topics मध्ये सध्या `verified_items` रिकामे आहेत.
+## Test series contents
 
-## Suggested bot flow
+- HIS-SEC-001: प्रागैतिहासिक काळ + सिंधू संस्कृती — 50 प्रश्न.
+- HIS-SEC-002: वैदिक संस्कृती + महाजनपदे + जैन-बौद्ध परंपरा — 50 प्रश्न.
+- HIS-SEC-003: मौर्य साम्राज्य + अशोक — 50 प्रश्न.
+- HIS-SEC-004: मौर्योत्तर राजवंश + सातवाहन — 50 प्रश्न.
+- HIS-MOCK-001: HIS-001 ते HIS-010 मधील प्रत्येकी 10 प्रश्न — 100 प्रश्न.
 
-1. Topic folder निवडा.
-2. MCQ पाठवायचे असल्यास `practice_mcqs.json` मधील `items` क्रमाने वाचा.
-3. प्रत्येक message मध्ये `question_no`, `question`, `options`, `correct_option`, `answer`, `explanation` वापरा.
-4. PYQ पाठवताना वरचा four-condition verification filter लागू करा.
-5. पाठवलेला `question_id` log करा, म्हणजे duplicate messages टाळता येतील.
-
-## स्थिर naming convention
-
-- Topic: `HIS-001` … `HIS-010`
-- MCQ: `HIS-001-MCQ-001`
-- PYQ: `HIS-001-PYQ-001`
-- Pattern: `HIS-001-PATTERN-001`
-
-Question number बदलू नका; content बदलला तरी stable ID कायम ठेवा. प्रश्न हटवला तर ID पुन्हा वापरू नका.
-
-
-## MPSC MCQ test-series contract (v1.1)
-
-- Each available `content/history/HIS-001` … `HIS-010/topic_test.md` is a 50-question MCQ-only paper; the matching `topic_test_answer_key.md` contains answers and explanations; `topic_test.json` is the bot/test-engine source.
-- The Ancient India test-series index is `content/test_series/history/ancient_india_test_series.json`; read `content/test_series/history/README.md` before building the bot flow.
-- Resolve mixed-test references using `questions[].question_id` and `source_file`; do not copy a different question into a reference slot.
-- During an attempt, display only the question and A–D answer choices. Reveal the correct choice, answer and explanation only after submission.
-- MPSC objective OMR has a fifth response option E for “not attempted”. E is a response status, not a fifth factual answer choice. For the current MPSC Saral Seva / Group B-C practice profile (1 mark/question), correct = +1; wrong/multiple/fully blank A–E = −0.25; E = 0. The updated marking/OMR instruction is effective 2026-03-01. For any other exam profile, take marks-per-question and penalty from that exam's latest MPSC notification.
-- Keep all authored MCQs labelled `author_created_practice_not_pyq`. The mixed tests are not official papers and must not be represented as PYQs or full GS papers.
-
-
-### Current default exam profile
-
-`MPSC_GROUP_BC_PRACTICE`: 1 mark per question, 25% deduction for incorrect/multiple/fully blank A-E responses, E means explicitly not attempted for 0 marks. Topic tests use 50 questions / 50 marks / 30 minutes. The History-only 100-question mixed mock uses 100 marks / 60 minutes. This is a practice preset; configure another MPSC recruitment exam from its current official notification rather than assuming all MPSC exams have identical timing and scoring.
-
-
-## Available History coverage (current working pack)
-
-- HIS-001 through HIS-010 each contain 50 authored practice MCQs with A–D options, answer and explanation.
-- Each of those 10 topics has an MCQ-only test paper, separate answer key and machine-readable JSON.
-- Test-series index: `content/test_series/history/ancient_india_test_series.json` (four 50-question sectionals + one 100-question HIS-001–HIS-010 mixed Ancient History mock).
-- All these authored records are practice questions, not official PYQs.
+ही Ancient History-only series आहे; full History किंवा full GS paper नाही.
