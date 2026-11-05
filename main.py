@@ -3,7 +3,7 @@ MPSC Katta — AI Topic Pack Generator
 One topic in -> Marathi learning pack out.
 
 Uses Gemini Developer API (Google AI Studio), not ChatGPT Go.
-Does NOT invent PYQs: extraction is attempted only from PDFs supplied by the user.
+Does NOT invent PYQs: questions must come from local source files or grounded web pages with traceable references.
 All generated material remains DRAFT until human/source verification.
 """
 
