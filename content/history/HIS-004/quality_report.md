@@ -4,7 +4,7 @@
 
 | Component | Actual status |
 |---|---|
-| Detailed Notes | 2,039 words |
+| Detailed Notes | 2,137 words |
 | Practice MCQs | 50 questions, with answer key and explanations |
 | Topic Test | 50 MCQ-only questions, 50 marks, 30 minutes; separate answer key and machine-readable JSON |
 | Flashcards | 30 active-recall cards |
