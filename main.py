@@ -61,16 +61,16 @@ def collect_sources(topic_id: str) -> tuple[str, list[dict[str, Any]]]:
     Put topic-specific references in sources/TOPIC-ID/.
     """
     candidates: list[Path] = []
-    for base in (SOURCES_ROOT, SOURCES_ROOT / topic_id):
-        if base.exists():
-            for path in base.rglob("*"):
-                if not path.is_file():
-                    continue
-                if path.name.lower().endswith("reference_log.md"):
-                    continue
-                if path.suffix.lower() in {".txt", ".md", ".pdf"}:
-                    if path not in candidates:
-                        candidates.append(path)
+    topic_sources_dir = SOURCES_ROOT / topic_id
+    if topic_sources_dir.exists():
+        for path in topic_sources_dir.rglob("*"):
+            if not path.is_file():
+                continue
+            if path.name.lower() == "readme.md" or path.name.lower().endswith("reference_log.md"):
+                continue
+            if path.suffix.lower() in {".txt", ".md", ".pdf"}:
+                if path not in candidates:
+                    candidates.append(path)
 
     blocks: list[str] = []
     metadata: list[dict[str, Any]] = []
