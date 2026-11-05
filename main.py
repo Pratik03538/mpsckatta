@@ -55,7 +55,7 @@ def read_text_file(path: Path) -> str:
         return path.read_text(encoding="latin-1", errors="replace").strip()
 
 
-def collect_sources(topic_id: str) -> tuple[str, list[dict[str, Any]]]:
+def collect_sources(topic_id: str) -> tuple[str, list[dict[str, Any]], str]:
     """
     Collect local TXT/MD/PDF sources. PDF extraction is not OCR.
     Put topic-specific references in sources/TOPIC-ID/.
@@ -73,6 +73,7 @@ def collect_sources(topic_id: str) -> tuple[str, list[dict[str, Any]]]:
                     candidates.append(path)
 
     blocks: list[str] = []
+    pyq_blocks: list[str] = []
     metadata: list[dict[str, Any]] = []
     remaining = MAX_SOURCE_CHARS
 
@@ -122,6 +123,8 @@ def collect_sources(topic_id: str) -> tuple[str, list[dict[str, Any]]]:
                 combined = "\n".join(pdf_parts)
                 if combined:
                     blocks.append(combined)
+                    if any(part.lower() == "pyq" for part in path.parts):
+                        pyq_blocks.append(combined)
                     metadata.append({
                         "file": str(path.relative_to(ROOT)),
                         "type": "pdf",
@@ -141,7 +144,7 @@ def collect_sources(topic_id: str) -> tuple[str, list[dict[str, Any]]]:
                     "status": f"Could not read PDF: {exc}",
                 })
 
-    return "\n".join(blocks), metadata
+    return "\n".join(blocks), metadata, "\n".join(pyq_blocks)
 
 
 def build_client() -> genai.Client:
@@ -558,7 +561,7 @@ def main() -> int:
     print(f"Model: {args.model}")
     print(f"Google Search grounding: {'ON' if args.web_research else 'OFF'}")
 
-    source_text, source_metadata = collect_sources(topic_id)
+    source_text, source_metadata, pyq_source_text = collect_sources(topic_id)
     if source_text:
         print(f"Local reference material loaded ({len(source_text):,} characters).")
     else:
@@ -640,11 +643,11 @@ def main() -> int:
             and any(part.lower() == "pyq" for part in Path(item["file"]).parts)
         ]
         pyq_rows: list[dict[str, Any]] = []
-        if pdf_files and source_text:
+        if pdf_files and pyq_source_text:
             pyq_raw, grounding = generate_text(
                 client,
                 args.model,
-                pyq_prompt(topic_id, topic, source_text),
+                pyq_prompt(topic_id, topic, pyq_source_text),
                 5000,
                 False,
                 json_mode=True,
