@@ -168,8 +168,6 @@ def collect_sources(topic_id: str) -> tuple[str, list[dict[str, Any]], str]:
 
 
 def build_client() -> genai.Client:
-
-def build_client() -> genai.Client:
     load_dotenv(ROOT / ".env")
     api_key = os.getenv("GEMINI_API_KEY", "").strip()
     if not api_key:
@@ -409,8 +407,6 @@ def notes_prompt(
 
 
 def visuals_prompt(subject: str, topic_id: str, topic: str, notes: str) -> str:
-
-def visuals_prompt(subject: str, topic_id: str, topic: str, notes: str) -> str:
     return f"""
 खालील विषयासाठी मराठीत Visual Revision Pack तयार करा.
 Subject: {subject}; Topic ID: {topic_id}; Topic: {topic}
@@ -600,12 +596,6 @@ def write_markdown_questions(
     title: str,
     include_difficulty: bool = True,
 ) -> str:
-
-def write_markdown_questions(
-    rows: list[dict[str, Any]],
-    title: str,
-    include_difficulty: bool = True,
-) -> str:
     lines = [f"# {title}", ""]
     if not rows:
         return "\n".join(lines + ["प्रश्न उपलब्ध नाहीत.", ""])
@@ -733,8 +723,6 @@ def write_pyq(
         ])
     return "\n".join(lines)
 
-
-def main() -> int:
 
 def main() -> int:
     parser = argparse.ArgumentParser(
