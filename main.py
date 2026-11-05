@@ -14,6 +14,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -171,6 +172,24 @@ def get_grounding_metadata(response: Any) -> Any:
         return None
 
 
+def is_temporary_server_error(error: Exception) -> bool:
+    """Return True only for transient server/availability errors."""
+    message = str(error).lower()
+    status = getattr(error, "code", None) or getattr(error, "status_code", None)
+    if status in (500, 502, 503, 504):
+        return True
+    markers = (
+        "503 unavailable",
+        "service unavailable",
+        "temporarily overloaded",
+        "500 internal",
+        "502 bad gateway",
+        "504 deadline_exceeded",
+        "gateway timeout",
+    )
+    return any(marker in message for marker in markers)
+
+
 def generate_text(
     client: genai.Client,
     model: str,
@@ -188,17 +207,33 @@ def generate_text(
     if use_web_search:
         config["tools"] = [types.Tool(google_search=types.GoogleSearch())]
 
-    response = client.models.generate_content(
-        model=model,
-        contents=prompt,
-        config=config,
-    )
-    text = (response.text or "").strip()
-    if not text:
-        raise RuntimeError(
-            "The model returned no text. Check API quota, model access and safety feedback."
-        )
-    return text, get_grounding_metadata(response)
+    # Retry temporary 5xx/availability errors with exponential backoff.
+    # Do not retry 400/401/403 or 429 quota errors automatically.
+    waits = (3, 8, 15)
+    for attempt in range(len(waits) + 1):
+        try:
+            response = client.models.generate_content(
+                model=model,
+                contents=prompt,
+                config=config,
+            )
+            response_text = (response.text or "").strip()
+            if not response_text:
+                raise RuntimeError(
+                    "The model returned no text. Check API quota, model access and safety feedback."
+                )
+            return response_text, get_grounding_metadata(response)
+        except Exception as exc:
+            if not is_temporary_server_error(exc) or attempt >= len(waits):
+                raise
+            delay = waits[attempt]
+            print(
+                f"Gemini temporary server error. "
+                f"Retry {attempt + 1}/{len(waits)} in {delay} seconds..."
+            )
+            time.sleep(delay)
+
+    raise RuntimeError("Generation failed after retry attempts.")
 
 
 def json_from_response(raw: str) -> dict[str, Any]:
