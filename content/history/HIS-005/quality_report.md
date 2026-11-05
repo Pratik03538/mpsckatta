@@ -48,3 +48,8 @@ Britannica Jainism: https://www.britannica.com/topic/Jainism ; Jainpedia: https:
 - Topic test is objective MCQ-only: 50 questions / 100 practice marks / 50 minutes.
 - The question paper, answer key and automation JSON are separate files.
 - The scoring profile uses the MPSC objective OMR convention effective 1 March 2026: E = not attempted (0); incorrect/multiple/fully unmarked response = 25% penalty of the question's marks. For 2-mark questions, the penalty is 0.50.
+
+
+## MPSC Saral Seva scoring profile — corrected
+
+The topic test is 50 MCQ / 50 marks / 30 minutes. The current one-mark practice profile awards +1 for correct, deducts 0.25 for incorrect, multiple or fully blank A–E response, and awards 0 for E (explicitly not attempted). Use the target recruitment examination's latest notification when configuring a different MPSC exam.
