@@ -79,6 +79,10 @@
         },
         "student_forwardable": {
           "const": true
+        },
+        "explanation_status": {
+          "type": "string",
+          "description": "Optional provenance note indicating whether the explanation was present in the source draft or improved during editorial review."
         }
       },
       "additionalProperties": false
