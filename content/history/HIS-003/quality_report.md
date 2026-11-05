@@ -1,37 +1,35 @@
-# HIS-003 — गुणवत्ता अहवाल
+# HIS-003 — Quality Report (Actual Content Audit)
 
-## या आवृत्तीतील प्रत्यक्ष साहित्य
+## Verified structure and counts on this branch
 
-| घटक | स्थिती / प्रमाण |
+| Component | Actual status |
 |---|---|
-| Detailed Notes | विस्तारित विभागवार स्पष्टीकरण, तुलना व स्रोतचिकित्सा |
-| Visuals | साहित्य-वृक्ष, तुलना तक्ता, संस्था नकाशा व बदलांची कारणसाखळी |
-| Practice MCQs | 50 नव्याने तयार केलेले प्रश्न; उत्तर व स्पष्टीकरण |
-| Topic Test | 40 गुणांची लेखी चाचणी |
-| Flashcards | 30 Active Recall कार्डे |
-| Quick Recall | तुलनात्मक सारांश व स्व-परीक्षा |
-| PYQ | अधिकृतरीत्या पडताळलेले प्रश्न उपलब्ध नसल्याचे स्पष्ट |
+| Detailed Notes | 2,034 words |
+| Practice MCQs | 50 questions, with answer key and explanations |
+| Topic Test | 40-mark assessment with objective, short-answer and/or analysis sections |
+| Flashcards | 30 active-recall cards |
+| Visual Revision | 7 organized visual sections using comparisons, tables, timelines or flow diagrams |
+| Quick Recall | One consolidated revision sheet with key facts, comparisons and self-test prompts |
+| PYQ | No official paper/key-verified questions recorded; study patterns only. |
+| Quality Report | Coverage, counts, caveats and publication checks documented here |
 
-## कव्हरेज तपासणी
+## Coverage checklist
 
-- [x] चार वेद व संबंधित साहित्यप्रकार
-- [x] प्रारंभिक/ऋग्वेदीय अर्थव्यवस्था, समाज व राजकीय संस्था
-- [x] वैदिक देवता व यज्ञ
-- [x] उत्तर वैदिक कृषी, धातू व राजकीय बदल
-- [x] वर्णमांडणी, कुटुंब व स्त्रियांचे स्रोतांतील संदर्भ
-- [x] साहित्यिक स्रोतांची मर्यादा व पुरातत्त्वीय तुलना
-- [x] सराव प्रश्न व स्वमूल्यांकन साहित्य
+- [x] Detailed lesson notes with topic-specific subheadings and exam-focused explanations
+- [x] Visual revision sections that summarize relationships, chronology, sites or concepts
+- [x] 50 practice questions (newly authored practice; not labelled as PYQ)
+- [x] 40-mark topic test and answer guidance
+- [x] 30 flashcards for active recall
+- [x] Quick revision sheet
+- [x] PYQ status stated transparently; no unverified item is represented as officially confirmed
+- [x] Reference links included in the study notes
 
-## शैक्षणिक मर्यादा
+## Accuracy and publication limitations
 
-1. वैदिक कालमर्यादा अभ्यासकांनुसार बदलतात; येथे त्या अंदाजे ठेवलेल्या आहेत.
-2. सभा/समिती/विदथ यांची अचूक रचना व अधिकार यांबाबत सर्वमान्य एकच पुनर्रचना नाही.
-3. वैदिक साहित्य धार्मिक-काव्यात्मक स्रोत आहे; त्यातील आदर्श मांडणी व सामाजिक व्यवहार वेगळे असू शकतात.
-4. हा अहवाल फाइल्सची उपस्थिती व व्याप्ती तपासतो; प्रत्येक ऐतिहासिक दाव्याचे स्वतंत्र प्रमाणीकरण करत नाही.
+This audit checks file presence, approximate word count, question/card counts and topic coverage. It does **not** certify every historical claim, answer key or source interpretation. Before publication, cross-check dates, chronology, places, translations and answer keys against the linked academic/primary sources. Where scholarly or sectarian traditions differ, the notes identify the disagreement rather than force one universal answer.
 
-## संदर्भ
+## References
 
-- IGNOU eGyanKosh, BHIM-161 (Unit 3 — Vedic Culture): https://egyankosh.ac.in/handle/123456789/115639
-- IGNOU eGyanKosh, EHI-02: https://egyankosh.ac.in/handle/123456789/17815
+IGNOU eGyanKosh: https://egyankosh.ac.in/handle/123456789/115639
 
-**स्थिती:** अभ्यासासाठी विस्तारित आवृत्ती. अंतिम प्रकाशनापूर्वी स्थानिक अभ्यासक्रम/अधिकृत संदर्भ व तज्ज्ञ पुनरावलोकन आवश्यक.
+**Status:** Structurally complete study pack for review. Official MPSC PYQ verification remains separate and must use the original question paper plus official final answer key.
