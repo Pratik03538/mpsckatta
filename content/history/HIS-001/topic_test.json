@@ -11,9 +11,13 @@
   "total_marks": 100,
   "scoring": {
     "marks_per_question": 2,
-    "negative_marking_fraction": 0.3333333333333333,
-    "negative_marking_formula": "deduct one-third of the marks assigned to the question for an incorrect response",
-    "unattempted_penalty": 0
+    "negative_marking_fraction": 0.25,
+    "wrong_answer_penalty": 0.5,
+    "multiple_mark_penalty": 0.5,
+    "blank_all_five_options_penalty": 0.5,
+    "explicit_not_attempted_option": "E",
+    "explicit_not_attempted_penalty": 0,
+    "formula": "Correct +2; wrong/multiple/blank A-E -0.5; E (not attempted) 0."
   },
   "answer_visibility": "after_submission",
   "source_status": "author_created_practice_not_pyq",
@@ -919,5 +923,14 @@
       "student_forwardable": true,
       "display_answer_after_submission": true
     }
-  ]
+  ],
+  "response_options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "skip_option": "E",
+  "exam_rule_effective_date": "2026-03-01"
 }
