@@ -1,32 +1,35 @@
-# HIS-001 गुणवत्ता अहवाल
+# HIS-001 — Quality Report (Actual Content Audit)
 
-## पॅकची व्याप्ती
-हा पॅक प्रागैतिहासिक काळाच्या संकल्पना, पुरातत्त्वीय पुरावे, दिनांकन, पुरापाषाणाचे उपटप्पे, मध्यपाषाण, नवपाषाण, महत्त्वाची भारतीय स्थळे आणि महाराष्ट्राशी संबंधित उदाहरणे समाविष्ट करतो.
+## Verified structure and counts on this branch
 
-## उपलब्ध घटक
-| फाइल | स्थिती | उपयोग |
-|---|---|---|
-| README.md | उपलब्ध | अभ्यासक्रम व फोल्डर नेव्हिगेशन |
-| detailed_notes.md | विस्तृत | मुख्य संकल्पनात्मक अभ्यास |
-| visuals.md | उपलब्ध | कालरेषा, तुलना व स्थळाधारित दृश्य नोट्स |
-| practice_mcqs.md | विस्तृत | वस्तुनिष्ठ सराव |
-| pyq.md | समाविष्ट | मागील प्रश्न/संदर्भ |
-| flashcards.md | विस्तारित | Active Recall |
-| quick_recall.md | विस्तारित | जलद पुनरावृत्ती |
-| topic_test.md | विस्तारित | 40 गुणांची स्वमूल्यांकन चाचणी |
+| Component | Actual status |
+|---|---|
+| Detailed Notes | 2,501 words |
+| Practice MCQs | 50 questions, with answer key and explanations |
+| Topic Test | 40-mark assessment with objective, short-answer and/or analysis sections |
+| Flashcards | 35 active-recall cards |
+| Visual Revision | 7 organized visual sections using comparisons, tables, timelines or flow diagrams |
+| Quick Recall | One consolidated revision sheet with key facts, comparisons and self-test prompts |
+| PYQ | MPSC candidate records from a third-party archive; original paper/key verification remains pending. |
+| Quality Report | Coverage, counts, caveats and publication checks documented here |
 
-## गुणवत्ता तपासणीचे निकष
-1. कालखंडांचे वर्णन सर्व प्रदेशांसाठी एकसारखे लागू केलेले नाही.
-2. पुरावा, त्याचा संदर्भ आणि त्यावरून काढलेला निष्कर्ष वेगळा ठेवला आहे.
-3. C-14 दिनांकन सेंद्रिय नमुन्यांशी संबंधित असल्याचे स्पष्ट केले आहे.
-4. भीमबेटका, बागोर, पाटणे, चिर्की-नेवासा, इसमपूर व मेहरगढ यांची ओळख दिली आहे.
-5. इनामगावचा ताम्रपाषाणीन संदर्भ आणि नवपाषाण यांतील फरक अधोरेखित केला आहे.
-6. अधिकृत प्रश्नपत्रिकेतून पडताळणी न झालेला प्रश्न अधिकृत PYQ म्हणून घोषित करू नये.
+## Coverage checklist
 
-## उर्वरित संपादकीय पडताळणी
-- PYQ मधील प्रत्येक प्रश्नाची मूळ MPSC प्रश्नपत्रिका व अधिकृत उत्तरतालिकेशी जुळवणी करावी.
-- कालमर्यादा व उत्खनन-संदर्भांसाठी शैक्षणिक/पुरातत्त्वीय प्रकाशने प्राधान्याने वापरावीत.
-- नकाशे व प्रतिमांसाठी स्रोत, परवाना व कॅप्शन नोंदवावे.
-- अंतिम प्रकाशनापूर्वी विषयतज्ज्ञाकडून तथ्यपडताळणी करावी.
+- [x] Detailed lesson notes with topic-specific subheadings and exam-focused explanations
+- [x] Visual revision sections that summarize relationships, chronology, sites or concepts
+- [x] 50 practice questions (newly authored practice; not labelled as PYQ)
+- [x] 40-mark topic test and answer guidance
+- [x] 35 flashcards for active recall
+- [x] Quick revision sheet
+- [x] PYQ status stated transparently; no unverified item is represented as officially confirmed
+- [x] Reference links included in the study notes
 
-**स्थिती:** अभ्यासासाठी उपयुक्त कार्यरत आवृत्ती; अधिकृत परीक्षेसाठी वापरण्यापूर्वी वरील पडताळणी पूर्ण करणे आवश्यक.
+## Accuracy and publication limitations
+
+This audit checks file presence, approximate word count, question/card counts and topic coverage. It does **not** certify every historical claim, answer key or source interpretation. Before publication, cross-check dates, chronology, places, translations and answer keys against the linked academic/primary sources. Where scholarly or sectarian traditions differ, the notes identify the disagreement rather than force one universal answer.
+
+## References
+
+INFLIBNET: https://ebooks.inflibnet.ac.in/icp02/
+
+**Status:** Structurally complete study pack for review. Official MPSC PYQ verification remains separate and must use the original question paper plus official final answer key.
