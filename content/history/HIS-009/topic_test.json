@@ -1,0 +1,700 @@
+{
+  "schema_version": "1.0",
+  "test_id": "HIS-009-TOPIC-TEST-01",
+  "topic_id": "HIS-009",
+  "topic_title": "मौर्योत्तर राजवंश",
+  "language": "mr",
+  "content_type": "mpsc_topic_test",
+  "exam_target": "MPSC Saral Seva / Group B-C objective examination — History practice",
+  "exam_profile": "MPSC_GROUP_BC_PRACTICE",
+  "question_count": 39,
+  "time_limit_minutes": 39,
+  "total_marks": 39,
+  "answer_visibility": "after_submission",
+  "source_status": "author_created_practice_not_pyq",
+  "student_forwardable": true,
+  "response_options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "skip_option": "E",
+  "exam_rule_effective_date": "2026-03-01",
+  "scoring": {
+    "marks_per_question": 1,
+    "negative_marking_fraction": 0.25,
+    "wrong_answer_penalty": 0.25,
+    "multiple_mark_penalty": 0.25,
+    "blank_all_five_options_penalty": 0.25,
+    "explicit_not_attempted_option": "E",
+    "explicit_not_attempted_penalty": 0,
+    "formula": "Correct +1; wrong/multiple/blank A-E -0.25; E (not attempted) 0."
+  },
+  "items": [
+    {
+      "question_no": 1,
+      "question": "मौर्य साम्राज्याच्या शेवटच्या शासकाचे नाव काय होते?",
+      "options": {
+        "A": "बृहद्रथ",
+        "B": "दशरथ",
+        "C": "सम्राट संप्रती",
+        "D": "देववर्मन"
+      },
+      "correct_option": "A",
+      "answer": "बृहद्रथ",
+      "explanation": "बृहद्रथ हा मौर्य वंशाचा शेवटचा शासक मानला जातो.",
+      "question_id": "HIS-009-MCQ-001",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 2,
+      "question": "पुष्यमित्र शुंगाने कोणाची हत्या करून सत्ता स्थापन केली?",
+      "options": {
+        "A": "अशोक",
+        "B": "बृहद्रथ",
+        "C": "बिंदुसार",
+        "D": "कुणाल"
+      },
+      "correct_option": "B",
+      "answer": "बृहद्रथ",
+      "explanation": "पुष्यमित्र हा बृहद्रथाचा सेनापती होता; त्याने त्याची हत्या करून शुंग सत्ता स्थापन केली.",
+      "question_id": "HIS-009-MCQ-002",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 3,
+      "question": "शुंग वंशाचा संस्थापक कोण?",
+      "options": {
+        "A": "अग्निमित्र",
+        "B": "वसुदेव",
+        "C": "पुष्यमित्र शुंग",
+        "D": "देवभूती"
+      },
+      "correct_option": "C",
+      "answer": "पुष्यमित्र शुंग",
+      "explanation": "पुष्यमित्र शुंग हा शुंग वंशाचा संस्थापक होता.",
+      "question_id": "HIS-009-MCQ-003",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 4,
+      "question": "शुंग सत्तेची सुरुवात साधारण कोणत्या काळात मानली जाते?",
+      "options": {
+        "A": "इ.स.पू. 6वे शतक",
+        "B": "इ.स.पू. 2रे शतक",
+        "C": "इ.स. 4थे शतक",
+        "D": "इ.स. 8वे शतक"
+      },
+      "correct_option": "B",
+      "answer": "इ.स.पू. 2रे शतक",
+      "explanation": "मौर्य सत्तेच्या अखेरीस इ.स.पू. दुसऱ्या शतकात शुंग वंश उदयास आला; साधारण 185 BCE ही पारंपरिक तारीख वापरली जाते.",
+      "question_id": "HIS-009-MCQ-004",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 5,
+      "question": "शुंग वंशाच्या इतिहासासाठी खालीलपैकी कोणता साहित्यिक स्रोत महत्त्वाचा आहे?",
+      "options": {
+        "A": "मालविकाग्निमित्रम्",
+        "B": "राजतरंगिणी",
+        "C": "अकबरनामा",
+        "D": "बाबरनामा"
+      },
+      "correct_option": "A",
+      "answer": "मालविकाग्निमित्रम्",
+      "explanation": "कालिदासाचे मालविकाग्निमित्रम् शुंग राजघराण्याशी संबंधित माहिती देते.",
+      "question_id": "HIS-009-MCQ-005",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 6,
+      "question": "पतंजलीचा कोणता ग्रंथ शुंग काळाच्या अभ्यासासाठी उपयोगी आहे?",
+      "options": {
+        "A": "अष्टाध्यायी",
+        "B": "महाभाष्य",
+        "C": "बुद्धचरित",
+        "D": "मुद्राराक्षस"
+      },
+      "correct_option": "B",
+      "answer": "महाभाष्य",
+      "explanation": "पतंजलीचे महाभाष्य हे त्या काळातील राजकीय व सामाजिक संदर्भांसाठी वापरले जाते.",
+      "question_id": "HIS-009-MCQ-006",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 7,
+      "question": "पुष्यमित्र शुंगाच्या अश्वमेध यज्ञांचा उल्लेख कोणत्या स्रोतपरंपरेत आढळतो?",
+      "options": {
+        "A": "महाभाष्य",
+        "B": "हर्षचरित",
+        "C": "अर्थशास्त्र",
+        "D": "हर्षचरित व महाभाष्य"
+      },
+      "correct_option": "A",
+      "answer": "महाभाष्य",
+      "explanation": "महाभाष्यात अश्वमेधाशी संबंधित उल्लेख मिळतो; वेगवेगळ्या स्रोतांचा संदर्भ तुलना करून घ्यावा.",
+      "question_id": "HIS-009-MCQ-007",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 8,
+      "question": "अयोध्या शिलालेख कोणत्या शुंग शासकाशी संबंधित मानला जातो?",
+      "options": {
+        "A": "अग्निमित्र",
+        "B": "धनदेव",
+        "C": "वसुमित्र",
+        "D": "देवभूती"
+      },
+      "correct_option": "B",
+      "answer": "धनदेव",
+      "explanation": "धनदेवाच्या अयोध्या शिलालेखातून पुष्यमित्र शुंगाचा उल्लेख मिळतो.",
+      "question_id": "HIS-009-MCQ-008",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 9,
+      "question": "भरहूत स्तूपाच्या रेलिंग/शिल्पविकासाचा संबंध कोणत्या कालखंडाशी जोडला जातो?",
+      "options": {
+        "A": "शुंग कालखंड",
+        "B": "गुप्तोत्तर कालखंड",
+        "C": "दिल्ली सल्तनत",
+        "D": "मुघल कालखंड"
+      },
+      "correct_option": "A",
+      "answer": "शुंग कालखंड",
+      "explanation": "भरहूत येथील स्तूप व त्यावरील शिल्पकामाच्या विकासात शुंग काळाचा महत्त्वाचा टप्पा मानला जातो.",
+      "question_id": "HIS-009-MCQ-009",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 10,
+      "question": "शुंग वंशानंतर मगधमध्ये कोणता वंश सत्तेवर आला?",
+      "options": {
+        "A": "कुषाण",
+        "B": "कण्व",
+        "C": "गुप्त",
+        "D": "वाकाटक"
+      },
+      "correct_option": "B",
+      "answer": "कण्व",
+      "explanation": "शुंग सत्तेनंतर कण्व वंशाचा उदय झाला.",
+      "question_id": "HIS-009-MCQ-010",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 11,
+      "question": "कण्व वंशाचा संस्थापक कोण मानला जातो?",
+      "options": {
+        "A": "वसुदेव",
+        "B": "सुशर्मा",
+        "C": "भूमिमित्र",
+        "D": "नारायण"
+      },
+      "correct_option": "A",
+      "answer": "वसुदेव",
+      "explanation": "वसुदेव हा कण्व वंशाचा संस्थापक मानला जातो.",
+      "question_id": "HIS-009-MCQ-011",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 12,
+      "question": "कण्व वंशाचा शेवटचा शासक कोण मानला जातो?",
+      "options": {
+        "A": "नारायण",
+        "B": "भूमिमित्र",
+        "C": "सुशर्मा",
+        "D": "वसुदेव"
+      },
+      "correct_option": "C",
+      "answer": "सुशर्मा",
+      "explanation": "सुशर्मा हा कण्व वंशाचा शेवटचा शासक मानला जातो.",
+      "question_id": "HIS-009-MCQ-012",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 13,
+      "question": "इंडो-ग्रीक सत्तेचा प्रारंभिक आधारप्रदेश कोणता?",
+      "options": {
+        "A": "मगध",
+        "B": "बॅक्ट्रिया",
+        "C": "कलिंग",
+        "D": "कांची"
+      },
+      "correct_option": "B",
+      "answer": "बॅक्ट्रिया",
+      "explanation": "बॅक्ट्रिया हा मध्य आशियातील प्रदेश इंडो-ग्रीक राजकीय इतिहासाचा प्रारंभिक केंद्रबिंदू होता.",
+      "question_id": "HIS-009-MCQ-013",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 14,
+      "question": "भारतीय साहित्यिक स्रोतांत ग्रीकांसाठी कोणती संज्ञा आढळते?",
+      "options": {
+        "A": "पहलव",
+        "B": "यवन",
+        "C": "शक",
+        "D": "हूण"
+      },
+      "correct_option": "B",
+      "answer": "यवन",
+      "explanation": "भारतीय साहित्यांत ग्रीक/इंडो-ग्रीकांसाठी 'यवन' ही संज्ञा वापरली जाते.",
+      "question_id": "HIS-009-MCQ-014",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 15,
+      "question": "इंडो-ग्रीक राज्याच्या स्वतंत्र बॅक्ट्रियन टप्प्याशी कोणाचे नाव जोडले जाते?",
+      "options": {
+        "A": "डायोडोटस प्रथम",
+        "B": "कनिष्क",
+        "C": "रुद्रदामन",
+        "D": "पुष्यमित्र"
+      },
+      "correct_option": "A",
+      "answer": "डायोडोटस प्रथम",
+      "explanation": "डायोडोटस प्रथमाने सेल्युसिड सत्तेविरुद्ध उठाव करून स्वतंत्र बॅक्ट्रियन ग्रीक सत्ता स्थापली.",
+      "question_id": "HIS-009-MCQ-015",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 16,
+      "question": "'मिलिंदपन्हो' या ग्रंथातील संवाद कोणामध्ये आहे?",
+      "options": {
+        "A": "कनिष्क व अश्वघोष",
+        "B": "मेनांडर व नागसेन",
+        "C": "रुद्रदामन व सुविशाख",
+        "D": "पुष्यमित्र व पतंजली"
+      },
+      "correct_option": "B",
+      "answer": "मेनांडर व नागसेन",
+      "explanation": "मिलिंदपन्होमध्ये राजा मिलिंद (मेनांडर) आणि बौद्ध भिक्षू नागसेन यांच्यातील संवाद आहे.",
+      "question_id": "HIS-009-MCQ-016",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 17,
+      "question": "मेनांडरचे भारतीय नाव/रूप कोणते?",
+      "options": {
+        "A": "मिलिंद",
+        "B": "मिहिरकुल",
+        "C": "मिहिरभोज",
+        "D": "मिनांड"
+      },
+      "correct_option": "A",
+      "answer": "मिलिंद",
+      "explanation": "मेनांडरला भारतीय बौद्ध परंपरेत मिलिंद म्हणून ओळखले जाते.",
+      "question_id": "HIS-009-MCQ-017",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 18,
+      "question": "बेसनगरचा गरुडध्वज स्तंभ कोणत्या ग्रीक राजदूताशी संबंधित आहे?",
+      "options": {
+        "A": "डायोनिसियस",
+        "B": "हेलिओडोरस",
+        "C": "मेगॅस्थेनीज",
+        "D": "डेमेट्रियस"
+      },
+      "correct_option": "B",
+      "answer": "हेलिओडोरस",
+      "explanation": "हेलिओडोरस हा बेसनगर स्तंभलेखाशी संबंधित ग्रीक राजदूत होता.",
+      "question_id": "HIS-009-MCQ-018",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 19,
+      "question": "हेलिओडोरस स्तंभलेख कोणत्या धार्मिक परंपरेशी संबंधित आहे?",
+      "options": {
+        "A": "शैव",
+        "B": "वैष्णव/भागवत",
+        "C": "जैन",
+        "D": "आजीवक"
+      },
+      "correct_option": "B",
+      "answer": "वैष्णव/भागवत",
+      "explanation": "हेलिओडोरसने वासुदेवाशी संबंधित भागवत भक्ती स्वीकारल्याचा उल्लेख स्तंभलेखातून दिसतो.",
+      "question_id": "HIS-009-MCQ-019",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 20,
+      "question": "शकांना पाश्चात्त्य इतिहासलेखनात सामान्यतः कोणत्या नावाने ओळखतात?",
+      "options": {
+        "A": "Scythians",
+        "B": "Huns",
+        "C": "Parthians",
+        "D": "Arabs"
+      },
+      "correct_option": "A",
+      "answer": "Scythians",
+      "explanation": "शक हे व्यापकपणे Scythian समूहांशी जोडले जातात.",
+      "question_id": "HIS-009-MCQ-020",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 21,
+      "question": "पश्चिम क्षत्रपांच्या इतिहासातील महत्त्वाचा शासक कोण?",
+      "options": {
+        "A": "रुद्रदामन प्रथम",
+        "B": "समुद्रगुप्त",
+        "C": "हर्षवर्धन",
+        "D": "अशोक"
+      },
+      "correct_option": "A",
+      "answer": "रुद्रदामन प्रथम",
+      "explanation": "रुद्रदामन प्रथम हा पश्चिम क्षत्रपांचा प्रभावी शासक होता.",
+      "question_id": "HIS-009-MCQ-021",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 22,
+      "question": "रुद्रदामनचा प्रसिद्ध जुनागढ शिलालेख कोणत्या भाषेत आहे?",
+      "options": {
+        "A": "पाली",
+        "B": "प्राकृत",
+        "C": "संस्कृत",
+        "D": "तमिळ"
+      },
+      "correct_option": "C",
+      "answer": "संस्कृत",
+      "explanation": "जुनागढ शिलालेख हा संस्कृत गद्याचा महत्त्वाचा प्रारंभिक/प्राचीन नमुना मानला जातो.",
+      "question_id": "HIS-009-MCQ-022",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 23,
+      "question": "जुनागढ शिलालेखात रुद्रदामनने कोणत्या जलसाठ्याच्या दुरुस्तीचा उल्लेख केला आहे?",
+      "options": {
+        "A": "पुष्कर तलाव",
+        "B": "सुदर्शन तलाव",
+        "C": "लोणार सरोवर",
+        "D": "पवई तलाव"
+      },
+      "correct_option": "B",
+      "answer": "सुदर्शन तलाव",
+      "explanation": "रुद्रदामनच्या लेखात सुदर्शन तलावाच्या दुरुस्तीची माहिती आहे.",
+      "question_id": "HIS-009-MCQ-023",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 24,
+      "question": "रुद्रदामनचा संघर्ष मुख्यतः कोणत्या दख्खनी राजवंशाशी झाला?",
+      "options": {
+        "A": "चोल",
+        "B": "सातवाहन",
+        "C": "पल्लव",
+        "D": "चालुक्य"
+      },
+      "correct_option": "B",
+      "answer": "सातवाहन",
+      "explanation": "जुनागढ लेख सातवाहन शासकांशी झालेल्या संघर्षांचा उल्लेख करतो.",
+      "question_id": "HIS-009-MCQ-024",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 25,
+      "question": "पार्थियन सत्तेला भारतीय संदर्भात कोणत्या नावानेही ओळखले जाते?",
+      "options": {
+        "A": "पहलव",
+        "B": "यवन",
+        "C": "हूण",
+        "D": "किरात"
+      },
+      "correct_option": "A",
+      "answer": "पहलव",
+      "explanation": "पार्थियन शासकांसाठी भारतीय स्रोतांत 'पहलव' ही संज्ञा आढळते.",
+      "question_id": "HIS-009-MCQ-025",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 26,
+      "question": "कुषाणांचा उदय कोणत्या मध्य आशियाई समूहाशी संबंधित आहे?",
+      "options": {
+        "A": "युएझी",
+        "B": "मंगोल",
+        "C": "अरब",
+        "D": "तुर्क"
+      },
+      "correct_option": "A",
+      "answer": "युएझी",
+      "explanation": "कुषाणांचा उदय मध्य आशियातील युएझी समूहाच्या एका शाखेतून झाल्याचे मानले जाते.",
+      "question_id": "HIS-009-MCQ-026",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 27,
+      "question": "कुषाण सत्तेच्या प्रारंभिक विस्ताराशी कोणाचे नाव जोडले जाते?",
+      "options": {
+        "A": "कुजुल कडफिसेस",
+        "B": "हुविष्क",
+        "C": "वासुदेव",
+        "D": "रुद्रदामन"
+      },
+      "correct_option": "A",
+      "answer": "कुजुल कडफिसेस",
+      "explanation": "कुजुल कडफिसेसला कुषाण सत्तेच्या प्रारंभिक संघटन/विस्ताराशी जोडले जाते.",
+      "question_id": "HIS-009-MCQ-027",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 28,
+      "question": "कनिष्काची प्रमुख राजधानी कोणती मानली जाते?",
+      "options": {
+        "A": "पाटलीपुत्र",
+        "B": "पुरुषपुर",
+        "C": "उज्जैन",
+        "D": "तक्षशिला"
+      },
+      "correct_option": "B",
+      "answer": "पुरुषपुर",
+      "explanation": "पुरुषपुर म्हणजे आजचे पेशावर, कनिष्काच्या प्रमुख राजधानींपैकी एक होते.",
+      "question_id": "HIS-009-MCQ-028",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 29,
+      "question": "कनिष्काचा संबंध कोणत्या शक संवताच्या प्रारंभाशी परंपरेने जोडला जातो?",
+      "options": {
+        "A": "इ.स.पू. 57",
+        "B": "इ.स. 78",
+        "C": "इ.स. 320",
+        "D": "इ.स. 606"
+      },
+      "correct_option": "B",
+      "answer": "इ.स. 78",
+      "explanation": "इ.स. 78 च्या शक संवताचा प्रारंभ परंपरेने कनिष्काशी जोडला जातो; या संबंधाविषयी इतिहासलेखनात चर्चा आहे.",
+      "question_id": "HIS-009-MCQ-029",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 30,
+      "question": "कनिष्काच्या काळातील बौद्ध संगीती कोणत्या स्थळाशी परंपरेने संबंधित आहे?",
+      "options": {
+        "A": "वैशाली",
+        "B": "कुंडलवन, काश्मीर",
+        "C": "राजगृह",
+        "D": "पाटलीपुत्र"
+      },
+      "correct_option": "B",
+      "answer": "कुंडलवन, काश्मीर",
+      "explanation": "कनिष्काच्या काळातील चौथी बौद्ध संगीती कुंडलवन, काश्मीर येथे झाल्याची परंपरा सांगते.",
+      "question_id": "HIS-009-MCQ-030",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 31,
+      "question": "कनिष्काच्या काळातील संगीतीचे अध्यक्ष कोण मानले जातात?",
+      "options": {
+        "A": "उपाळी",
+        "B": "वसुमित्र",
+        "C": "महाकश्यप",
+        "D": "आनंद"
+      },
+      "correct_option": "B",
+      "answer": "वसुमित्र",
+      "explanation": "परंपरेनुसार चौथ्या बौद्ध संगीतीचे अध्यक्ष वसुमित्र होते.",
+      "question_id": "HIS-009-MCQ-031",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 32,
+      "question": "कनिष्क कोणत्या बौद्ध पंथाच्या आश्रयासाठी विशेष ओळखला जातो?",
+      "options": {
+        "A": "महायान",
+        "B": "थेरवादाचा एकमेव प्रवर्तक",
+        "C": "आजीवक",
+        "D": "लोकायत"
+      },
+      "correct_option": "A",
+      "answer": "महायान",
+      "explanation": "कनिष्काला महायान बौद्ध धर्माच्या आश्रयाशी विशेषतः जोडले जाते.",
+      "question_id": "HIS-009-MCQ-032",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 33,
+      "question": "गांधार कलेवर कोणत्या कलापरंपरेचा प्रभाव दिसतो?",
+      "options": {
+        "A": "ग्रीक-रोमन",
+        "B": "चिनी सुलेखन",
+        "C": "मुघल मिनिएचर",
+        "D": "चोल कांस्य"
+      },
+      "correct_option": "A",
+      "answer": "ग्रीक-रोमन",
+      "explanation": "गांधार कलेत हेल्लेनिस्टिक/ग्रीक-रोमन कलात्मक घटक आणि बौद्ध विषय यांचा संगम दिसतो.",
+      "question_id": "HIS-009-MCQ-033",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 34,
+      "question": "मथुरा कला प्रामुख्याने कोणत्या दगडाच्या वापरासाठी ओळखली जाते?",
+      "options": {
+        "A": "लालसर वाळूचा दगड",
+        "B": "काळा ग्रॅनाइट",
+        "C": "पांढरा संगमरवर",
+        "D": "ज्वालामुखी खडक"
+      },
+      "correct_option": "A",
+      "answer": "लालसर वाळूचा दगड",
+      "explanation": "मथुरा शिल्पपरंपरेत लालसर वाळूचा दगड मोठ्या प्रमाणात वापरला गेला.",
+      "question_id": "HIS-009-MCQ-034",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 35,
+      "question": "कुषाण साम्राज्याच्या व्यापारासाठी कोणता मार्ग अत्यंत महत्त्वाचा होता?",
+      "options": {
+        "A": "रेशीम मार्ग",
+        "B": "अटलांटिक मार्ग",
+        "C": "केप मार्ग",
+        "D": "उत्तर समुद्री मार्ग"
+      },
+      "correct_option": "A",
+      "answer": "रेशीम मार्ग",
+      "explanation": "कुषाण साम्राज्य मध्य आशिया, चीन आणि पश्चिम आशियातील रेशीम मार्गावरील व्यापारात मध्यवर्ती होते.",
+      "question_id": "HIS-009-MCQ-035",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 36,
+      "question": "कुषाण नाण्यांवर कोणत्या वैशिष्ट्याचे दर्शन घडते?",
+      "options": {
+        "A": "फक्त एकाच देवतेची प्रतिमा",
+        "B": "ग्रीक, इराणी व भारतीय देवतांचे मिश्र दर्शन",
+        "C": "फक्त प्राण्यांची चिन्हे",
+        "D": "नाण्यांवर कोणतीही प्रतिमा नाही"
+      },
+      "correct_option": "B",
+      "answer": "ग्रीक, इराणी व भारतीय देवतांचे मिश्र दर्शन",
+      "explanation": "कुषाण नाण्यांवर विविध धार्मिक परंपरांतील देवतांची नावे/प्रतिमा दिसतात; सांस्कृतिक संपर्काचा हा पुरावा आहे.",
+      "question_id": "HIS-009-MCQ-036",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 37,
+      "question": "उत्तर-पश्चिम भारतातील खरोष्ठी लिपीची लेखनदिशा कोणती?",
+      "options": {
+        "A": "डावीकडून उजवीकडे",
+        "B": "उजवीकडून डावीकडे",
+        "C": "वरून खाली",
+        "D": "वर्तुळाकार"
+      },
+      "correct_option": "B",
+      "answer": "उजवीकडून डावीकडे",
+      "explanation": "खरोष्ठी लिपी उजवीकडून डावीकडे लिहिली जात असे.",
+      "question_id": "HIS-009-MCQ-037",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 38,
+      "question": "मौर्योत्तर काळाला 'लहान राज्यांचा काळ' म्हणण्यामागील प्रमुख कारण काय?",
+      "options": {
+        "A": "संपूर्ण भारतावर एकच सत्ता होती",
+        "B": "अनेक प्रादेशिक व परकीय सत्तांचा उदय झाला",
+        "C": "लेखनाचा अंत झाला",
+        "D": "व्यापार थांबला"
+      },
+      "correct_option": "B",
+      "answer": "अनेक प्रादेशिक व परकीय सत्तांचा उदय झाला",
+      "explanation": "मौर्य साम्राज्याच्या विघटनानंतर विविध प्रादेशिक व मध्य आशियाई सत्तांचा उदय झाला.",
+      "question_id": "HIS-009-MCQ-038",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    },
+    {
+      "question_no": 39,
+      "question": "मौर्योत्तर काळाच्या अभ्यासासाठी कोणते पुरावे एकत्र वापरणे योग्य आहे?",
+      "options": {
+        "A": "केवळ पुराणे",
+        "B": "केवळ नाणी",
+        "C": "साहित्य, अभिलेख, नाणी व पुरातत्त्व",
+        "D": "फक्त परकीय प्रवासी"
+      },
+      "correct_option": "C",
+      "answer": "साहित्य, अभिलेख, नाणी व पुरातत्त्व",
+      "explanation": "वंशावळ, राजकीय घडामोडी आणि अर्थव्यवस्थेसाठी विविध स्रोतांची परस्पर पडताळणी आवश्यक असते.",
+      "question_id": "HIS-009-MCQ-039",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true,
+      "display_answer_after_submission": true
+    }
+  ]
+}
