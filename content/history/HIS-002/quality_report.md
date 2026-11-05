@@ -6,7 +6,7 @@
 |---|---|
 | Detailed Notes | 2,076 words |
 | Practice MCQs | 50 questions, with answer key and explanations |
-| Topic Test | 40-mark assessment with objective, short-answer and/or analysis sections |
+| Topic Test | 50 MCQ-only questions, 100 marks, 50 minutes; separate answer key and machine-readable JSON |
 | Flashcards | 25 active-recall cards |
 | Visual Revision | 7 organized visual sections using comparisons, tables, timelines or flow diagrams |
 | Quick Recall | One consolidated revision sheet with key facts, comparisons and self-test prompts |
@@ -18,7 +18,7 @@
 - [x] Detailed lesson notes with topic-specific subheadings and exam-focused explanations
 - [x] Visual revision sections that summarize relationships, chronology, sites or concepts
 - [x] 50 practice questions (newly authored practice; not labelled as PYQ)
-- [x] 40-mark topic test and answer guidance
+- [x] 50-question MCQ-only topic test, answer key, explanations and JSON
 - [x] 25 flashcards for active recall
 - [x] Quick revision sheet
 - [x] PYQ status stated transparently; no unverified item is represented as officially confirmed
@@ -41,3 +41,10 @@ Archaeological Survey of India: https://asi.nic.in/ ; INFLIBNET: https://ebooks.
 - **PYQ:** Markdown व JSON दोन्ही स्वरूपांत. सध्या अधिकृतरीत्या पडताळलेले PYQ: 0. अधिकृतरीत्या पडताळलेले candidates नोंदलेले नाहीत.
 - **Forwarding rule:** bot ने फक्त `pyq.json` मधील `verified_items` मधील verified records पाठवावेत. `unverified_candidates` किंवा `question_patterns` PYQ म्हणून पाठवू नयेत.
 - **Shared contract:** `content/schemas/assessment_format_v1.json` आणि `content/ASSESSMENT_AUTOMATION_GUIDE.md`.
+
+
+## MPSC Prelims test update
+
+- Topic test is objective MCQ-only: 50 questions / 100 practice marks / 50 minutes.
+- The question paper, answer key and automation JSON are separate files.
+- The scoring profile uses the MPSC objective OMR convention effective 1 March 2026: E = not attempted (0); incorrect/multiple/fully unmarked response = 25% penalty of the question's marks. For 2-mark questions, the penalty is 0.50.
