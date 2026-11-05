@@ -1,34 +1,35 @@
-# HIS-007 — गुणवत्ता अहवाल
+# HIS-007 — Quality Report (Actual Content Audit)
 
-## या आवृत्तीतील प्रत्यक्ष घटक
+## Verified structure and counts on this branch
 
-| घटक | स्थिती |
+| Component | Actual status |
 |---|---|
-| Detailed Notes | संस्थापक, उत्तराधिकारी, अशोक, प्रशासन, अर्थव्यवस्था, सैन्य, कला, स्रोत व ऱ्हास |
-| Visual Revision | 7 विभाग: वंशक्रम, स्रोत, प्रशासन, प्रांत, धम्म, कलिंग, कला |
-| Practice MCQs | 50 नवीन प्रश्न; उत्तर व स्पष्टीकरण |
-| Topic Test | 40 गुणांची चाचणी |
-| Flashcards | 30 कार्डे |
-| Quick Recall | मुख्य मुद्दे, चुका व स्व-परीक्षा |
-| PYQ | अधिकृतरीत्या पडताळलेले प्रश्न सध्या उपलब्ध नाहीत |
+| Detailed Notes | 2,008 words |
+| Practice MCQs | 50 questions, with answer key and explanations |
+| Topic Test | 40-mark assessment with objective, short-answer and/or analysis sections |
+| Flashcards | 30 active-recall cards |
+| Visual Revision | 7 organized visual sections using comparisons, tables, timelines or flow diagrams |
+| Quick Recall | One consolidated revision sheet with key facts, comparisons and self-test prompts |
+| PYQ | No official paper/key-verified questions recorded; study patterns only. |
+| Quality Report | Coverage, counts, caveats and publication checks documented here |
 
-## कव्हरेज
+## Coverage checklist
 
-- [x] चंद्रगुप्त, बिंदुसार, अशोक व उत्तरकालीन मौर्य
-- [x] स्रोत: शिलालेख, अर्थशास्त्र, इंडिका, साहित्य व पुरातत्त्व
-- [x] प्रशासन, प्रांतिक केंद्रे, महसूल व सैन्य
-- [x] कलिंग युद्ध, धम्म, धम्ममहामात्र व शिलालेख
-- [x] कला, स्तंभ, गुहा व स्तूपपरंपरा
-- [x] साम्राज्याच्या ऱ्हासाचे बहुकारणी विश्लेषण
+- [x] Detailed lesson notes with topic-specific subheadings and exam-focused explanations
+- [x] Visual revision sections that summarize relationships, chronology, sites or concepts
+- [x] 50 practice questions (newly authored practice; not labelled as PYQ)
+- [x] 40-mark topic test and answer guidance
+- [x] 30 flashcards for active recall
+- [x] Quick revision sheet
+- [x] PYQ status stated transparently; no unverified item is represented as officially confirmed
+- [x] Reference links included in the study notes
 
-## मर्यादा
+## Accuracy and publication limitations
 
-अर्थशास्त्राचा रचनाकाल, मेगॅस्थेनीजच्या वृत्तांताचे स्वरूप, मौर्य प्रांतांचे प्रत्यक्ष नियंत्रण व ऱ्हासाची कारणे यांबाबत स्रोतभेद आहेत. हा अहवाल व्याप्ती तपासतो; प्रत्येक ऐतिहासिक दाव्याचे स्वतंत्र प्रमाणीकरण करत नाही.
+This audit checks file presence, approximate word count, question/card counts and topic coverage. It does **not** certify every historical claim, answer key or source interpretation. Before publication, cross-check dates, chronology, places, translations and answer keys against the linked academic/primary sources. Where scholarly or sectarian traditions differ, the notes identify the disagreement rather than force one universal answer.
 
-## संदर्भ
+## References
 
-- ASI: https://asi.nic.in/
-- Britannica — Mauryan Empire: https://www.britannica.com/place/Mauryan-Empire
-- IGNOU eGyanKosh: https://egyankosh.ac.in/
+Britannica Mauryan Empire: https://www.britannica.com/place/Mauryan-Empire ; ASI: https://asi.nic.in/
 
-**स्थिती:** अभ्यासासाठी विस्तारित मसुदा; अंतिम प्रकाशनापूर्वी अधिकृत अभ्यासक्रम व संदर्भ तपासा.
+**Status:** Structurally complete study pack for review. Official MPSC PYQ verification remains separate and must use the original question paper plus official final answer key.
