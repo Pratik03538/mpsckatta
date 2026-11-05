@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "HIS-001",
+  "topic_title": "प्रागैतिहासिक काळ",
+  "language": "mr",
+  "content_type": "pyq",
+  "forward_policy": {
+    "only_verified_items_may_be_forwarded": true,
+    "required_verification": [
+      "official_original_question_paper",
+      "official_final_answer_key"
+    ],
+    "unverified_candidates_forward_allowed": false
+  },
+  "verified_items": [],
+  "unverified_candidates": [
+    {
+      "question_no": 1,
+      "original_question_no": "Q2",
+      "exam": "MPSC Rajyaseva",
+      "year": 2022,
+      "paper": "General Studies Paper 1",
+      "question": "महाराष्ट्रातील मानवी वसाहतीच्या दृष्टीने मध्याश्म युग आणि ताम्रपाषाण युगाच्या संदर्भासाठी कोणत्या स्थळांवर संशोधन करण्यात आले?",
+      "options": {
+        "A": "पाटणे (जळगाव)",
+        "B": "हातखंबा (रत्नागिरी)",
+        "C": "इनामगाव (पुणे)",
+        "D": "वरीलपैकी सर्व"
+      },
+      "correct_option": "D",
+      "answer": "वरीलपैकी सर्व",
+      "explanation": "पाटणे, हातखंबा आणि इनामगाव ही महाराष्ट्रातील मानवी वस्ती व पुरातत्त्वीय संशोधनाशी संबंधित स्थळे आहेत. त्यांना एकाच कालखंडाचे स्थळ समजू नये; प्रत्येकाचा स्तर व संशोधन संदर्भ स्वतंत्र आहे.",
+      "source": {
+        "label": "MPSC PYQ — Maharashtra History archive",
+        "url": "https://mpscpyq.in/topics/history/maharashtra-history",
+        "source_type": "third_party_archive"
+      },
+      "verification_status": "unverified_third_party_transcription",
+      "official_paper_verified": false,
+      "official_final_answer_key_verified": false,
+      "student_forwardable": false,
+      "question_id": "HIS-001-PYQ-001"
+    },
+    {
+      "question_no": 2,
+      "original_question_no": "Q93",
+      "exam": "MPSC Rajyaseva",
+      "year": 2022,
+      "paper": "General Studies Paper 1",
+      "question": "राजस्थानमध्ये मध्याश्म युगाची संस्कृती असणारे मोठे ठिकाण कोणते?",
+      "options": {
+        "A": "बागोर",
+        "B": "आदमगड",
+        "C": "प्रतापगड",
+        "D": "चोपनी-मांडो"
+      },
+      "correct_option": "A",
+      "answer": "बागोर",
+      "explanation": "बागोर हे राजस्थानातील भीलवाडा जिल्ह्यात कोठारी नदी परिसरातील महत्त्वाचे मध्यपाषाण स्थळ आहे. तेथे सूक्ष्माश्म आणि निवासाशी संबंधित पुरावे आढळतात.",
+      "source": {
+        "label": "MPSC PYQ — Ancient India archive",
+        "url": "https://mpscpyq.in/topics/history/ancient-india",
+        "source_type": "third_party_archive"
+      },
+      "verification_status": "unverified_third_party_transcription",
+      "official_paper_verified": false,
+      "official_final_answer_key_verified": false,
+      "student_forwardable": false,
+      "question_id": "HIS-001-PYQ-002"
+    }
+  ],
+  "question_patterns": [
+    {
+      "pattern_id": "HIS-001-PATTERN-001",
+      "pattern_no": 1,
+      "prompt": "प्रागैतिहासिक कालखंड ओळखण्यासाठी साधने, शैलचित्रे, हाडे आणि वस्तीचे पुरावे यांची जुळवणी.",
+      "is_pyq": false,
+      "student_forwardable": true
+    },
+    {
+      "pattern_id": "HIS-001-PATTERN-002",
+      "pattern_no": 2,
+      "prompt": "स्थळ + राज्य/जिल्हा + सांस्कृतिक कालखंड यांतील योग्य संबंध ओळखणे.",
+      "is_pyq": false,
+      "student_forwardable": true
+    },
+    {
+      "pattern_id": "HIS-001-PATTERN-003",
+      "pattern_no": 3,
+      "prompt": "महाराष्ट्रातील पाटणे, इनामगाव आणि इतर संशोधनस्थळांतील कालसंदर्भ वेगळे ओळखणे.",
+      "is_pyq": false,
+      "student_forwardable": true
+    }
+  ]
+}
