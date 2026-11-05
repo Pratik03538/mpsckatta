@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "HIS-002",
+  "topic_title": "सिंधू संस्कृती",
+  "language": "mr",
+  "content_type": "pyq",
+  "forward_policy": {
+    "only_verified_items_may_be_forwarded": true,
+    "required_verification": [
+      "official_original_question_paper",
+      "official_final_answer_key"
+    ],
+    "unverified_candidates_forward_allowed": false
+  },
+  "verified_items": [],
+  "unverified_candidates": [],
+  "question_patterns": [
+    {
+      "pattern_id": "HIS-002-PATTERN-001",
+      "pattern_no": 1,
+      "prompt": "परिपक्व हडप्पा संस्कृतीचा कालखंड कोणता?",
+      "is_pyq": false,
+      "student_forwardable": true
+    },
+    {
+      "pattern_id": "HIS-002-PATTERN-002",
+      "pattern_no": 2,
+      "prompt": "हडप्पा व मोहेंजोदडोच्या उत्खननाशी कोणत्या पुरातत्त्वज्ञांची नावे जोडली जातात?",
+      "is_pyq": false,
+      "student_forwardable": true
+    },
+    {
+      "pattern_id": "HIS-002-PATTERN-003",
+      "pattern_no": 3,
+      "prompt": "विशाल स्नानगृह कोणत्या स्थळावर आढळते?",
+      "is_pyq": false,
+      "student_forwardable": true
+    },
+    {
+      "pattern_id": "HIS-002-PATTERN-004",
+      "pattern_no": 4,
+      "prompt": "धोलावीरा कोणत्या वैशिष्ट्यासाठी प्रसिद्ध आहे?",
+      "is_pyq": false,
+      "student_forwardable": true
+    },
+    {
+      "pattern_id": "HIS-002-PATTERN-005",
+      "pattern_no": 5,
+      "prompt": "लोथल येथील गोदीसदृश रचना व मणीउद्योगाचे महत्त्व काय?",
+      "is_pyq": false,
+      "student_forwardable": true
+    },
+    {
+      "pattern_id": "HIS-002-PATTERN-006",
+      "pattern_no": 6,
+      "prompt": "कालीबंगन येथील नांगरलेल्या शेताचा पुरावा कोणत्या बाबीचा संकेत देतो?",
+      "is_pyq": false,
+      "student_forwardable": true
+    },
+    {
+      "pattern_id": "HIS-002-PATTERN-007",
+      "pattern_no": 7,
+      "prompt": "हडप्पा लिपीची सद्यस्थिती काय?",
+      "is_pyq": false,
+      "student_forwardable": true
+    },
+    {
+      "pattern_id": "HIS-002-PATTERN-008",
+      "pattern_no": 8,
+      "prompt": "हडप्पा लोकांच्या व्यापारसंबंधात “मेलुह्हा”चा उल्लेख का महत्त्वाचा आहे?",
+      "is_pyq": false,
+      "student_forwardable": true
+    },
+    {
+      "pattern_id": "HIS-002-PATTERN-009",
+      "pattern_no": 9,
+      "prompt": "प्रमाणित वजन-मापे कोणत्या आर्थिक व्यवहारांचा संकेत देतात?",
+      "is_pyq": false,
+      "student_forwardable": true
+    },
+    {
+      "pattern_id": "HIS-002-PATTERN-010",
+      "pattern_no": 10,
+      "prompt": "हडप्पा संस्कृतीच्या ऱ्हासाची बहुकारणी कारणे कोणती?",
+      "is_pyq": false,
+      "student_forwardable": true
+    }
+  ]
+}
