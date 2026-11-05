@@ -6,7 +6,7 @@
 |---|---|
 | Detailed Notes | 2,050 words |
 | Practice MCQs | 50 questions, with answer key and explanations |
-| Topic Test | 50 MCQ-only questions, 100 marks, 50 minutes; separate answer key and machine-readable JSON |
+| Topic Test | 50 MCQ-only questions, 50 marks, 30 minutes; separate answer key and machine-readable JSON |
 | Flashcards | 30 active-recall cards |
 | Visual Revision | 7 organized visual sections using comparisons, tables, timelines or flow diagrams |
 | Quick Recall | One consolidated revision sheet with key facts, comparisons and self-test prompts |
