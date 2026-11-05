@@ -1,0 +1,635 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "HIS-010",
+  "topic_title": "सातवाहन राजवंश",
+  "language": "mr",
+  "content_type": "practice_mcq",
+  "question_count": 39,
+  "answer_key_included": true,
+  "items": [
+    {
+      "question_no": 1,
+      "question": "सातवाहन वंशाचा संस्थापक म्हणून कोणाला मानले जाते?",
+      "options": {
+        "A": "सिमुक",
+        "B": "कृष्ण",
+        "C": "सातकर्णी प्रथम",
+        "D": "गौतमीपुत्र सातकर्णी"
+      },
+      "correct_option": "A",
+      "answer": "सिमुक",
+      "explanation": "पुराणपरंपरा आणि नाणे/अभिलेखीय पुराव्यांमध्ये सिमुक हा प्रारंभीचा सातवाहन शासक मानला जातो.",
+      "question_id": "HIS-010-MCQ-001",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 2,
+      "question": "सातवाहन वंशाच्या सुरुवातीच्या इतिहासासाठी कोणते पुरावे महत्त्वाचे आहेत?",
+      "options": {
+        "A": "केवळ मुघल बखरी",
+        "B": "पुराणे, नाणी व अभिलेख",
+        "C": "फक्त परकीय प्रवासी",
+        "D": "केवळ लोककथा"
+      },
+      "correct_option": "B",
+      "answer": "पुराणे, नाणी व अभिलेख",
+      "explanation": "सातवाहन इतिहासासाठी पुराणीय याद्या, नाणी आणि शिलालेख यांची परस्पर पडताळणी आवश्यक आहे.",
+      "question_id": "HIS-010-MCQ-002",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 3,
+      "question": "सातवाहनांची प्रमुख राजधानी म्हणून कोणते ठिकाण ओळखले जाते?",
+      "options": {
+        "A": "पाटलीपुत्र",
+        "B": "प्रतिष्ठान/पैठण",
+        "C": "तक्षशिला",
+        "D": "कांची"
+      },
+      "correct_option": "B",
+      "answer": "प्रतिष्ठान/पैठण",
+      "explanation": "प्रतिष्ठान म्हणजे आजचे पैठण, गोदावरी खोऱ्यातील सातवाहनांचे महत्त्वाचे केंद्र होते.",
+      "question_id": "HIS-010-MCQ-003",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 4,
+      "question": "नाणेघाट शिलालेख कोणत्या राणीशी संबंधित आहे?",
+      "options": {
+        "A": "गौतमी बलश्री",
+        "B": "नागनिका",
+        "C": "प्रभावतीगुप्ता",
+        "D": "दिद्दा"
+      },
+      "correct_option": "B",
+      "answer": "नागनिका",
+      "explanation": "नागनिकेचा नाणेघाट लेख सातकर्णी प्रथमाच्या कामगिरी व यज्ञांविषयी माहिती देतो.",
+      "question_id": "HIS-010-MCQ-004",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 5,
+      "question": "नागनिका कोणाची पत्नी होती?",
+      "options": {
+        "A": "सिमुक",
+        "B": "सातकर्णी प्रथम",
+        "C": "गौतमीपुत्र सातकर्णी",
+        "D": "पुलुमावी"
+      },
+      "correct_option": "B",
+      "answer": "सातकर्णी प्रथम",
+      "explanation": "नागनिका ही सातकर्णी प्रथमाची राणी होती.",
+      "question_id": "HIS-010-MCQ-005",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 6,
+      "question": "सातकर्णी प्रथमाला कोणती उपाधी नाणेघाट लेखात जोडली जाते?",
+      "options": {
+        "A": "देवानांप्रिय",
+        "B": "दक्षिणापथपति",
+        "C": "विक्रमादित्य",
+        "D": "महाराजाधिराज"
+      },
+      "correct_option": "B",
+      "answer": "दक्षिणापथपति",
+      "explanation": "नाणेघाट लेखात सातकर्णी प्रथमासाठी दक्षिणापथपति हा गौरववाचक उल्लेख केला जातो.",
+      "question_id": "HIS-010-MCQ-006",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 7,
+      "question": "नाणेघाट कोणत्या दोन प्रदेशांना जोडणाऱ्या व्यापारी मार्गावर महत्त्वाचे होते?",
+      "options": {
+        "A": "कोकण व दख्खन",
+        "B": "काश्मीर व तिबेट",
+        "C": "बंगाल व आसाम",
+        "D": "माळवा व पंजाब"
+      },
+      "correct_option": "A",
+      "answer": "कोकण व दख्खन",
+      "explanation": "नाणेघाट हा पश्चिम किनारपट्टी/कोकण आणि दख्खन पठार यांना जोडणारा घाटमार्ग होता.",
+      "question_id": "HIS-010-MCQ-007",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 8,
+      "question": "नाणेघाट शिलालेख कोणत्या लिपीत आहे?",
+      "options": {
+        "A": "खरोष्ठी",
+        "B": "ब्राह्मी",
+        "C": "शारदा",
+        "D": "देवनागरी"
+      },
+      "correct_option": "B",
+      "answer": "ब्राह्मी",
+      "explanation": "नाणेघाटातील प्राकृत लेख ब्राह्मी लिपीत आहेत.",
+      "question_id": "HIS-010-MCQ-008",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 9,
+      "question": "नाणेघाट शिलालेखातील भाषा कोणती?",
+      "options": {
+        "A": "संस्कृत",
+        "B": "पाली",
+        "C": "प्राकृत",
+        "D": "तमिळ"
+      },
+      "correct_option": "C",
+      "answer": "प्राकृत",
+      "explanation": "सातवाहन काळातील अनेक अभिलेख प्राकृत भाषेत आणि ब्राह्मी लिपीत आढळतात.",
+      "question_id": "HIS-010-MCQ-009",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 10,
+      "question": "सातवाहनांच्या सुरुवातीच्या इतिहासासाठी नाशिकचा कोणता अभिलेख महत्त्वाचा आहे?",
+      "options": {
+        "A": "कृष्ण/कान्हाच्या काळातील गुंफा लेख",
+        "B": "प्रयाग प्रशस्ती",
+        "C": "ऐहोळे लेख",
+        "D": "जुनागढ लेख"
+      },
+      "correct_option": "A",
+      "answer": "कृष्ण/कान्हाच्या काळातील गुंफा लेख",
+      "explanation": "नाशिक गुंफा लेखात कृष्ण/कान्हा सातवाहन कुळातील शासक असल्याचा उल्लेख आहे.",
+      "question_id": "HIS-010-MCQ-010",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 11,
+      "question": "सातवाहनांतील प्रभावी प्रारंभीचा शासक कोण मानला जातो?",
+      "options": {
+        "A": "सातकर्णी प्रथम",
+        "B": "यज्ञश्री सातकर्णी",
+        "C": "हाला",
+        "D": "पुलुमावी"
+      },
+      "correct_option": "A",
+      "answer": "सातकर्णी प्रथम",
+      "explanation": "सातकर्णी प्रथम हा प्रारंभीच्या महत्त्वाच्या सातवाहन शासकांपैकी एक होता.",
+      "question_id": "HIS-010-MCQ-011",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 12,
+      "question": "गौतमीपुत्र सातकर्णीच्या कामगिरीचे वर्णन कोणत्या अभिलेखात आढळते?",
+      "options": {
+        "A": "नाशिकचा गौतमी बलश्री लेख",
+        "B": "हाथीगुंफा लेख",
+        "C": "रुम्मिनदेई लेख",
+        "D": "मास्की लेख"
+      },
+      "correct_option": "A",
+      "answer": "नाशिकचा गौतमी बलश्री लेख",
+      "explanation": "गौतमी बलश्रीच्या नाशिक प्रशस्तीमध्ये तिच्या पुत्र गौतमीपुत्र सातकर्णीच्या विजयांचे वर्णन आहे.",
+      "question_id": "HIS-010-MCQ-012",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 13,
+      "question": "गौतमी बलश्री कोणाची माता होती?",
+      "options": {
+        "A": "सातकर्णी प्रथम",
+        "B": "गौतमीपुत्र सातकर्णी",
+        "C": "हुविष्क",
+        "D": "रुद्रदामन"
+      },
+      "correct_option": "B",
+      "answer": "गौतमीपुत्र सातकर्णी",
+      "explanation": "गौतमी बलश्री ही गौतमीपुत्र सातकर्णीची माता होती.",
+      "question_id": "HIS-010-MCQ-013",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 14,
+      "question": "गौतमीपुत्र सातकर्णीने कोणत्या शक क्षत्रप शासकाचा पराभव केला?",
+      "options": {
+        "A": "नहपान",
+        "B": "चष्टन",
+        "C": "रुद्रदामन",
+        "D": "मेनांडर"
+      },
+      "correct_option": "A",
+      "answer": "नहपान",
+      "explanation": "गौतमीपुत्र सातकर्णीने क्षहरात शक शासक नहपानाचा पराभव करून पश्चिम दख्खनातील प्रदेश परत मिळवले.",
+      "question_id": "HIS-010-MCQ-014",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 15,
+      "question": "नहपान कोणत्या शक घराण्याशी संबंधित होता?",
+      "options": {
+        "A": "क्षहरात",
+        "B": "कर्दमक",
+        "C": "गुप्त",
+        "D": "कण्व"
+      },
+      "correct_option": "A",
+      "answer": "क्षहरात",
+      "explanation": "नहपान हा क्षहरात घराण्यातील शक क्षत्रप होता.",
+      "question_id": "HIS-010-MCQ-015",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 16,
+      "question": "जोगलथेंबी नाणेनिधी कोणत्या ऐतिहासिक संबंधासाठी महत्त्वाचा आहे?",
+      "options": {
+        "A": "गौतमीपुत्राने नहपानाची नाणी पुनर्मुद्रित केली",
+        "B": "अशोकाने नाणी बंद केली",
+        "C": "कनिष्काने रोमन नाणी काढली",
+        "D": "गुप्तांनी सातवाहन नाणी नष्ट केली"
+      },
+      "correct_option": "A",
+      "answer": "गौतमीपुत्राने नहपानाची नाणी पुनर्मुद्रित केली",
+      "explanation": "जोगलथेंबी येथे नहपानाची अनेक नाणी सापडली; त्यांपैकी अनेकांवर गौतमीपुत्राने पुनर्मुद्रांकन केले.",
+      "question_id": "HIS-010-MCQ-016",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 17,
+      "question": "गौतमीपुत्र सातकर्णीच्या नाशिक प्रशस्तीमध्ये त्याला कोणत्या समूहांचा पराभवकर्ता म्हटले आहे?",
+      "options": {
+        "A": "शक, यवन व पहलव",
+        "B": "हूण, अरब व तुर्क",
+        "C": "चोल, पांड्य व चेर",
+        "D": "पाल, प्रतिहार व राष्ट्रकूट"
+      },
+      "correct_option": "A",
+      "answer": "शक, यवन व पहलव",
+      "explanation": "नाशिक प्रशस्तीमध्ये शक-यवन-पहलवांचा दमनकर्ता अशी गौरवपूर्ण उपाधी आढळते.",
+      "question_id": "HIS-010-MCQ-017",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 18,
+      "question": "गौतमीपुत्र सातकर्णीनंतर कोण गादीवर आला?",
+      "options": {
+        "A": "वशिष्ठीपुत्र पुलुमावी",
+        "B": "हाला",
+        "C": "सिमुक",
+        "D": "कनिष्क"
+      },
+      "correct_option": "A",
+      "answer": "वशिष्ठीपुत्र पुलुमावी",
+      "explanation": "गौतमीपुत्रानंतर त्याचा पुत्र वशिष्ठीपुत्र पुलुमावी शासक झाला.",
+      "question_id": "HIS-010-MCQ-018",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 19,
+      "question": "रुद्रदामन प्रथमाने सातवाहन शासकाला किती वेळा पराभूत केल्याचा उल्लेख जुनागढ लेखात येतो?",
+      "options": {
+        "A": "एकदा",
+        "B": "दोनदा",
+        "C": "तीनदा",
+        "D": "पाचदा"
+      },
+      "correct_option": "B",
+      "answer": "दोनदा",
+      "explanation": "जुनागढ लेखानुसार रुद्रदामनने सातकर्णीला दोनदा हरवले; नातेसंबंधामुळे त्याचा पूर्ण नाश केला नाही असे वर्णन आहे.",
+      "question_id": "HIS-010-MCQ-019",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 20,
+      "question": "रुद्रदामनचा सातवाहनांशी संघर्ष कोणत्या प्रदेशाच्या नियंत्रणासाठी महत्त्वाचा होता?",
+      "options": {
+        "A": "पश्चिम दख्खन व माळवा",
+        "B": "केवळ काश्मीर",
+        "C": "बंगालचा डेल्टा",
+        "D": "आसाम"
+      },
+      "correct_option": "A",
+      "answer": "पश्चिम दख्खन व माळवा",
+      "explanation": "पश्चिम दख्खन, कोकण, माळवा आणि सौराष्ट्र परिसरातील नियंत्रणासाठी शक-सातवाहन संघर्ष झाला.",
+      "question_id": "HIS-010-MCQ-020",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 21,
+      "question": "सातवाहन राजांच्या नावांत मातृनामाचा वापर दिसणारे उदाहरण कोणते?",
+      "options": {
+        "A": "गौतमीपुत्र",
+        "B": "चंद्रगुप्त",
+        "C": "समुद्रगुप्त",
+        "D": "स्कंदगुप्त"
+      },
+      "correct_option": "A",
+      "answer": "गौतमीपुत्र",
+      "explanation": "गौतमीपुत्र व वशिष्ठीपुत्र अशा नावांत मातृनाम/मातृकुळाचा निर्देश दिसतो; यावरून समाज मातृसत्ताक होता असे सिद्ध होत नाही.",
+      "question_id": "HIS-010-MCQ-021",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 22,
+      "question": "सातवाहन काळात व्यापारी संघटनांसाठी कोणती संज्ञा वापरली जात असे?",
+      "options": {
+        "A": "श्रेणी",
+        "B": "मनसब",
+        "C": "इक्ता",
+        "D": "जागीर"
+      },
+      "correct_option": "A",
+      "answer": "श्रेणी",
+      "explanation": "श्रेणी म्हणजे कारागीर किंवा व्यापाऱ्यांची संघटना; दानलेखांत अशा संस्थांचे उल्लेख येतात.",
+      "question_id": "HIS-010-MCQ-022",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 23,
+      "question": "सातवाहन काळातील पश्चिम किनाऱ्यावरील व्यापारासाठी महत्त्वाचे बंदर कोणते?",
+      "options": {
+        "A": "भृगुकच्छ",
+        "B": "ताम्रलिप्ती",
+        "C": "कावेरीपट्टणम",
+        "D": "मसुलीपट्टणम"
+      },
+      "correct_option": "A",
+      "answer": "भृगुकच्छ",
+      "explanation": "भृगुकच्छ (Barygaza/Bharuch) हे पश्चिम भारताच्या सागरी व्यापारातील महत्त्वाचे बंदर होते.",
+      "question_id": "HIS-010-MCQ-023",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 24,
+      "question": "रोमन साम्राज्याशी भारतीय व्यापाराचे वर्णन करणारा पहिल्या शतकातील ग्रंथ कोणता?",
+      "options": {
+        "A": "Periplus of the Erythraean Sea",
+        "B": "अर्थशास्त्र",
+        "C": "राजतरंगिणी",
+        "D": "हर्षचरित"
+      },
+      "correct_option": "A",
+      "answer": "Periplus of the Erythraean Sea",
+      "explanation": "Periplus of the Erythraean Sea मध्ये पश्चिम किनारपट्टी व हिंद महासागर व्यापाराची माहिती आहे.",
+      "question_id": "HIS-010-MCQ-024",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 25,
+      "question": "सातवाहन काळातील महत्त्वाच्या साहित्यकृती 'गाथासप्तशती'चा संबंध कोणाशी आहे?",
+      "options": {
+        "A": "हाला",
+        "B": "गुणाढ्य",
+        "C": "अश्वघोष",
+        "D": "कालिदास"
+      },
+      "correct_option": "A",
+      "answer": "हाला",
+      "explanation": "हाला या सातवाहन राजाशी गाथासप्तशतीचे संकलन/रचनापरंपरेचे श्रेय जोडले जाते.",
+      "question_id": "HIS-010-MCQ-025",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 26,
+      "question": "गाथासप्तशती कोणत्या भाषिक परंपरेशी संबंधित आहे?",
+      "options": {
+        "A": "महाराष्ट्री प्राकृत",
+        "B": "संस्कृत",
+        "C": "पाली",
+        "D": "अपभ्रंश"
+      },
+      "correct_option": "A",
+      "answer": "महाराष्ट्री प्राकृत",
+      "explanation": "गाथासप्तशती ही महाराष्ट्री प्राकृतमधील गाथांचा संग्रह मानला जातो.",
+      "question_id": "HIS-010-MCQ-026",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 27,
+      "question": "'बृहत्कथा' या ग्रंथाचे परंपरागत लेखक कोण?",
+      "options": {
+        "A": "गुणाढ्य",
+        "B": "हाला",
+        "C": "नागार्जुन",
+        "D": "वसुमित्र"
+      },
+      "correct_option": "A",
+      "answer": "गुणाढ्य",
+      "explanation": "बृहत्कथा ही गुणाढ्याशी संबंधित साहित्यकृती आहे.",
+      "question_id": "HIS-010-MCQ-027",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 28,
+      "question": "सातवाहन काळातील महत्त्वाच्या बौद्ध गुंफा/दानस्थळांमध्ये कोणती जोडी योग्य आहे?",
+      "options": {
+        "A": "कार्ले व नाशिक",
+        "B": "अजिंठा व एलोरा (पूर्ण विकसित मध्ययुगीन टप्पा)",
+        "C": "बादामी व ऐहोळे",
+        "D": "सांची व अमरावतीच फक्त"
+      },
+      "correct_option": "A",
+      "answer": "कार्ले व नाशिक",
+      "explanation": "कार्ले व नाशिक येथील गुंफा आणि दानलेख सातवाहन व संबंधित व्यापारी आश्रयाचा अभ्यास करण्यास महत्त्वाचे आहेत.",
+      "question_id": "HIS-010-MCQ-028",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 29,
+      "question": "अमरावती कला परंपरेचा संबंध प्रामुख्याने कोणत्या धार्मिक स्थापत्याशी आहे?",
+      "options": {
+        "A": "बौद्ध स्तूप व शिल्पकला",
+        "B": "जैन बसदी",
+        "C": "मुघल मकबरे",
+        "D": "चोल मंदिर"
+      },
+      "correct_option": "A",
+      "answer": "बौद्ध स्तूप व शिल्पकला",
+      "explanation": "अमरावती हे बौद्ध स्तूप व समृद्ध शिल्पपरंपरेसाठी प्रसिद्ध आहे.",
+      "question_id": "HIS-010-MCQ-029",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 30,
+      "question": "सातवाहन नाण्यांत कोणत्या धातूंचा वापर विशेष दिसतो?",
+      "options": {
+        "A": "शिसे व तांबे",
+        "B": "फक्त सोने",
+        "C": "फक्त चांदी",
+        "D": "फक्त लोखंड"
+      },
+      "correct_option": "A",
+      "answer": "शिसे व तांबे",
+      "explanation": "सातवाहन नाण्यांत शिसे व तांबे यांसह विविध धातूंचा प्रादेशिक वापर दिसतो.",
+      "question_id": "HIS-010-MCQ-030",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 31,
+      "question": "सातवाहन काळातील अभिलेखांचे प्रमुख वैशिष्ट्य कोणते?",
+      "options": {
+        "A": "प्राकृत भाषा व ब्राह्मी लिपीचा व्यापक वापर",
+        "B": "फक्त फारसी भाषा",
+        "C": "देवनागरीचा सर्वत्र वापर",
+        "D": "लॅटिन भाषा"
+      },
+      "correct_option": "A",
+      "answer": "प्राकृत भाषा व ब्राह्मी लिपीचा व्यापक वापर",
+      "explanation": "प्राकृत भाषा आणि ब्राह्मी लिपीतील दानलेख, गुंफा लेख आणि प्रशस्त्या सातवाहन इतिहासासाठी महत्त्वाच्या आहेत.",
+      "question_id": "HIS-010-MCQ-031",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 32,
+      "question": "सातवाहन साम्राज्याचा दख्खनच्या इतिहासात विशेष महत्त्व का आहे?",
+      "options": {
+        "A": "दख्खनमध्ये प्रारंभीच्या संघटित राज्यरचनेच्या विकासाशी संबंध",
+        "B": "पहिली औद्योगिक क्रांती",
+        "C": "मुघल सत्तेची स्थापना",
+        "D": "दिल्ली सल्तनतीचा विस्तार"
+      },
+      "correct_option": "A",
+      "answer": "दख्खनमध्ये प्रारंभीच्या संघटित राज्यरचनेच्या विकासाशी संबंध",
+      "explanation": "सातवाहन सत्तेचा उदय दख्खनमध्ये राज्यसंस्थेच्या विकासातील महत्त्वाचा टप्पा मानला जातो.",
+      "question_id": "HIS-010-MCQ-032",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 33,
+      "question": "सातवाहनांच्या इतिहासातील पुराणीय व अभिलेखीय माहितीमध्ये कधी कधी फरक का दिसतो?",
+      "options": {
+        "A": "पुराणीय वंशावळ्या अपूर्ण/परंपरागत असून शिलालेख वेगळे तपशील देतात",
+        "B": "शिलालेख नेहमी बनावट असतात",
+        "C": "नाणी कोणताही पुरावा नाहीत",
+        "D": "सर्व पुराणे एकाच काळात लिहिली"
+      },
+      "correct_option": "A",
+      "answer": "पुराणीय वंशावळ्या अपूर्ण/परंपरागत असून शिलालेख वेगळे तपशील देतात",
+      "explanation": "पुराणीय राजसूची, नाणी आणि समकालीन अभिलेख यांत मतभेद आढळू शकतात; म्हणून परस्पर पडताळणी आवश्यक आहे.",
+      "question_id": "HIS-010-MCQ-033",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 34,
+      "question": "नाणेघाट मार्गाचा आर्थिक उपयोग काय होता?",
+      "options": {
+        "A": "कोकणातील बंदरे व अंतर्गत दख्खन यांतील वाहतूक",
+        "B": "हिमालय ओलांडणारा घोडामार्ग",
+        "C": "गंगा डेल्ट्यातील नदीवाहतूक",
+        "D": "केवळ यात्रेकरूंसाठी मार्ग"
+      },
+      "correct_option": "A",
+      "answer": "कोकणातील बंदरे व अंतर्गत दख्खन यांतील वाहतूक",
+      "explanation": "नाणेघाट घाटमार्गाने किनारी व्यापार आणि दख्खनमधील बाजारपेठा जोडल्या.",
+      "question_id": "HIS-010-MCQ-034",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 35,
+      "question": "गौतमीपुत्र सातकर्णीच्या नाशिक लेखातून इतिहासकारांना कोणती माहिती मिळते?",
+      "options": {
+        "A": "राजकीय विजय, वंशपरंपरा आणि दान",
+        "B": "केवळ हवामान",
+        "C": "मुघल मनसबदारी",
+        "D": "गुप्त नाण्यांचा दर"
+      },
+      "correct_option": "A",
+      "answer": "राजकीय विजय, वंशपरंपरा आणि दान",
+      "explanation": "गौतमी बलश्रीच्या नाशिक लेखात राजकीय पराक्रम, वंशसंबंध आणि धार्मिक दानाची माहिती आहे.",
+      "question_id": "HIS-010-MCQ-035",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 36,
+      "question": "सातवाहनांच्या अधिपत्याखालील 'महारथी' घराण्यांचे महत्त्व काय?",
+      "options": {
+        "A": "स्थानिक सरदार/प्रमुख म्हणून प्रादेशिक सत्तेशी संबंध",
+        "B": "रोमन सम्राटांचे राजदूत",
+        "C": "बौद्ध संगीतीचे अध्यक्ष",
+        "D": "मुघल अधिकारी"
+      },
+      "correct_option": "A",
+      "answer": "स्थानिक सरदार/प्रमुख म्हणून प्रादेशिक सत्तेशी संबंध",
+      "explanation": "महारथी हे दख्खनमधील प्रभावशाली स्थानिक प्रमुख होते; विवाहसंबंध व राजकीय जाळ्यांमधून त्यांचे महत्त्व दिसते.",
+      "question_id": "HIS-010-MCQ-036",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 37,
+      "question": "सातवाहनांच्या काळात नाण्यांवर जहाजाचे चिन्ह कोणत्या शासकाशी जोडले जाते?",
+      "options": {
+        "A": "यज्ञश्री सातकर्णी",
+        "B": "सिमुक",
+        "C": "कृष्ण",
+        "D": "सातकर्णी प्रथम"
+      },
+      "correct_option": "A",
+      "answer": "यज्ञश्री सातकर्णी",
+      "explanation": "यज्ञश्री सातकर्णीच्या काही नाण्यांवर जहाजाची प्रतिमा आढळते; सागरी व्यापाराशी संबंध दर्शवणारा हा महत्त्वाचा पुरावा आहे.",
+      "question_id": "HIS-010-MCQ-037",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 38,
+      "question": "सातवाहनांचा पश्चिम क्षत्रपांशी संघर्ष कोणत्या व्यापक आर्थिक हितसंबंधांशी जोडला जातो?",
+      "options": {
+        "A": "पश्चिम किनाऱ्यावरील बंदरे व व्यापारी मार्ग",
+        "B": "हिमालयीन मीठ खाणी",
+        "C": "गंगा खोऱ्यातील निळी शेती",
+        "D": "बंगालच्या जूट व्यापाराशी"
+      },
+      "correct_option": "A",
+      "answer": "पश्चिम किनाऱ्यावरील बंदरे व व्यापारी मार्ग",
+      "explanation": "कोकण, भृगुकच्छ, कल्याण व सोपारा यांसारख्या बंदरांवर नियंत्रण व्यापाराच्या दृष्टीने महत्त्वाचे होते.",
+      "question_id": "HIS-010-MCQ-038",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 39,
+      "question": "सातवाहन काळाचा अभ्यास करताना 'मातृनाम' या पुराव्याचा योग्य अर्थ कोणता?",
+      "options": {
+        "A": "मातृकुळ/आईचे नाव प्रतिष्ठेने वापरण्याची परंपरा",
+        "B": "स्त्रियांकडे सर्व राजकीय सत्ता होती याचा निर्विवाद पुरावा",
+        "C": "स्त्रियांना वारसा नव्हता याचा पुरावा",
+        "D": "पितृवंश नव्हताच याचा पुरावा"
+      },
+      "correct_option": "A",
+      "answer": "मातृकुळ/आईचे नाव प्रतिष्ठेने वापरण्याची परंपरा",
+      "explanation": "मातृनामाचा वापर महत्त्वाचा सामाजिक संकेत आहे; पण एकट्या नावावरून संपूर्ण समाजरचना मातृसत्ताक ठरवता येत नाही.",
+      "question_id": "HIS-010-MCQ-039",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    }
+  ]
+}
