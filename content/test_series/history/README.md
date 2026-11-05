@@ -1,6 +1,6 @@
 # MPSC Katta — Ancient Indian History MCQ Test Series
 
-ही test series MPSC Rajyaseva Prelims च्या GS-I इतिहास सरावासाठी तयार केली आहे. सध्या यात repository मधील HIS-001 ते HIS-008 (प्राचीन भारत) हेच विषय समाविष्ट आहेत. हा पूर्ण GS Paper-I mock नाही; इतर विषयांची प्रश्नबँक जोडल्यावर स्वतंत्र full-GS mock तयार करावा.
+ही test series MPSC Saral Seva / Group B-C objective च्या GS-I इतिहास सरावासाठी तयार केली आहे. सध्या यात repository मधील HIS-001 ते HIS-008 (प्राचीन भारत) हेच विषय समाविष्ट आहेत. हा पूर्ण GS Paper-I mock नाही; इतर विषयांची प्रश्नबँक जोडल्यावर स्वतंत्र full-GS mock तयार करावा.
 
 ## उपलब्ध चाचण्या
 
@@ -41,3 +41,11 @@ MPSC च्या प्रत्यक्ष OMR सूचनांनुसा
 ## मर्यादा
 
 हे tests विद्यमान 8 विषयांच्या सराव प्रश्नांवर आधारित आहेत. PYQ नव्हेत आणि पूर्ण History syllabus कव्हर झाल्याचा दावा नाही. पुढील expansion मध्ये मध्ययुगीन भारत, मराठा इतिहास, आधुनिक भारत, महाराष्ट्राचा सामाजिक-सुधारक व स्वातंत्र्यलढा इतिहास जोडून नंतर पूर्ण History grand test बनवावा.
+
+
+## Updated MPSC Saral Seva practice profile
+
+- Topic tests: 50 MCQ, 50 गुण, 30 मिनिटे.
+- 100-question mixed History mock: 100 गुण, 60 मिनिटे.
+- बरोबर उत्तर: +1; चुकीचे/एकापेक्षा जास्त पर्याय/सर्व A–E रिकामे: −0.25; E (उत्तर द्यायचे नाही): 0.
+- हा generic MPSC Group B/C-style सराव profile आहे. प्रत्येक भरतीची अचूक वेळ व गुणपद्धती त्या परीक्षेच्या नवीनतम अधिकृत जाहिरातीनुसार configure करावी.
