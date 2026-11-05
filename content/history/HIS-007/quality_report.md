@@ -33,3 +33,11 @@ This audit checks file presence, approximate word count, question/card counts an
 Britannica Mauryan Empire: https://www.britannica.com/place/Mauryan-Empire ; ASI: https://asi.nic.in/
 
 **Status:** Structurally complete study pack for review. Official MPSC PYQ verification remains separate and must use the original question paper plus official final answer key.
+
+## विद्यार्थी-वितरण व automation format (v1.0)
+
+- **Detailed Notes:** 2,108 शब्द; विद्यार्थ्यांसाठी स्वयंपूर्ण मराठी धडा, सुरुवातीचा संदर्भ, शिकण्याची उद्दिष्टे आणि शेवटचा self-check.
+- **Practice MCQs:** 50 प्रश्न; Markdown व JSON दोन्ही स्वरूपांत. प्रत्येक प्रश्नात question ID/क्रमांक, प्रश्न, A–D पर्याय, योग्य पर्याय, पूर्ण उत्तर आणि स्पष्टीकरण आहे.
+- **PYQ:** Markdown व JSON दोन्ही स्वरूपांत. सध्या अधिकृतरीत्या पडताळलेले PYQ: 0. अधिकृतरीत्या पडताळलेले candidates नोंदलेले नाहीत.
+- **Forwarding rule:** bot ने फक्त `pyq.json` मधील `verified_items` मधील verified records पाठवावेत. `unverified_candidates` किंवा `question_patterns` PYQ म्हणून पाठवू नयेत.
+- **Shared contract:** `content/schemas/assessment_format_v1.json` आणि `content/ASSESSMENT_AUTOMATION_GUIDE.md`.
