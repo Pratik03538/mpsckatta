@@ -1,0 +1,811 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "HIS-008",
+  "topic_title": "अशोकाचे धम्म व शिलालेख",
+  "language": "mr",
+  "content_type": "practice_mcq",
+  "question_count": 50,
+  "answer_key_included": true,
+  "items": [
+    {
+      "question_no": 1,
+      "question": "कलिंग युद्ध कोणत्या सम्राटाशी संबंधित?",
+      "options": {
+        "A": "अशोक",
+        "B": "चंद्रगुप्त",
+        "C": "बिंदुसार",
+        "D": "कनिष्क"
+      },
+      "correct_option": "A",
+      "answer": "अशोक",
+      "explanation": "कलिंग युद्ध अशोकाच्या कारकिर्दीतील प्रमुख घटना.",
+      "question_id": "HIS-008-MCQ-001",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 2,
+      "question": "कलिंग युद्धानंतरच्या पश्चात्तापाचे वर्णन कोणत्या लेखात?",
+      "options": {
+        "A": "पाचवा",
+        "B": "तेरावा प्रमुख शिलालेख",
+        "C": "आठवा",
+        "D": "बारावा"
+      },
+      "correct_option": "B",
+      "answer": "तेरावा प्रमुख शिलालेख",
+      "explanation": "तेराव्या प्रमुख शिलालेखात युद्धहानी व खेद.",
+      "question_id": "HIS-008-MCQ-002",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 3,
+      "question": "अशोकाचा धम्म मुख्यतः कशासारखा होता?",
+      "options": {
+        "A": "केवळ बौद्ध संघनियम",
+        "B": "महसूल प्रणाली",
+        "C": "नैतिक-सामाजिक आचारसंहिता",
+        "D": "युद्धतंत्र"
+      },
+      "correct_option": "C",
+      "answer": "नैतिक-सामाजिक आचारसंहिता",
+      "explanation": "धम्मात दया, आदर व सहिष्णुता.",
+      "question_id": "HIS-008-MCQ-003",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 4,
+      "question": "धम्ममहामात्रांची नियुक्ती कोणत्या लेखात नमूद?",
+      "options": {
+        "A": "पहिला",
+        "B": "आठवा",
+        "C": "तेरावा",
+        "D": "पाचवा प्रमुख शिलालेख"
+      },
+      "correct_option": "D",
+      "answer": "पाचवा प्रमुख शिलालेख",
+      "explanation": "पाचव्या लेखात धम्ममहामात्रांचा उल्लेख.",
+      "question_id": "HIS-008-MCQ-004",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 5,
+      "question": "धम्मयात्रेचा उल्लेख कोणत्या प्रमुख शिलालेखात?",
+      "options": {
+        "A": "आठवा",
+        "B": "दुसरा",
+        "C": "पाचवा",
+        "D": "तेरावा"
+      },
+      "correct_option": "A",
+      "answer": "आठवा",
+      "explanation": "आठव्या लेखात धम्मयात्रा व राजकीय प्रवासातील बदल.",
+      "question_id": "HIS-008-MCQ-005",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 6,
+      "question": "धार्मिक पंथांतील सहिष्णुतेवर कोणता लेख भर देतो?",
+      "options": {
+        "A": "पहिला",
+        "B": "बारावा प्रमुख शिलालेख",
+        "C": "तिसरा",
+        "D": "नववा"
+      },
+      "correct_option": "B",
+      "answer": "बारावा प्रमुख शिलालेख",
+      "explanation": "बाराव्या लेखात पंथांमधील आदराचा संदेश.",
+      "question_id": "HIS-008-MCQ-006",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 7,
+      "question": "बहुतांश अशोकलेखांची भाषा कोणती?",
+      "options": {
+        "A": "संस्कृत",
+        "B": "तमिळ",
+        "C": "प्राकृत",
+        "D": "फारसी"
+      },
+      "correct_option": "C",
+      "answer": "प्राकृत",
+      "explanation": "बहुतांश लेख प्राकृत भाषेत आहेत.",
+      "question_id": "HIS-008-MCQ-007",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 8,
+      "question": "बहुतांश अशोकलेखांची लिपी कोणती?",
+      "options": {
+        "A": "देवनागरी",
+        "B": "मोडी",
+        "C": "शारदा",
+        "D": "ब्राह्मी"
+      },
+      "correct_option": "D",
+      "answer": "ब्राह्मी",
+      "explanation": "ब्राह्मी लिपीचा व्यापक वापर.",
+      "question_id": "HIS-008-MCQ-008",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 9,
+      "question": "उत्तर-पश्चिमेकडील काही लेख कोणत्या लिपीत?",
+      "options": {
+        "A": "खरोष्ठी",
+        "B": "नागरी",
+        "C": "ग्रंथ",
+        "D": "मोडी"
+      },
+      "correct_option": "A",
+      "answer": "खरोष्ठी",
+      "explanation": "शाहबाजगढी व मानसेहरा येथे खरोष्ठी.",
+      "question_id": "HIS-008-MCQ-009",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 10,
+      "question": "कंधारमधील अशोकलेख कोणत्या भाषांत आढळतात?",
+      "options": {
+        "A": "पाली व संस्कृत",
+        "B": "ग्रीक व अरामाइक",
+        "C": "तमिळ व तेलुगू",
+        "D": "फारसी व अरबी"
+      },
+      "correct_option": "B",
+      "answer": "ग्रीक व अरामाइक",
+      "explanation": "कंधार परिसरातील बहुभाषिक लेख.",
+      "question_id": "HIS-008-MCQ-010",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 11,
+      "question": "धौली आणि जौगड कोणत्या लेखांसाठी महत्त्वाचे?",
+      "options": {
+        "A": "जैन आगम",
+        "B": "बौद्ध त्रिपिटक",
+        "C": "स्वतंत्र कलिंग लेख",
+        "D": "गुप्त ताम्रपट"
+      },
+      "correct_option": "C",
+      "answer": "स्वतंत्र कलिंग लेख",
+      "explanation": "कलिंग प्रशासनाशी संबंधित स्वतंत्र लेख.",
+      "question_id": "HIS-008-MCQ-011",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 12,
+      "question": "गिरनार कोणत्या राज्यात आहे?",
+      "options": {
+        "A": "ओडिशा",
+        "B": "बिहार",
+        "C": "महाराष्ट्र",
+        "D": "गुजरात"
+      },
+      "correct_option": "D",
+      "answer": "गुजरात",
+      "explanation": "गिरनार गुजरातमधील महत्त्वाचे शिलालेखस्थळ.",
+      "question_id": "HIS-008-MCQ-012",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 13,
+      "question": "सोपारा कोणत्या राज्यातील शिलालेखीय स्थळ?",
+      "options": {
+        "A": "महाराष्ट्र",
+        "B": "गुजरात",
+        "C": "बिहार",
+        "D": "राजस्थान"
+      },
+      "correct_option": "A",
+      "answer": "महाराष्ट्र",
+      "explanation": "सोपारा महाराष्ट्रातील अशोकलेख भूगोलाचा भाग.",
+      "question_id": "HIS-008-MCQ-013",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 14,
+      "question": "शाहबाजगढी आज कोणत्या देशात आहे?",
+      "options": {
+        "A": "भारत",
+        "B": "पाकिस्तान",
+        "C": "नेपाळ",
+        "D": "अफगाणिस्तान"
+      },
+      "correct_option": "B",
+      "answer": "पाकिस्तान",
+      "explanation": "शाहबाजगढी आज पाकिस्तानमध्ये.",
+      "question_id": "HIS-008-MCQ-014",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 15,
+      "question": "मानसेहरा कोणत्या लिपीसाठी प्रसिद्ध?",
+      "options": {
+        "A": "देवनागरी",
+        "B": "मोडी",
+        "C": "खरोष्ठी",
+        "D": "तमिळ-ब्राह्मी"
+      },
+      "correct_option": "C",
+      "answer": "खरोष्ठी",
+      "explanation": "मानसेहरा येथील लेख खरोष्ठी लिपीत.",
+      "question_id": "HIS-008-MCQ-015",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 16,
+      "question": "ब्राह्मी लिपी वाचन उलगडण्यात कोणाचे योगदान प्रसिद्ध?",
+      "options": {
+        "A": "मेगॅस्थेनीज",
+        "B": "फाहियान",
+        "C": "ह्युएनत्संग",
+        "D": "जेम्स प्रिन्सेप"
+      },
+      "correct_option": "D",
+      "answer": "जेम्स प्रिन्सेप",
+      "explanation": "प्रिन्सेप यांनी 1837 मध्ये महत्त्वपूर्ण योगदान दिले.",
+      "question_id": "HIS-008-MCQ-016",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 17,
+      "question": "अशोकाचे लेख कोणत्या प्रकारच्या स्रोतांत मोडतात?",
+      "options": {
+        "A": "अभिलेखीय प्राथमिक स्रोत",
+        "B": "आधुनिक इतिहासकादंबरी",
+        "C": "लोकगीत",
+        "D": "नंतरचे पुराण"
+      },
+      "correct_option": "A",
+      "answer": "अभिलेखीय प्राथमिक स्रोत",
+      "explanation": "ते समकालीन राजकीय संदेश आहेत.",
+      "question_id": "HIS-008-MCQ-017",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 18,
+      "question": "बाराबर गुहा कोणत्या समुदायाला दान दिल्याचे लेख सांगतात?",
+      "options": {
+        "A": "मुघल",
+        "B": "आजीवक",
+        "C": "जैनच",
+        "D": "वैष्णव"
+      },
+      "correct_option": "B",
+      "answer": "आजीवक",
+      "explanation": "बाराबर गुहा आजीवकांशी संबंधित.",
+      "question_id": "HIS-008-MCQ-018",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 19,
+      "question": "सारनाथ सिंहशीर्ष कोणाशी संबंधित?",
+      "options": {
+        "A": "चोल मंदिर",
+        "B": "जैन परिषद",
+        "C": "अशोकस्तंभ",
+        "D": "सातवाहन नाणे"
+      },
+      "correct_option": "C",
+      "answer": "अशोकस्तंभ",
+      "explanation": "सारनाथचे सिंहशीर्ष अशोकस्तंभावरचे शिल्प.",
+      "question_id": "HIS-008-MCQ-019",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 20,
+      "question": "धम्माचा एक महत्त्वाचा घटक कोणता?",
+      "options": {
+        "A": "सक्तीचे धर्मांतर",
+        "B": "सर्व मंदिरे बंद",
+        "C": "कर वाढवणे",
+        "D": "पालकांचा आदर"
+      },
+      "correct_option": "D",
+      "answer": "पालकांचा आदर",
+      "explanation": "पालक व वडीलधाऱ्यांचा आदर शिलालेखांत नमूद.",
+      "question_id": "HIS-008-MCQ-020",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 21,
+      "question": "धम्माचा अर्थ बौद्ध संघाच्या विनयाशी तंतोतंत समान आहे का?",
+      "options": {
+        "A": "नाही",
+        "B": "होय",
+        "C": "केवळ संगीती",
+        "D": "फक्त भिक्षूंसाठी"
+      },
+      "correct_option": "A",
+      "answer": "नाही",
+      "explanation": "धम्म सार्वजनिक नैतिक आचारसंहिता म्हणून मांडला आहे.",
+      "question_id": "HIS-008-MCQ-021",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 22,
+      "question": "अशोकाने कोणत्या विजयाला अधिक महत्त्व दिले?",
+      "options": {
+        "A": "केवळ दिग्विजय",
+        "B": "धम्मविजय",
+        "C": "समुद्रविजय",
+        "D": "अश्वमेध"
+      },
+      "correct_option": "B",
+      "answer": "धम्मविजय",
+      "explanation": "तेराव्या लेखात धम्मविजयाला प्राधान्य.",
+      "question_id": "HIS-008-MCQ-022",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 23,
+      "question": "पाचव्या प्रमुख शिलालेखाचा मुख्य मुद्दा कोणता?",
+      "options": {
+        "A": "कलिंग युद्ध",
+        "B": "धम्मयात्रा",
+        "C": "धम्ममहामात्र",
+        "D": "सिंहशीर्ष"
+      },
+      "correct_option": "C",
+      "answer": "धम्ममहामात्र",
+      "explanation": "धम्ममहामात्रांच्या नियुक्तीचा उल्लेख.",
+      "question_id": "HIS-008-MCQ-023",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 24,
+      "question": "आठव्या प्रमुख शिलालेखाचा मुख्य मुद्दा?",
+      "options": {
+        "A": "बौद्ध संगीती",
+        "B": "पाटलीपुत्र परिषद",
+        "C": "नाण्यांचे वर्णन",
+        "D": "धम्मयात्रा"
+      },
+      "correct_option": "D",
+      "answer": "धम्मयात्रा",
+      "explanation": "धम्मयात्रेचा उल्लेख आठव्या लेखात.",
+      "question_id": "HIS-008-MCQ-024",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 25,
+      "question": "तेराव्या प्रमुख शिलालेखात कोणत्या घटनेचा संदर्भ?",
+      "options": {
+        "A": "कलिंग युद्ध",
+        "B": "पाटलीपुत्र स्थापना",
+        "C": "सेल्युकस तह",
+        "D": "नंदांचा पराभव"
+      },
+      "correct_option": "A",
+      "answer": "कलिंग युद्ध",
+      "explanation": "कलिंग युद्धातील हानी व पश्चात्ताप.",
+      "question_id": "HIS-008-MCQ-025",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 26,
+      "question": "बाराव्या प्रमुख शिलालेखाचा संदेश?",
+      "options": {
+        "A": "सैन्य भरती",
+        "B": "धार्मिक सहिष्णुता",
+        "C": "करसूची",
+        "D": "धान्य मोजमाप"
+      },
+      "correct_option": "B",
+      "answer": "धार्मिक सहिष्णुता",
+      "explanation": "इतर पंथांचा आदर करण्याचा संदेश.",
+      "question_id": "HIS-008-MCQ-026",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 27,
+      "question": "अशोकलेखांत प्राण्यांविषयी कोणती भूमिका दिसते?",
+      "options": {
+        "A": "सर्व प्राण्यांची शिकार",
+        "B": "प्राण्यांना कर लावणे",
+        "C": "अनावश्यक हिंसा कमी करणे",
+        "D": "पशुपालन बंद"
+      },
+      "correct_option": "C",
+      "answer": "अनावश्यक हिंसा कमी करणे",
+      "explanation": "प्राण्यांविषयी दया व हिंसेवर मर्यादा.",
+      "question_id": "HIS-008-MCQ-027",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 28,
+      "question": "धम्ममहामात्रांचा संबंध कशाशी?",
+      "options": {
+        "A": "सैन्यरचना",
+        "B": "नाणी बनवणे",
+        "C": "समुद्री व्यापार",
+        "D": "धम्म व प्रजाहित"
+      },
+      "correct_option": "D",
+      "answer": "धम्म व प्रजाहित",
+      "explanation": "धम्मविषयक व सामाजिक कामे.",
+      "question_id": "HIS-008-MCQ-028",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 29,
+      "question": "राजुकांचा उल्लेख कोणत्या क्षेत्राशी जोडला जातो?",
+      "options": {
+        "A": "प्रशासन/न्याय",
+        "B": "शिल्पकला",
+        "C": "वैद्यक",
+        "D": "नाट्य"
+      },
+      "correct_option": "A",
+      "answer": "प्रशासन/न्याय",
+      "explanation": "राजुकांना प्रादेशिक प्रशासन व न्यायाशी संबंधित अधिकार.",
+      "question_id": "HIS-008-MCQ-029",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 30,
+      "question": "अशोकाच्या सार्वजनिक संदेशांचे माध्यम काय होते?",
+      "options": {
+        "A": "मुद्रित वृत्तपत्र",
+        "B": "शिलालेख व स्तंभलेख",
+        "C": "रेडिओ",
+        "D": "नाणीच"
+      },
+      "correct_option": "B",
+      "answer": "शिलालेख व स्तंभलेख",
+      "explanation": "खडक व स्तंभांवरील लेख सार्वजनिक संप्रेषणाचे माध्यम.",
+      "question_id": "HIS-008-MCQ-030",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 31,
+      "question": "धौली कोणत्या प्रदेशाशी संबंधित?",
+      "options": {
+        "A": "गांधार",
+        "B": "मगध",
+        "C": "कलिंग/ओडिशा",
+        "D": "अवंती"
+      },
+      "correct_option": "C",
+      "answer": "कलिंग/ओडिशा",
+      "explanation": "धौली ओडिशातील कलिंग लेखस्थळ.",
+      "question_id": "HIS-008-MCQ-031",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 32,
+      "question": "जौगड कोणत्या राज्यात?",
+      "options": {
+        "A": "गुजरात",
+        "B": "बिहार",
+        "C": "उत्तराखंड",
+        "D": "ओडिशा"
+      },
+      "correct_option": "D",
+      "answer": "ओडिशा",
+      "explanation": "जौगड ओडिशातील स्थळ.",
+      "question_id": "HIS-008-MCQ-032",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 33,
+      "question": "कंधार लेखांचा अभ्यास काय दाखवतो?",
+      "options": {
+        "A": "बहुभाषिक साम्राज्य संपर्क",
+        "B": "एकभाषिकता",
+        "C": "फक्त कृषी",
+        "D": "समुद्री बंदर"
+      },
+      "correct_option": "A",
+      "answer": "बहुभाषिक साम्राज्य संपर्क",
+      "explanation": "ग्रीक-अरामाइक लेख बहुभाषिक सीमाभाग दाखवतात.",
+      "question_id": "HIS-008-MCQ-033",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 34,
+      "question": "अशोकाचे लघु शिलालेख कशासाठी उपयुक्त?",
+      "options": {
+        "A": "फक्त नाणे",
+        "B": "वैयक्तिक धम्मसंबंध व स्थानिक निर्देश",
+        "C": "केवळ युद्ध",
+        "D": "मंदिर बांधकाम"
+      },
+      "correct_option": "B",
+      "answer": "वैयक्तिक धम्मसंबंध व स्थानिक निर्देश",
+      "explanation": "काही लघुलेख अशोकाच्या वैयक्तिक बौद्ध बांधिलकीचे संकेत देतात.",
+      "question_id": "HIS-008-MCQ-034",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 35,
+      "question": "अशोकाचा बौद्ध धर्माशी संबंध कोणत्या तीन स्तरांत पाहावा?",
+      "options": {
+        "A": "एकच मंदिर",
+        "B": "फक्त कर",
+        "C": "वैयक्तिक श्रद्धा, संघाला आश्रय, सार्वजनिक धम्म",
+        "D": "युद्धविजय"
+      },
+      "correct_option": "C",
+      "answer": "वैयक्तिक श्रद्धा, संघाला आश्रय, सार्वजनिक धम्म",
+      "explanation": "हे परस्पर संबंधित पण समान नसलेले स्तर आहेत.",
+      "question_id": "HIS-008-MCQ-035",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 36,
+      "question": "अशोकाने आजीवकांना गुहा दान केल्याचा पुरावा कुठे?",
+      "options": {
+        "A": "सारनाथ सिंहशीर्ष",
+        "B": "धौली लेख",
+        "C": "सोपारा",
+        "D": "बाराबर गुहा लेख"
+      },
+      "correct_option": "D",
+      "answer": "बाराबर गुहा लेख",
+      "explanation": "बाराबर लेखांमध्ये आजीवकांना दानाचा उल्लेख.",
+      "question_id": "HIS-008-MCQ-036",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 37,
+      "question": "रामपुरवा कोणत्या पुराव्यासाठी महत्त्वाचे?",
+      "options": {
+        "A": "अशोकस्तंभ",
+        "B": "हडप्पा गोदी",
+        "C": "जैन आगम",
+        "D": "गुप्त नाणे"
+      },
+      "correct_option": "A",
+      "answer": "अशोकस्तंभ",
+      "explanation": "रामपुरवा स्तंभपरंपरेतील महत्त्वाचे स्थळ.",
+      "question_id": "HIS-008-MCQ-037",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 38,
+      "question": "लौरिया नंदनगढ कोणाशी संबंधित?",
+      "options": {
+        "A": "बुद्ध जन्म",
+        "B": "अशोकस्तंभ",
+        "C": "जैन परिषद",
+        "D": "सातवाहन राजधानी"
+      },
+      "correct_option": "B",
+      "answer": "अशोकस्तंभ",
+      "explanation": "अशोक स्तंभांचा पुरावा.",
+      "question_id": "HIS-008-MCQ-038",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 39,
+      "question": "अशोकलेखांचा एक महत्त्वाचा उपयोग कोणता?",
+      "options": {
+        "A": "आधुनिक लोकसंख्या",
+        "B": "पर्जन्यमान",
+        "C": "प्राचीन प्रशासन व भाषा-लिपी अभ्यास",
+        "D": "आधुनिक निवडणूक"
+      },
+      "correct_option": "C",
+      "answer": "प्राचीन प्रशासन व भाषा-लिपी अभ्यास",
+      "explanation": "लेख राजकीय, सामाजिक व भाषिक माहिती देतात.",
+      "question_id": "HIS-008-MCQ-039",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 40,
+      "question": "शिलालेखांची मर्यादा कोणती?",
+      "options": {
+        "A": "ते नेहमी खोटे",
+        "B": "त्यांना दिनांक नसतो",
+        "C": "ते प्राथमिक स्रोत नाहीत",
+        "D": "राजकीय संदेश सर्व समाजाचे पूर्ण चित्र देत नाहीत"
+      },
+      "correct_option": "D",
+      "answer": "राजकीय संदेश सर्व समाजाचे पूर्ण चित्र देत नाहीत",
+      "explanation": "ते राजकीय निवडलेले संदेश आहेत; इतर पुरावे आवश्यक.",
+      "question_id": "HIS-008-MCQ-040",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 41,
+      "question": "अशोकाने औषधी वनस्पती व आरोग्यव्यवस्थेचा उल्लेख कोणत्या संदर्भात केला?",
+      "options": {
+        "A": "मानव व प्राण्यांचे कल्याण",
+        "B": "सैन्य प्रशिक्षण",
+        "C": "मंदिरशुल्क",
+        "D": "शाळा परीक्षा"
+      },
+      "correct_option": "A",
+      "answer": "मानव व प्राण्यांचे कल्याण",
+      "explanation": "दुसऱ्या प्रमुख शिलालेखात आरोग्यविषयक उपाय.",
+      "question_id": "HIS-008-MCQ-041",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 42,
+      "question": "धम्मयात्रा पारंपरिक राजकीय विहारयात्रेपेक्षा कशी वेगळी?",
+      "options": {
+        "A": "केवळ युद्ध सराव",
+        "B": "नैतिक संदेश व लोकांशी संपर्कावर भर",
+        "C": "कर वसुली",
+        "D": "शिकार"
+      },
+      "correct_option": "B",
+      "answer": "नैतिक संदेश व लोकांशी संपर्कावर भर",
+      "explanation": "धम्मयात्रेचा लोककल्याण व नैतिक संपर्काशी संबंध.",
+      "question_id": "HIS-008-MCQ-042",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 43,
+      "question": "जेम्स प्रिन्सेपचे योगदान कोणत्या वर्षाशी जोडले जाते?",
+      "options": {
+        "A": "1757",
+        "B": "1947",
+        "C": "1837",
+        "D": "1905"
+      },
+      "correct_option": "C",
+      "answer": "1837",
+      "explanation": "1837 मध्ये ब्राह्मी वाचनात महत्त्वपूर्ण प्रगती.",
+      "question_id": "HIS-008-MCQ-043",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 44,
+      "question": "बहुतांश अशोकलेख कोणत्या भाषिक स्वरूपात?",
+      "options": {
+        "A": "शुद्ध संस्कृतच",
+        "B": "फारसीच",
+        "C": "चिनी",
+        "D": "प्राकृतची प्रादेशिक रूपे"
+      },
+      "correct_option": "D",
+      "answer": "प्राकृतची प्रादेशिक रूपे",
+      "explanation": "भाषा प्रदेशानुसार बदलणारी प्राकृत रूपे.",
+      "question_id": "HIS-008-MCQ-044",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 45,
+      "question": "अशोकाच्या धम्मात विविध पंथांविषयी काय अपेक्षित?",
+      "options": {
+        "A": "परस्पर आदर व संयम",
+        "B": "सक्तीने एक पंथ",
+        "C": "सर्व उपासना बंद",
+        "D": "स्पर्धात्मक द्वेष"
+      },
+      "correct_option": "A",
+      "answer": "परस्पर आदर व संयम",
+      "explanation": "बाराव्या शिलालेखात सहिष्णुतेचा संदेश.",
+      "question_id": "HIS-008-MCQ-045",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 46,
+      "question": "अशोकाच्या धम्मधोरणाचा राजकीय उपयोग कोणता असू शकतो?",
+      "options": {
+        "A": "राज्य तोडणे",
+        "B": "विविध समूहांत नैतिक एकात्मता वाढवणे",
+        "C": "कर संपवणे",
+        "D": "सैन्य बंद"
+      },
+      "correct_option": "B",
+      "answer": "विविध समूहांत नैतिक एकात्मता वाढवणे",
+      "explanation": "धम्म मोठ्या साम्राज्यासाठी सार्वजनिक नैतिक चौकट देतो.",
+      "question_id": "HIS-008-MCQ-046",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 47,
+      "question": "अशोकस्तंभांवरील पॉलिश कोणत्या बाबीचा पुरावा?",
+      "options": {
+        "A": "लोखंडी उद्योग",
+        "B": "कागदनिर्मिती",
+        "C": "उच्च दगडकाम कौशल्य",
+        "D": "समुद्री तंत्र"
+      },
+      "correct_option": "C",
+      "answer": "उच्च दगडकाम कौशल्य",
+      "explanation": "मौर्यकालीन दगडी स्थापत्यकौशल्य.",
+      "question_id": "HIS-008-MCQ-047",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 48,
+      "question": "अशोकाच्या सार्वजनिक लेखांत कोणाला संदेश दिला जातो?",
+      "options": {
+        "A": "फक्त भिक्षू",
+        "B": "फक्त परकीय राजे",
+        "C": "फक्त सैनिक",
+        "D": "विविध प्रजा व अधिकारी"
+      },
+      "correct_option": "D",
+      "answer": "विविध प्रजा व अधिकारी",
+      "explanation": "लेख व्यापक सार्वजनिक व प्रशासकीय संदेश देतात.",
+      "question_id": "HIS-008-MCQ-048",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 49,
+      "question": "अशोकाच्या धोरणाचा अचूक निष्कर्ष कोणता?",
+      "options": {
+        "A": "बौद्ध श्रद्धा व सर्वप्रजेसाठी धम्मनीती यांत फरक ठेवावा",
+        "B": "धम्म फक्त बौद्ध विनय",
+        "C": "अशोकाने सर्व धर्म बंद केले",
+        "D": "लेख फक्त खाजगी होते"
+      },
+      "correct_option": "A",
+      "answer": "बौद्ध श्रद्धा व सर्वप्रजेसाठी धम्मनीती यांत फरक ठेवावा",
+      "explanation": "वैयक्तिक श्रद्धा व सार्वजनिक नैतिक धोरण वेगळे आहेत.",
+      "question_id": "HIS-008-MCQ-049",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    },
+    {
+      "question_no": 50,
+      "question": "अशोकलेखांचा अभ्यास करताना योग्य पद्धत कोणती?",
+      "options": {
+        "A": "फक्त क्रमांक पाठ करणे",
+        "B": "स्थळ, आवृत्ती, भाषा, लिपी व इतर पुरावे तपासणे",
+        "C": "सर्व लेख समान मानणे",
+        "D": "भाषिक भिन्नता टाळणे"
+      },
+      "correct_option": "B",
+      "answer": "स्थळ, आवृत्ती, भाषा, लिपी व इतर पुरावे तपासणे",
+      "explanation": "स्रोतसमीक्षा लेखांचे अचूक अर्थ समजावते.",
+      "question_id": "HIS-008-MCQ-050",
+      "source_status": "author_created_practice_not_pyq",
+      "student_forwardable": true
+    }
+  ]
+}
